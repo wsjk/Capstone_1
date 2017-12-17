@@ -1,0 +1,32 @@
+problem:
+------------
+How do you make an award winning film? 
+
+For many involved in the film industry, winning an industry award can mean many things. For any filmmaker, regardless of how much experience he/she has, awards can result in more recognition. Positive recognition can also lead to higher chance of making more films down the road and possibly having even more control over the process. For most industry awards, the winning film is chosen via votes (e.g., Academy Awards, SAG Awards). Considering the fact that this is a very subjective process, it does not seem like one can control how a film is received. Which is why filmmakers, like most artists, can only try to execute their vision and not waste time thinking about the reception from general public. On the other hand, what if there were certain decisions a filmmaker could make to improve his/her chances for winning an award? 
+
+
+Data: 
+----------
+Movie data will be obtained from IMDB via Kaggle dataset (https://www.kaggle.com/orgesleka/imdbmovies) and IMDbPy (Python API). Any movies that have won at least one award will be considered an award winning movie. The extracted for each award winning movie will be the variables that are considered to be under the filmmaker's control:
+
+title (do certain words show up in all award winning movies?)
+wordsInTitle (do winning movies have long or short titles? do titles of winning movies share specific words?)
+duration (can movies be too long/short to win an award?)
+nrOfGenre (do multigenre movies win awards over those that are easier to classify?)
+year (have the type of movies that have won awards changed throughout the years?)
+Director (from the studio executive perspective, are certain directors more reliable for creating an award winning film?)
+top 4 actors in cast (how influential are actors featured? do award winning movies typically feature the same group of actors?)
+Writers (do certain writers create award winning screenplays?)
+budget (does a movie have to be expensive to win awards?
+Run time (do longer running movies have a lower/higher chance of winning an award?)
+Release Date (does it matter if movies are released earlier/later in the year?)
+Production Company (do certain production companies produce more award winners than others?)
+
+Approach
+--------
+Exploratory analysis will be conducted to determine what the most influential variables. This will be a supervised problem as the dataset already includes the number of awards each film has won. It will also be a classifcation problem since I am only concerned with whether or not a movie will win at least one award. The predictor variables will be the variables listed above. The training data will come from a subset of the IMDB dataset that include movies that have won 0 to 1+ awards. 
+
+Deliverables
+------------
+* A model that can be used to provide guidance to those in the film industry on how to make an award winning film
+* A paper/slide deck presenting the research
