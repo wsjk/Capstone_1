@@ -7,7 +7,7 @@ For many involved in the film industry, winning an industry award can mean many 
 
 Data: 
 ----------
-Movie data will be obtained from IMDB via Kaggle dataset (https://www.kaggle.com/tmdb/tmdb-movie-metadata/data) and IMDbPy (Python API). Any movies that have won at least one award will be considered an award winning movie. The extracted for each award winning movie will be the variables that are considered to be under the filmmaker's control:
+Movie data will be obtained from a Kaggle's TMDB dataset (https://www.kaggle.com/tmdb/tmdb-movie-metadata/data) and IMDbPy (Python API). Any movies that have won at least one award will be considered an award winning movie. The extracted for each award winning movie will be the variables that are considered to be under the filmmaker's control:
 
 * Title (do certain words show up in all award winning movies?)
 * Runtime (can movies be too long/short to win an award?)
@@ -16,7 +16,6 @@ Movie data will be obtained from IMDB via Kaggle dataset (https://www.kaggle.com
 * Top 4 actors in cast (how influential are actors featured? do award winning movies typically feature the same group of actors?)
 * Writers (do certain writers create award winning screenplays?)
 * Budget (does a movie have to be expensive to win awards?
-* Revenue (does financial success affect award chances?)
 * Release Date (does it matter if movies are released earlier/later in the year?)
 * Production Companies (do certain production companies produce more award winners than others?)
 * Vote Avg & Count (do those who vote for awards go along with public opinion?)
