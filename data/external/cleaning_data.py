@@ -34,8 +34,7 @@ def normalize_dfs(df_dict, json_columns, meta_list):
     return dict_of_dfs
 
 
-if __name__ == "__main__":
-
+def clean_all_data():
     ############################################
     ############ Clean IMDB dataset ############
     ############################################
@@ -88,31 +87,28 @@ if __name__ == "__main__":
 
     tmdb_movie_df = pd.read_csv(data_files[-1], header=0)
 
-    print(tmdb_movie_df.info())
-
     #columns with JSON data
     json_columns = ['genres', 'keywords', 'production_companies', 'production_countries', 'spoken_languages']
 
     #multi-index labels and foreign key for other TMDB tables
     meta_list = ['movie_id', 'title']
-    tmdb_movie_df_no_json = tmdb_movie_df.drop(json_columns + ['original_title'], axis=1)
+    tmdb_movie_df_no_json = tmdb_movie_df.drop(json_columns + ['original_title', 'homepage'], axis=1)
     tmdb_movie_df_no_json = tmdb_movie_df_no_json.rename(columns={'id':meta_list[0]})
     tmdb_movie_df_no_json = tmdb_movie_df_no_json.set_index(meta_list)
+    tmdb_movie_df_no_json.release_date = pd.to_datetime(tmdb_movie_df_no_json.release_date, infer_datetime_format=True)
 
     #separate data without JSON data to different file
     #'movie_id' can be used as primary key
     tmdb_movie_df_no_json.to_csv(os.path.join(ext_data_path,'tmdb_movie_main_cleaned.csv'), index_label=meta_list)
-    print(tmdb_movie_df_no_json.info())
 
     tmdb_movie_df_rest = tmdb_movie_df[['id','title'] + json_columns]
     tmdb_movie_df_rest = tmdb_movie_df_rest.rename(columns={'id':meta_list[0]})
-    
-    print(tmdb_movie_df_rest.info())
 
     tmdb_movie_dicts = {}
     for i in json_columns:
         small_df = tmdb_movie_df_rest[ meta_list + [i]]
         small_df = small_df.assign(new=small_df[i].apply(json.loads))
+        small_df.drop([i],axis=1, inplace=True)
         small_df = small_df.rename(columns={'new':i})
         tmdb_movie_dicts[i] = small_df.to_dict('r') 
 
@@ -126,3 +122,7 @@ if __name__ == "__main__":
         tmdb_movie_dfs[i].to_csv(os.path.join(ext_data_path,'tmdb_movie_' + i + '_cleaned.csv'), index_label=meta_list)
 
 
+
+
+if __name__ == "__main__":
+    clean_all_data()
