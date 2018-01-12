@@ -16,7 +16,7 @@ current_file_path = os.path.abspath(os.path.join("__file__" ,"../.."))
 raw_data_path = os.path.join(current_file_path,'raw')
 
 #location to save cleaned csv files
-ext_data_path = os.path.join(current_file_path,'external')
+ext_data_path = os.path.join(current_file_path,'processed')
 
 #list of raw csv files to clean
 data_files = glob.glob(os.path.join(raw_data_path, '*.csv'), recursive=False)
