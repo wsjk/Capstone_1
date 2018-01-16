@@ -1,5 +1,3 @@
-
-#
 import pandas as pd
 import numpy as np
 import glob
@@ -7,20 +5,15 @@ import os
 import csv
 import re
 import ast
+from datetime import datetime as dt
 from pandas.io.json import json_normalize
 from pandas.io import json
 
-current_file_path = os.path.abspath(os.path.join("__file__" ,"../.."))
+def get_data_files(raw_data_path):
+    #list of raw csv files to clean
+    data_files = glob.glob(os.path.join(raw_data_path, '*.csv'), recursive=False)
 
-#location of raw csv data from Kaggle
-raw_data_path = os.path.join(current_file_path,'raw')
-
-#location to save cleaned csv files
-ext_data_path = os.path.join(current_file_path,'processed')
-
-#list of raw csv files to clean
-data_files = glob.glob(os.path.join(raw_data_path, '*.csv'), recursive=False)
-
+    return data_files
 
 #takes original dataframe that contains columns with json data
 #and flattens json data and separates into individual dataframes
@@ -34,33 +27,8 @@ def normalize_dfs(df_dict, json_columns, meta_list):
     return dict_of_dfs
 
 
-def clean_all_data():
-    ############################################
-    ############ Clean IMDB dataset ############
-    ############################################
-
-    #IMDB: https://www.kaggle.com/orgesleka/imdbmovies/data
-
-    # clean csv data from Kaggle's IMDB dataset
-    ###imdb_df = pd.read_csv(data_files[0], header=0, escapechar='\\')
-    #imdb_df.head()
-
-    #removes unnecessary data
-    ###imdb_movie_df = imdb_df[imdb_df.type == 'video.movie']
-    ###imdb_movie_df = imdb_movie_df.drop(['wordsInTitle'],axis=1)
-
-    #save cleaned IMDB data
-    ###imdb_movie_df.to_csv(os.path.join(ext_data_path,'imdb_cleaned.csv'),escapechar='\\', index=False)
-
-
-
-    ####################################################
-    ############ Clean TMDB Credits dataset ############
-    ####################################################
-
-    #TMDB: https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
-
-    tmdb_credit_df = pd.read_csv(data_files[1])
+def clean_credits_data(credits_data_file, ext_data_path):
+    tmdb_credit_df = pd.read_csv(credits_data_file, ext_data_path)
 
     #columns with JSON data
     json_columns = ['cast','crew'] #JSON data columns
@@ -83,9 +51,10 @@ def clean_all_data():
     ############ Clean TMDB Movie dataset ############
     ##################################################
 
+def clean_movies_data(movie_data_file, ext_data_path):
     #TMDB: https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
 
-    tmdb_movie_df = pd.read_csv(data_files[-1], header=0)
+    tmdb_movie_df = pd.read_csv(movie_data_file, header=0)
 
     #columns with JSON data
     json_columns = ['genres', 'keywords', 'production_companies', 'production_countries', 'spoken_languages']
@@ -96,6 +65,28 @@ def clean_all_data():
     tmdb_movie_df_no_json = tmdb_movie_df_no_json.rename(columns={'id':meta_list[0]})
     tmdb_movie_df_no_json = tmdb_movie_df_no_json.set_index(meta_list)
     tmdb_movie_df_no_json.release_date = pd.to_datetime(tmdb_movie_df_no_json.release_date, infer_datetime_format=True)
+
+
+    #replace missing date for one movie
+    tmdb_movie_df_no_json[tmdb_movie_df_no_json.release_date.isnull()].release_date = dt(2014,12,31)
+
+    #find all rows with 0 for revenue or budget
+    missing_movies = tmdb_movie_df_no_json[(tmdb_movie_df_no_json.budget < 1) | (tmdb_movie_df_no_json.revenue < 1)].reindex(columns=['release_date'])
+    missing_movies.sort_index(inplace=True)
+    missing_movies.reset_index(level=[0,1], inplace=True)
+
+    # obtain correct budget/revenue data from the-numbers.com
+    missing_movies_dict = scrape_movie_data(missing_movies)
+
+    #replace missing budget/revenue values in tmdb_df_no_json dataframe
+    ###########
+    # INSERT CODE
+    ############
+    #########
+
+
+
+
 
     #separate data without JSON data to different file
     #'movie_id' can be used as primary key
@@ -121,8 +112,15 @@ def clean_all_data():
     for i in tmdb_movie_dfs.keys():
         tmdb_movie_dfs[i].to_csv(os.path.join(ext_data_path,'tmdb_movie_' + i + '_cleaned.csv'), index_label=meta_list)
 
-
-
-
 if __name__ == "__main__":
-    clean_all_data()
+    current_file_path=os.path.abspath(os.path.join("__file__" ,"../.."))
+
+    #location of raw csv data from Kaggle
+    raw_data_path = os.path.join(current_file_path,'raw')
+
+    #location to save cleaned csv files
+    ext_data_path = os.path.join(current_file_path,'processed')
+
+    data_files = get_data_files(raw_data_path)
+    clean_credit_data(data_files[0], ext_data_path)
+    clean_movie_data(data_files[1], ext_data_path)
