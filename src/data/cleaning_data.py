@@ -9,6 +9,10 @@ from datetime import datetime as dt
 from pandas.io.json import json_normalize
 from pandas.io import json
 
+from movie_scraper import row_scrape_movie_data
+
+import tqdm
+
 def get_data_files(raw_data_path):
     #list of raw csv files to clean
     data_files = glob.glob(os.path.join(raw_data_path, '*.csv'), recursive=False)
@@ -75,17 +79,22 @@ def clean_movies_data(movie_data_file, ext_data_path):
     missing_movies.sort_index(inplace=True)
     missing_movies.reset_index(level=[0,1], inplace=True)
 
+    #manually correct dataframe values
+    missing_movies['movie_url'] = np.nan
+    missing_movies.loc[1556,'release_date'] = dt(2014,12,31)
+
+    wrong_titles = {9396: "Crocodile Dundee 2", 9644: "Loaded Weapon 1", 1011: "Richie Rich", 11658: "Tae Guik Gi: The Brotherhood of War", 
+        367961: "Savva. Serdtse voyna", 25353: 'La véritable histoire du Chat Botté', 290864: 'Kung Fu Killer', 
+        30379: 'Megiddo: Omega Code 2', 46435: 'Topsy Turvy', 12154: '3 Men and a Baby', 91586: 'Insidious Chapter 2'}
+
+    for movie_id, title in wrong_titles.items():
+        mask = missing_movies.movie_id == movie_id
+        missing_movies.loc[mask,'title'] = title
+
     # obtain correct budget/revenue data from the-numbers.com
-    missing_movies_dict = scrape_movie_data(missing_movies)
-
-    #replace missing budget/revenue values in tmdb_df_no_json dataframe
-    ###########
-    # INSERT CODE
-    ############
-    #########
-
-
-
+    tqdm.tqdm.pandas()
+    missing_movies = missing_movies.progress_apply(row_scrape_movie_data, axis=1)
+    found_movies = missing_movies.dropna(axis=0, how='any')
 
 
     #separate data without JSON data to different file
