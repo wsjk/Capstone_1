@@ -128,7 +128,11 @@ def clean_no_json(tmdb_movie_df, meta_list, json_columns, interim_data_path, ext
         #some movies have $0 for revenue and budget
         missing_movies = tmdb_movie_df_no_json[(tmdb_movie_df_no_json.budget < 1) | (tmdb_movie_df_no_json.revenue < 1)].reindex(columns=['movie_id', 'title', 'budget', 'revenue', 'release_date'])
         #fill in incorrect budget and revenue data via web scraper
-        found_movies = get_budget_revenue_data(missing_movies)
+        scraped_movies = get_budget_revenue_data(missing_movies)
+
+        #only keep movies that the scraper could find data for
+        found_movies = scraped_movies[(scraped_movies.budget > 1)|(scraped_movies.revenue > 1)]
+        
         #save webscraper as csv
         found_movies.to_csv(os.path.join(ext_data_path,'found_movies.csv'))
 
@@ -142,12 +146,11 @@ def clean_no_json(tmdb_movie_df, meta_list, json_columns, interim_data_path, ext
     merged['revenue'] = np.max(merged[['revenue_x', 'revenue_y']], axis=1)
     merged['release_date'] = np.max(merged[['release_date_x', 'release_date_y']], axis=1)
     merged = merged.drop(labels=['budget_x', 'budget_y','revenue_x', 'revenue_y', 'release_date_x', 'release_date_y', 'movie_url'], axis=1)
-
-
+    final_movie_df = merged[(merged.budget > 1) & (merged.revenue > 1)]
 
     #separate data without JSON data to different file
     #'movie_id' can be used as primary key
-    merged.to_csv(os.path.join(ext_data_path,'tmdb_movie_main_final.csv'), index_label=meta_list)
+    final_movie_df.to_csv(os.path.join(ext_data_path,'tmdb_movie_main_final.csv'), index_label=meta_list)
 
     
 
