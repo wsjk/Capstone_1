@@ -9,7 +9,7 @@ import os
 import pandas as pd
 import numpy as np
 
-def row_scrape_movie_data(row):
+def row_scrape_movie_data(row, data_type):
     missing_movie_dict = {}
     url = 'https://www.the-numbers.com/'    
     url2, movie_url = "",""
@@ -51,40 +51,50 @@ def row_scrape_movie_data(row):
             return row
 
     movie_url = url + url2
-
-    if url2:
-        #financial details extracted from movie page
-        movie_page = requests.get(movie_url)
-        movie_soup = BeautifulSoup(movie_page.content, 'html.parser')
-
-        #scrape worldwide box office revenue
-        table = movie_soup.find('table', id='movie_finances')
-        tds = table.find_all('td')
-        box_office = []
-        for i in range(len(tds)):
-            if "Box Office" in tds[i].get_text():
-                money = tds[i+1].get_text()
-                box_office.append(Decimal(sub(r'[^\d.]', '', money)))
-        
-        if box_office:
-            revenue = max(box_office)
-        else:
-            revenue = np.nan
-            
-        #scrape production budget
-        heading = movie_soup.find('h2', text='Movie Details')
-        tds = heading.parent.find_all('td')
-        for i, td in enumerate(tds):
-            if re.match('^production.+budget.+', td.get_text().lower()):
-                budget = Decimal(sub(r'[^\d.]', '', tds[i+1].get_text()))
-                break
-        else:
-            
-            budget = np.nan
-
-    row.budget = budget
-    row.revenue = revenue
     row.movie_url = movie_url
 
+    if url2:
+        movie_page = requests.get(movie_url)
+        movie_soup = BeautifulSoup(movie_page.content, 'html.parser')
+        if data_type == 'financial':
+            #financial details extracted from movie page
+            #scrape worldwide box office revenue
+            table = movie_soup.find('table', id='movie_finances')
+            tds = table.find_all('td')
+            box_office = []
+            for i in range(len(tds)):
+                if "Box Office" in tds[i].get_text():
+                    money = tds[i+1].get_text()
+                    box_office.append(Decimal(sub(r'[^\d.]', '', money)))
+            
+            if box_office:
+                revenue = max(box_office)
+            else:
+                revenue = np.nan
+                
+            #scrape production budget
+            heading = movie_soup.find('h2', text='Movie Details')
+            tds = heading.parent.find_all('td')
+            for i, td in enumerate(tds):
+                if re.match('^production.+budget.+', td.get_text().lower()):
+                    budget = Decimal(sub(r'[^\d.]', '', tds[i+1].get_text()))
+                    break
+            else:
+                budget = np.nan
+
+            row.budget = budget
+            row.revenue = revenue
+
+        elif data_type == 'runtime':
+            #scrape production budget
+            heading = movie_soup.find('h2', text='Movie Details')
+            tds = heading.parent.find_all('td')
+            for i, td in enumerate(tds):
+                if re.match('^running.+time.+', td.get_text().lower()):
+                    runtime =  int(tds[i+1].get_text().split()[0])
+                    break
+            else:
+                runtime = np.nan
+            row.runtime = runtime
     return row
 
