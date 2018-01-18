@@ -5,34 +5,27 @@ from re import sub
 from decimal import Decimal
 import numpy as np
 import re
-
-from tqdm import tqdm_notebook as tqdm
-
 import os
-import importlib.util
-
+import pandas as pd
+import numpy as np
 
 def row_scrape_movie_data(row):
     missing_movie_dict = {}
-    url = 'https://www.the-numbers.com/'
-    
-    url2 = ""
-    movie_url = ""
+    url = 'https://www.the-numbers.com/'    
+    url2, movie_url = "",""
+    row.budget, row.revenue, row.movie_url = np.nan, np.nan, np.nan
     title, release_date = row.title, row.release_date
     title_search_url = title.replace(' ', '+')
+     
     #movie title search result page url
     query = '{}search?searchterm={}&searchtype=allmatches'.format(url,title_search_url)
     search_page = requests.get(query)
     search_soup = BeautifulSoup(search_page.content, 'html.parser')
 
-    budget, revenue = np.nan, np.nan
     urls = [] #to keep track of urls in search_page
     tables = search_soup.find_all('div', id='page_filling_chart')
 
     if 'No movie match found' in tables[1].find('p').get_text():
-        row.budget = np.nan
-        row.revenue = np.nan
-        row.movie_url = np.nan
         return row
 
     # if there is more than one movie returned in search, pick the one that matches release date year
@@ -40,10 +33,8 @@ def row_scrape_movie_data(row):
         if "/movie" in link.get('href') or "/daily" in link.get('href'):
             urls.append(link.get('href'))
 
-    if not urls: #if no urls are found
-        url2 = ""
-    elif len(urls) <= 1: #there should always be at least 2 links if movie title search is successful
-        url2 = ""
+    if not urls or len(urls)<=1: #if no urls are found
+        return row
     else:
         for i in range(0,len(urls)):
             pattern = re.compile(r'.+/daily/(.+)$')
@@ -57,8 +48,8 @@ def row_scrape_movie_data(row):
                 url2 = urls[i+1]
                 break
         else:
-            url2=""
-    del search_soup, search_page
+            return row
+
     movie_url = url + url2
 
     if url2:
@@ -69,20 +60,31 @@ def row_scrape_movie_data(row):
         #scrape worldwide box office revenue
         table = movie_soup.find('table', id='movie_finances')
         tds = table.find_all('td')
+        box_office = []
         for i in range(len(tds)):
-            if tds[i].get_text() == "Worldwide Box Office":
-                revenue = tds[i+1].get_text()
-                break
+            if "Box Office" in tds[i].get_text():
+                money = tds[i+1].get_text()
+                box_office.append(Decimal(sub(r'[^\d.]', '', money)))
+        
+        if box_office:
+            revenue = max(box_office)
+        else:
+            revenue = np.nan
+            
         #scrape production budget
         heading = movie_soup.find('h2', text='Movie Details')
         tds = heading.parent.find_all('td')
         for i, td in enumerate(tds):
-            if 'budget' in td.get_text().lower():
-                budget = tds[i+1].get_text()
+            if re.match('^production.+budget.+', td.get_text().lower()):
+                budget = Decimal(sub(r'[^\d.]', '', tds[i+1].get_text()))
                 break
+        else:
+            
+            budget = np.nan
 
     row.budget = budget
     row.revenue = revenue
     row.movie_url = movie_url
+
     return row
 
