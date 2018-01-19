@@ -9,14 +9,17 @@ import os
 import pandas as pd
 import numpy as np
 
+import time
+
 def row_scrape_movie_data(row, data_type):
     missing_movie_dict = {}
     url = 'https://www.the-numbers.com/'    
     url2, movie_url = "",""
-    row.budget, row.revenue, row.movie_url = np.nan, np.nan, np.nan
+    row.budget = np.nan
+    row.revenue = np.nan
     title, release_date = row.title, row.release_date
     title_search_url = title.replace(' ', '+')
-     
+
     #movie title search result page url
     query = '{}search?searchterm={}&searchtype=allmatches'.format(url,title_search_url)
     search_page = requests.get(query)
@@ -96,5 +99,6 @@ def row_scrape_movie_data(row, data_type):
             else:
                 runtime = np.nan
             row.runtime = runtime
+
     return row
 
