@@ -52,8 +52,7 @@ def get_movie_data(missing_movies, data_type):
     missing_movies['movie_url'] = np.nan    
     # obtain correct budget/revenue data from the-numbers.com
     tqdm.tqdm.pandas()
-    missing_movies = missing_movies.progress_apply(row_scrape_movie_data, axis=1, args=(data_type,))
-    found_movies = missing_movies.dropna(axis=0, how='any')
+    found_movies = missing_movies.progress_apply(row_scrape_movie_data, axis=1, args=(data_type,))
     return found_movies
 
 
@@ -96,7 +95,8 @@ def clean_movies_data(movie_data_file, interim_data_path, ext_data_path):
     # fixing titles for a handful of movies
     wrong_titles = {9396: "Crocodile Dundee 2", 9644: "Loaded Weapon 1", 1011: "Richie Rich", 11658: "Tae Guik Gi: The Brotherhood of War", 
         367961: "Savva. Serdtse voyna", 25353: 'La véritable histoire du Chat Botté', 290864: 'Kung Fu Killer', 
-        30379: 'Megiddo: Omega Code 2', 46435: 'Topsy Turvy', 12154: '3 Men and a Baby', 91586: 'Insidious Chapter 2'}
+        30379: 'Megiddo: Omega Code 2', 46435: 'Topsy Turvy', 12154: '3 Men and a Baby', 91586: 'Insidious Chapter 2', 85000: 'Texas Chainsaw Massacre',
+        16340: 'Rugrats in Paris'}
 
     for movie_id, title in wrong_titles.items():
         title_mask = tmdb_movie_df.movie_id == movie_id
@@ -122,12 +122,17 @@ def clean_no_json(tmdb_movie_df, meta_list, json_columns, interim_data_path, ext
     # check if webscraper data already exists
     if not os.path.exists(os.path.join(interim_data_path,'found_financial.csv')):
         #some movies have $0 for revenue and budget
-        missing_financial = tmdb_movie_df_no_json[(tmdb_movie_df_no_json.budget < 1) | (tmdb_movie_df_no_json.revenue < 1)].reindex(columns=['movie_id', 'title', 'budget', 'revenue', 'release_date'])
+        missing_financial = tmdb_movie_df_no_json[
+                            (tmdb_movie_df_no_json.budget < 1000) | (tmdb_movie_df_no_json.revenue < 1000)
+                            ].reindex(columns=['movie_id', 'title', 'budget', 'revenue', 'release_date'])
+
         #fill in incorrect budget and revenue data via web scraper
         scraped_movies = get_movie_data(missing_financial, 'financial')
+        
+        scraped_movies.to_csv(os.path.join(interim_data_path,'scraped_movies.csv'), index=False)
 
         #only keep movies that the scraper could find data for
-        found_financial = scraped_movies[(scraped_movies.budget > 1)|(scraped_movies.revenue > 1)]
+        found_financial = scraped_movies[(scraped_movies.budget > 1000) & (scraped_movies.revenue > 100)]
         
         #save webscraper as csv
         found_financial.to_csv(os.path.join(interim_data_path,'found_financial.csv'), index=False)
@@ -157,10 +162,11 @@ def clean_no_json(tmdb_movie_df, meta_list, json_columns, interim_data_path, ext
         tmdb_movie_df_no_json.loc[runtime_mask,'runtime'] = runtime
 
     #remove movies where runtime data could not be found
-    tmdb_movie_df_no_json = tmdb_movie_df_no_json[tmdb_movie_df_no_json['runtime'] > 0]
+    no_json_sub_df = tmdb_movie_df_no_json[tmdb_movie_df_no_json['runtime'] > 0]
+    no_json_sub_df = no_json_sub_df[(no_json_sub_df.budget > 1000) | (no_json_sub_df.revenue > 500)]
 
     #replace incorrect $0 values for budget & revenue with correct data from webscraper
-    merged = tmdb_movie_df_no_json.merge(right=found_financial, how='left', on=['movie_id', 'title'])
+    merged = no_json_sub_df.merge(right=found_financial, how='left', on=['movie_id', 'title'])
     merged['budget'] = np.max(merged[['budget_x', 'budget_y']], axis=1)
     merged['revenue'] = np.max(merged[['revenue_x', 'revenue_y']], axis=1)
 
@@ -171,10 +177,9 @@ def clean_no_json(tmdb_movie_df, meta_list, json_columns, interim_data_path, ext
     merged['release_date_y'].fillna(dt(1900,1,1), inplace=True)
     merged['release_date'] = np.max(merged[['release_date_x', 'release_date_y']], axis=1)
 
-
     merged = merged.drop(labels=['budget_x', 'budget_y','revenue_x', 'revenue_y', 'release_date_x', 'release_date_y', 'movie_url'], axis=1)
+
     #if some budget & revenue data is still be missing, filter out those movies
-    final_movie_df = merged[(merged.budget > 1) & (merged.revenue > 1)]
     final_movie_df.to_csv(os.path.join(ext_data_path,'tmdb_movie_main_final.csv'), index=False)
 
 def clean_json(tmdb_movie_df, meta_list, json_columns, ext_data_path):
@@ -194,7 +199,7 @@ def clean_json(tmdb_movie_df, meta_list, json_columns, ext_data_path):
         tmdb_movie_dfs[i] = df[i]
 
     for i in tmdb_movie_dfs.keys():
-        tmdb_movie_dfs[i].to_csv(os.path.join(ext_data_path,'tmdb_movie_' + i + '_final.csv'), index=False)
+        tmdb_movie_dfs[i].to_csv(os.path.join(ext_data_path,'tmdb_movie_' + i + '_final.csv'), index=True)
 
 if __name__ == "__main__":
 

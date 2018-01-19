@@ -7,19 +7,14 @@ movie_id,title,budget,revenue,release_date,movie_url
 258509,Alvin and the Chipmunks: The Road Chip,90000000,249520430,2015-12-17,https://www.the-numbers.com//movie/Alvin-and-the-Chipmunks-The-Road-Chip#tab=summary
 10357,Volcano,90000000,120100000,1997-04-25,https://www.the-numbers.com//movie/Volcano#tab=summary
 51052,Arthur Christmas,85000000,149717124,2011-02-22,https://www.the-numbers.com//movie/Arthur-Christmas#tab=summary
-16858,All That Jazz,,37823676,1979-12-20,https://www.the-numbers.com//movie/All-That-Jazz#tab=summary
 146216,RED 2,84000000,137162560,2013-07-18,https://www.the-numbers.com//movie/RED-2#tab=summary
 12096,The Pink Panther,80000000,158926474,2006-01-18,https://www.the-numbers.com//movie/Pink-Panther-The-(2006)#tab=summary
-161795,Déjà Vu,,6321997,1998-04-22,https://www.the-numbers.com//movie/Deja-Vu#tab=summary
 9822,Mighty Joe Young,80000000,50632037,1998-12-25,https://www.the-numbers.com//movie/Mighty-Joe-Young#tab=summary
 9678,Little Nicky,80000000,58270391,2000-11-10,https://www.the-numbers.com//movie/Little-Nicky#tab=summary
-330770,Evolution,,49587,2015-09-14,https://www.the-numbers.com//movie/Evolution-(France)#tab=summary
-9433,The Edge,,34099255,1997-09-06,https://www.the-numbers.com//movie/Edge-The#tab=summary
 36970,Oceans,80000000,86787530,2009-10-17,https://www.the-numbers.com//movie/Oceans#tab=summary
 293644,Top Cat Begins,8000000,4582848,2015-10-30,https://www.the-numbers.com//movie/Don-Gato-el-inicio-de-la-pandilla-(Mexico)#tab=summary
 332,Inspector Gadget,75000000,97387965,1999-07-23,https://www.the-numbers.com//movie/Inspector-Gadget#tab=summary
 1439,Anna and the King,75000000,39251128,1999-12-16,https://www.the-numbers.com//movie/Anna-and-the-King#tab=summary
-25769,Carriers,,6808883,2009-09-04,https://www.the-numbers.com//movie/Carriers#tab=summary
 10395,Wolf,70000000,131011757,1994-06-17,https://www.the-numbers.com//movie/Wolf#tab=summary
 11535,Rollerball,70000000,25852508,2002-02-08,https://www.the-numbers.com//movie/Rollerball#tab=summary
 11820,Mona Lisa Smile,65000000,141205169,2003-12-19,https://www.the-numbers.com//movie/Mona-Lisa-Smile#tab=summary
@@ -61,12 +56,8 @@ movie_id,title,budget,revenue,release_date,movie_url
 9275,Death to Smoochy,50000000,8374062,2002-03-28,https://www.the-numbers.com//movie/Death-to-Smoochy#tab=summary
 10416,What Planet Are You From?,50000000,6291602,2000-03-03,https://www.the-numbers.com//movie/What-Planet-Are-You-From#tab=summary
 96724,Anna Karenina,49000000,71004627,2012-09-06,https://www.the-numbers.com//movie/Anna-Karenina-(2012)#tab=summary
-53953,The Tooth Fairy,,,2006-08-08,
 11232,Kate & Leopold,48000000,70937778,2001-12-25,https://www.the-numbers.com//movie/Kate-and-Leopold#tab=summary
-7504,Earth,,528972,1998-09-16,https://www.the-numbers.com//movie/Earth#tab=summary
-593,Solaris,,,1972-03-20,
 11467,America's Sweethearts,46000000,160648493,2001-07-17,https://www.the-numbers.com//movie/Americas-Sweethearts#tab=summary
-27983,"Yours, Mine and Ours",,25912624,1968-04-24,https://www.the-numbers.com//movie/Yours-Mine-and-Ours#tab=summary
 15045,Fat Albert,45000000,48563556,2004-12-12,https://www.the-numbers.com//movie/Fat-Albert#tab=summary
 8987,The River Wild,45000000,94215000,1994-09-30,https://www.the-numbers.com//movie/River-Wild-The#tab=summary
 11359,The Indian in the Cupboard,45000000,35627222,1995-07-14,https://www.the-numbers.com//movie/Indian-in-the-Cupboard-The#tab=summary
@@ -75,17 +66,16 @@ movie_id,title,budget,revenue,release_date,movie_url
 9304,Multiplicity,45000000,20133326,1996-07-19,https://www.the-numbers.com//movie/Multiplicity#tab=summary
 21355,All the Pretty Horses,45000000,18120267,2000-12-11,https://www.the-numbers.com//movie/All-the-Pretty-Horses#tab=summary
 1494,Curse of the Golden Flower,45000000,76904429,2006-12-21,https://www.the-numbers.com//movie/Man-cheng-jin-dai-huang-jin-jia#tab=summary
+116977,Foodfight!,45000000,73706,2012-06-15,https://www.the-numbers.com//movie/Foodfight#tab=summary
 9623,The Juror,44000000,22730924,1996-02-02,https://www.the-numbers.com//movie/Juror-The#tab=summary
 10468,28 Days,43000000,62063972,2000-04-06,https://www.the-numbers.com//movie/28-Days#tab=summary
 87826,Here Comes the Boom,42000000,73239258,2012-10-11,https://www.the-numbers.com//movie/Here-Comes-the-Boom#tab=summary
 25189,The Mirror Has Two Faces,42000000,41267469,1996-11-15,https://www.the-numbers.com//movie/Mirror-Has-Two-Faces-The#tab=summary
 18480,Brüno,42000000,138708527,2009-07-08,https://www.the-numbers.com//movie/Bruno#tab=summary
-280391,Why I Did (Not) Eat My Father,,,2015-04-08,
 10610,The Medallion,41000000,22108977,2003-08-15,https://www.the-numbers.com//movie/Medallion-The#tab=summary
 9930,Legal Eagles,40000000,49851591,1986-06-18,https://www.the-numbers.com//movie/Legal-Eagles#tab=summary
 71864,The Odd Life of Timothy Green,40000000,55249159,2012-08-15,https://www.the-numbers.com//movie/Odd-Life-of-Timothy-Green-The#tab=summary
 9096,Medicine Man,40000000,44948240,1992-02-07,https://www.the-numbers.com//movie/Medicine-Man#tab=summary
-11011,Ri¢hie Ri¢h,,,1994-12-19,
 10641,Autumn in New York,40000000,90717684,2000-08-11,https://www.the-numbers.com//movie/Autumn-in-New-York#tab=summary
 10154,Mickey Blue Eyes,40000000,53864342,1999-08-16,https://www.the-numbers.com//movie/Mickey-Blue-Eyes#tab=summary
 8457,Drillbit Taylor,40000000,49686263,2008-03-20,https://www.the-numbers.com//movie/Drillbit-Taylor#tab=summary
@@ -103,9 +93,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 20542,Delgo,40000000,915840,2008-12-12,https://www.the-numbers.com//movie/Delgo#tab=summary
 5353,The Hunting Party,40000000,7729552,2007-09-03,https://www.the-numbers.com//movie/Hunting-Party-The#tab=summary
 11934,The Hudsucker Proxy,40000000,14938149,1994-03-11,https://www.the-numbers.com//movie/Hudsucker-Proxy-The#tab=summary
-14392,The Warlords,,0,2007-12-12,https://www.the-numbers.com//movie/Battle-of-the-Warlords#tab=summary
-19495,Nomad: The Warrior,,,2005-07-17,
-77459,A Monster in Paris,,,2011-10-12,
 26486,The Last Shot,40000000,463730,2004-09-24,https://www.the-numbers.com//movie/Last-Shot-The#tab=summary
 1257,Because I Said So,39000000,69538833,2007-02-02,https://www.the-numbers.com//movie/Because-I-Said-So#tab=summary
 9099,Sgt. Bilko,39000000,37956589,1996-03-29,https://www.the-numbers.com//movie/Sgt-Bilko#tab=summary
@@ -125,7 +112,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 2447,The Nativity Story,35000000,46309644,2006-12-01,https://www.the-numbers.com//movie/Nativity-Story-The#tab=summary
 10410,Hoffa,35000000,28391473,1992-12-25,https://www.the-numbers.com//movie/Hoffa#tab=summary
 11004,Wonder Boys,35000000,33422485,2000-02-22,https://www.the-numbers.com//movie/Wonder-Boys#tab=summary
-118957,Bait,,32588670,2012-09-05,https://www.the-numbers.com//movie/Bait-(2012)#tab=summary
 18886,Flight of the Intruder,35000000,14471440,1991-01-18,https://www.the-numbers.com//movie/Flight-of-the-Intruder#tab=summary
 6440,The Shipping News,35000000,24405825,2001-12-18,https://www.the-numbers.com//movie/Shipping-News-The#tab=summary
 37498,Knock Off,35000000,10319915,1998-09-04,https://www.the-numbers.com//movie/Knock-Off#tab=summary
@@ -136,7 +122,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 45958,Biutiful,35000000,24687524,2010-10-20,https://www.the-numbers.com//movie/Biutiful#tab=summary
 310706,Black Water Transit,35000000,0,2009-05-13,https://www.the-numbers.com//movie/Black-Water-Transit#tab=summary
 21311,I Dreamed of Africa,34000000,14291999,2000-05-05,https://www.the-numbers.com//movie/I-Dreamed-of-Africa#tab=summary
-77875,Playing for Keeps,,27805632,2012-11-29,https://www.the-numbers.com//movie/Playing-for-Keeps-(2011)#tab=summary
 202575,Thunder and the House of Magic,34000000,10392666,2013-12-24,https://www.the-numbers.com//movie/Thunder-and-the-House-of-Magic-The#tab=summary
 10685,The Watcher,33000000,47267829,2000-09-08,https://www.the-numbers.com//movie/Watcher-The#tab=summary
 12596,Pushing Tin,33000000,8408835,1999-04-23,https://www.the-numbers.com//movie/Pushing-Tin#tab=summary
@@ -167,15 +152,14 @@ movie_id,title,budget,revenue,release_date,movie_url
 28902,In Dreams,30000000,12017369,1999-01-15,https://www.the-numbers.com//movie/In-Dreams#tab=summary
 14164,Dragonball Evolution,30000000,58228460,2009-04-01,https://www.the-numbers.com//movie/Dragonball-Evolution#tab=summary
 76640,The Last Stand,30000000,48330757,2013-01-12,https://www.the-numbers.com//movie/Last-Stand-The#tab=summary
+14844,Chasing Liberty,23000000,12291975,2004-01-09,https://www.the-numbers.com//movie/Chasing-Liberty#tab=summary
 311,Once Upon a Time in America,30000000,5564014,1984-02-16,https://www.the-numbers.com//movie/Once-Upon-a-Time-in-America#tab=summary
 102362,Dead Man Down,30000000,19599974,2013-03-08,https://www.the-numbers.com//movie/Dead-Man-Down#tab=summary
 11162,The Merchant of Venice,30000000,18765585,2004-09-03,https://www.the-numbers.com//movie/Merchant-of-Venice-The#tab=summary
 6016,The Good Thief,30000000,6460758,2003-04-03,https://www.the-numbers.com//movie/Good-Thief-The#tab=summary
 17186,Supercross,30000000,3252550,2005-08-16,https://www.the-numbers.com//movie/Supercross#tab=summary
 2008,The Promise,30000000,35869934,2005-12-15,https://www.the-numbers.com//movie/Wu-ji#tab=summary
-31203,Little Nicholas,,,2009-09-30,
 265208,Wild Card,30000000,929157,2015-01-14,https://www.the-numbers.com//movie/Wild-Card#tab=summary
-50135,Animals United,,,2010-10-07,
 1874,Goodbye Bafana,30000000,2717302,2007-02-11,https://www.the-numbers.com//movie/Goodbye-Bafana#tab=summary
 271331,United Passions,30000000,168832,2014-06-19,https://www.the-numbers.com//movie/United-Passions#tab=summary
 215211,Grace of Monaco,30000000,25199891,2014-05-14,https://www.the-numbers.com//movie/Grace-of-Monaco#tab=summary
@@ -197,13 +181,10 @@ movie_id,title,budget,revenue,release_date,movie_url
 1901,In Good Company,26000000,63489752,2004-12-29,https://www.the-numbers.com//movie/In-Good-Company#tab=summary
 11509,Silverado,26000000,33200000,1985-07-10,https://www.the-numbers.com//movie/Silverado#tab=summary
 31640,Blood and Wine,26000000,1083350,1996-10-03,https://www.the-numbers.com//movie/Blood-and-Wine#tab=summary
-9092,Snow White: A Tale of Terror,,,1997-07-18,
 2779,The Curse of the Jade Scorpion,26000000,18496522,2001-08-05,https://www.the-numbers.com//movie/Curse-of-the-Jade-Scorpion-The#tab=summary
 316002,Accidental Love,26000000,135436,2015-02-10,https://www.the-numbers.com//movie/Accidental-Love#tab=summary
 11024,Scooby-Doo 2: Monsters Unleashed,25000000,181185387,2004-03-24,https://www.the-numbers.com//movie/Scooby-Doo-2-Monsters-Unleashed#tab=summary
-208763,Forbidden Kingdom,,,2014-01-30,
 254024,The Face of an Angel,26000000,0,2014-09-06,https://www.the-numbers.com//movie/Face-of-an-Angel-The#tab=summary
-175555,A Madea Christmas,,0,2013-12-13,https://www.the-numbers.com//movie/Madea-Christmas-The-Play-A#tab=summary
 11676,Nothing to Lose,25000000,64594061,1997-07-18,https://www.the-numbers.com//movie/Nothing-To-Lose#tab=summary
 9416,Money Talks,25000000,41076865,1997-08-22,https://www.the-numbers.com//movie/Money-Talks#tab=summary
 14317,The Wild Thornberrys Movie,25000000,60694737,2002-12-20,https://www.the-numbers.com//movie/Wild-Thornberrys-Movie-The#tab=summary
@@ -217,8 +198,8 @@ movie_id,title,budget,revenue,release_date,movie_url
 11152,The Ruins,25000000,22910563,2008-04-02,https://www.the-numbers.com//movie/Ruins-The#tab=summary
 12770,Stealing Harvard,25000000,13973532,2002-09-13,https://www.the-numbers.com//movie/Stealing-Harvard#tab=summary
 10074,Hot Rod,25000000,14334401,2007-08-03,https://www.the-numbers.com//movie/Hot-Rod#tab=summary
+10397,Angela's Ashes,25000000,13038660,1999-12-25,https://www.the-numbers.com//movie/Angelas-Ashes#tab=summary
 11954,Lifeforce,25000000,11603545,1985-06-20,https://www.the-numbers.com//movie/Lifeforce#tab=summary
-133698,Fly Me to the Moon,,,2012-10-29,
 10655,Gettysburg,25000000,10731997,1993-10-08,https://www.the-numbers.com//movie/Gettysburg#tab=summary
 21338,Stone Cold,25000000,9286314,1991-05-17,https://www.the-numbers.com//movie/Stone-Cold#tab=summary
 19803,Underclassman,25000000,5654777,2005-09-02,https://www.the-numbers.com//movie/Underclassman#tab=summary
@@ -227,7 +208,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 27360,King's Ransom,25000000,4049527,2005-04-22,https://www.the-numbers.com//movie/Kings-Ransom#tab=summary
 9729,Where the Truth Lies,25000000,1415656,2005-10-07,https://www.the-numbers.com//movie/Where-the-Truth-Lies#tab=summary
 94352,Cirque du Soleil: Worlds Away,25000000,28012862,2012-11-09,https://www.the-numbers.com//movie/Cirque-du-Soleil-Worlds-Away#tab=summary
-49953,A Turtle's Tale: Sammy's Adventures,,,2010-08-03,
 39845,Love Ranch,25000000,146149,2010-06-30,https://www.the-numbers.com//movie/Love-Ranch#tab=summary
 25353,La véritable histoire du Chat Botté,25000000,8208594,2009-04-01,https://www.the-numbers.com//movie/veritable-histoire-du-Chat-Botte-La#tab=summary
 38543,Ironclad,25000000,5297411,2011-03-03,https://www.the-numbers.com//movie/Ironclad#tab=summary
@@ -238,14 +218,13 @@ movie_id,title,budget,revenue,release_date,movie_url
 3558,"Girl, Interrupted",24000000,28871190,1999-12-21,https://www.the-numbers.com//movie/Girl-Interrupted#tab=summary
 6478,Beyond the Sea,24000000,8292914,2004-12-17,https://www.the-numbers.com//movie/Beyond-the-Sea#tab=summary
 45881,The Bridge of San Luis Rey,24000000,1696765,2004-01-01,https://www.the-numbers.com//movie/Bridge-of-San-Luis-Rey-The#tab=summary
-12658,Someone Like You...,,,2001-03-30,
+227707,The Adventurer: The Curse of the Midas Box,25000000,0,2013-12-05,https://www.the-numbers.com//movie/Mariah-Mundi-and-the-Midas-Box#tab=summary
 19150,The Crew,23000000,13019253,2000-08-21,https://www.the-numbers.com//movie/Crew-The#tab=summary
 9819,Marvin's Room,23000000,12803305,1996-12-18,https://www.the-numbers.com//movie/Marvins-Room#tab=summary
 13579,The Longshots,23000000,11778396,2008-08-22,https://www.the-numbers.com//movie/Longshots-The#tab=summary
 11156,Coco Before Chanel,23000000,50813834,2009-04-22,https://www.the-numbers.com//movie/Coco-avant-Chanel#tab=summary
 354110,Forsaken,18000000,0,2015-09-16,https://www.the-numbers.com//movie/Forsaken-(2015)#tab=summary
 10445,Shadowlands,22000000,25842377,1993-12-25,https://www.the-numbers.com//movie/Shadowlands#tab=summary
-205588,Our Kind of Traitor,,6883899,2016-05-05,https://www.the-numbers.com//movie/Our-Kind-of-Traitor#tab=summary
 10279,Summer of Sam,22000000,19288130,1999-07-02,https://www.the-numbers.com//movie/Summer-of-Sam#tab=summary
 19366,Josie and the Pussycats,22000000,14252830,2001-04-06,https://www.the-numbers.com//movie/Josie-and-the-Pussycats#tab=summary
 1599,I Heart Huckabees,22000000,20034713,2004-09-10,https://www.the-numbers.com//movie/I-Heart-Huckabees#tab=summary
@@ -258,6 +237,7 @@ movie_id,title,budget,revenue,release_date,movie_url
 17795,My Fellow Americans,21500000,22331846,1996-12-20,https://www.the-numbers.com//movie/My-Fellow-Americans#tab=summary
 1073,Arlington Road,21500000,24419219,1999-03-19,https://www.the-numbers.com//movie/Arlington-Road#tab=summary
 9473,"South Park: Bigger, Longer & Uncut",21000000,52037603,1999-06-30,https://www.the-numbers.com//movie/South-Park-Bigger-Longer-and-Uncut#tab=summary
+2196,Death at a Funeral,20000000,46790428,2007-02-09,https://www.the-numbers.com//movie/Death-at-a-Funeral#tab=summary
 44944,For Colored Girls,21000000,38017873,2010-11-05,https://www.the-numbers.com//movie/For-Colored-Girls-Who-Have-Considered-Suicide-When-the-Rainbow-is-Enuf#tab=summary
 49517,Tinker Tailor Soldier Spy,21000000,81452811,2011-09-16,https://www.the-numbers.com//movie/Tinker-Tailor-Soldier-Spy#tab=summary
 44857,Molly,21000000,17396,1999-10-22,https://www.the-numbers.com//movie/Molly#tab=summary
@@ -308,27 +288,22 @@ movie_id,title,budget,revenue,release_date,movie_url
 29078,The Game of Their Lives,20000000,375474,2005-01-01,https://www.the-numbers.com//movie/Game-of-Their-Lives-The#tab=summary
 46503,All Good Things,20000000,873617,2010-12-03,https://www.the-numbers.com//movie/All-Good-Things#tab=summary
 13688,CJ7,20000000,47300771,2008-01-30,https://www.the-numbers.com//movie/CJ7#tab=summary
-10353,The Visitors II: The Corridors of Time,,,1998-02-11,
 11458,People I Know,20000000,5694213,2002-11-21,https://www.the-numbers.com//movie/People-I-Know#tab=summary
 241257,Regression,20000000,14883495,2015-10-01,https://www.the-numbers.com//movie/Regression#tab=summary
 14538,Three Kingdoms: Resurrection of the Dragon,20000000,22139590,2008-04-03,https://www.the-numbers.com//movie/Three-Kingdoms-Resurrection-of-the-Dragon#tab=summary
 13250,Butterfly on a Wheel,20000000,0,2007-07-27,https://www.the-numbers.com//movie/Butterfly-on-a-Wheel#tab=summary
 133931,Zambezia,20000000,34454631,2012-06-05,https://www.the-numbers.com//movie/Zambezia#tab=summary
-280871,Ramanujan,,,2014-07-11,
 239897,Dwegons,20000000,0,2014-01-24,https://www.the-numbers.com//movie/Dwegons-and-Leprechauns#tab=summary
 184341,Hands of Stone,20000000,5032013,2016-08-26,https://www.the-numbers.com//movie/Hands-of-Stone#tab=summary
 334074,Survivor,20000000,774905,2015-05-21,https://www.the-numbers.com//movie/Survivor#tab=summary
 14202,The Painted Veil,19400000,15118795,2006-12-09,https://www.the-numbers.com//movie/Painted-Veil-The#tab=summary
 6968,The Baader Meinhof Complex,19700000,16498827,2008-09-24,https://www.the-numbers.com//movie/Baader-Meinhof-Komplex-Der#tab=summary
-9378,Thir13en Ghosts,,,2001-10-26,
 26367,I Can Do Bad All By Myself,19000000,51733921,2009-09-11,https://www.the-numbers.com//movie/I-Can-Do-Bad-All-By-Myself#tab=summary
 385383,Fight Valley,20000000,0,2016-07-22,https://www.the-numbers.com//movie/Fight-Valley#tab=summary
 16110,Thomas and the Magic Railroad,19000000,15911332,2000-07-26,https://www.the-numbers.com//movie/Thomas-and-the-Magic-Railroad#tab=summary
-244114,Firestorm,,50770000,2013-12-12,https://www.the-numbers.com//movie/Feng-Bao#tab=summary
 203833,The Book Thief,19000000,76086711,2013-11-08,https://www.the-numbers.com//movie/Book-Thief-The#tab=summary
 82631,Won't Back Down,19000000,5745503,2012-09-28,https://www.the-numbers.com//movie/Wont-Back-Down#tab=summary
 22479,Kansas City,19000000,1353824,1996-08-16,https://www.the-numbers.com//movie/Kansas-City#tab=summary
-340611,Indignation,,3608849,2016-07-29,https://www.the-numbers.com//movie/Indignation#tab=summary
 244339,Out of Inferno,19000000,0,2013-03-10,https://www.the-numbers.com//movie/Out-of-Inferno-(China)#tab=summary
 9043,The Family Stone,18000000,92357499,2005-12-14,https://www.the-numbers.com//movie/Family-Stone-The#tab=summary
 8617,Prom Night,18000000,57193655,2008-04-10,https://www.the-numbers.com//movie/Prom-Night-(2008)#tab=summary
@@ -352,7 +327,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 31166,I Come with the Rain,18000000,627422,2009-05-14,https://www.the-numbers.com//movie/I-Come-with-the-Rain#tab=summary
 69848,One Man's Hero,18000000,229311,1999-08-02,https://www.the-numbers.com//movie/One-Mans-Hero#tab=summary
 332411,I Am Wrath,18000000,309608,2016-04-14,https://www.the-numbers.com//movie/I-Am-Wrath#tab=summary
-15670,Madea Goes to Jail,,0,2009-02-16,https://www.the-numbers.com//movie/Madea-Goes-to-Jail#tab=summary
 290555,Wolves,18000000,0,2014-08-28,https://www.the-numbers.com//movie/Wolves-(2014)#tab=summary
 31932,City of Ghosts,17500000,325491,2002-01-01,https://www.the-numbers.com//movie/City-of-Ghosts-(2003)#tab=summary
 1933,The Others,17000000,207765056,2001-08-02,https://www.the-numbers.com//movie/Others-The#tab=summary
@@ -374,11 +348,11 @@ movie_id,title,budget,revenue,release_date,movie_url
 10781,The Texas Chainsaw Massacre: The Beginning,16000000,50517763,2006-10-06,https://www.the-numbers.com//movie/Texas-Chainsaw-Massacre-The-Beginning-The#tab=summary
 13908,The Master of Disguise,16000000,40363530,2002-08-02,https://www.the-numbers.com//movie/Master-of-Disguise#tab=summary
 39180,See Spot Run,16000000,43057552,2001-03-02,https://www.the-numbers.com//movie/See-Spot-Run#tab=summary
-13491,Arn: The Knight Templar,,,2007-12-17,
 10994,White Oleander,16000000,21657770,2002-10-11,https://www.the-numbers.com//movie/White-Oleander#tab=summary
 30890,Radio Days,16000000,14792779,1987-01-30,https://www.the-numbers.com//movie/Radio-Days#tab=summary
 23169,Remember Me,16000000,56506120,2010-03-12,https://www.the-numbers.com//movie/Remember-Me#tab=summary
 17403,How to Deal,16000000,14108518,2003-07-18,https://www.the-numbers.com//movie/How-to-Deal#tab=summary
+18475,The Cookout,16000000,11540112,2004-09-03,https://www.the-numbers.com//movie/Cookout-The#tab=summary
 40160,Meteor,16000000,8400000,1979-10-19,https://www.the-numbers.com//movie/Meteor#tab=summary
 18074,Duets,16000000,6615452,2000-09-09,https://www.the-numbers.com//movie/Duets#tab=summary
 9689,Hollywood Ending,16000000,14839383,2002-05-03,https://www.the-numbers.com//movie/Hollywood-Ending#tab=summary
@@ -388,7 +362,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 185567,Zulu,16000000,1844228,2013-12-04,https://www.the-numbers.com//movie/Zulu#tab=summary
 35696,Juwanna Mann,15600000,13771817,2002-06-21,https://www.the-numbers.com//movie/Juwanna-Man#tab=summary
 16351,Ararat,15500000,1693000,2002-05-20,https://www.the-numbers.com//movie/Ararat#tab=summary
-38717,Madison,,,2001-01-23,
 2110,Wasabi,15300000,7000000,2001-10-31,https://www.the-numbers.com//movie/Wasabi#tab=summary
 9035,Slither,15250000,12930343,2006-03-31,https://www.the-numbers.com//movie/Slither#tab=summary
 12154,3 Men and a Baby,15000000,167780960,1987-11-27,https://www.the-numbers.com//movie/3-Men-and-a-Baby#tab=summary
@@ -400,11 +373,9 @@ movie_id,title,budget,revenue,release_date,movie_url
 11531,Book of Shadows: Blair Witch 2,15000000,47721314,2000-10-27,https://www.the-numbers.com//movie/Book-of-Shadows-Blair-Witch-2#tab=summary
 38843,Ramona and Beezus,15000000,27469621,2010-07-23,https://www.the-numbers.com//movie/Ramona-and-Beezus#tab=summary
 10413,Nowhere to Run,15000000,52189039,1993-01-15,https://www.the-numbers.com//movie/Nowhere-to-Run#tab=summary
-9793,The Hills Have Eyes 2,,,2007-03-22,
 13768,Tuck Everlasting,15000000,19344615,2002-10-11,https://www.the-numbers.com//movie/Tuck-Everlasting#tab=summary
 18681,Eye of the Beholder,15000000,18260865,1999-09-04,https://www.the-numbers.com//movie/Eye-of-the-Beholder#tab=summary
 13166,Freddy Got Fingered,15000000,14249005,2001-04-18,https://www.the-numbers.com//movie/Freddy-Got-Fingered#tab=summary
-15511,VeggieTales: The Pirates Who Don't Do Anything,,,2008-01-11,
 13816,Idlewild,15000000,12669914,2006-08-25,https://www.the-numbers.com//movie/Idlewild#tab=summary
 10743,Confidence,15000000,12212417,2003-04-25,https://www.the-numbers.com//movie/Confidence#tab=summary
 37718,The Muse,15000000,11614954,1999-08-27,https://www.the-numbers.com//movie/Muse-The#tab=summary
@@ -420,22 +391,21 @@ movie_id,title,budget,revenue,release_date,movie_url
 2290,Jakob the Liar,15000000,4956401,1999-09-16,https://www.the-numbers.com//movie/Jakob-the-Liar#tab=summary
 10075,Blood and Chocolate,15000000,6551310,2007-01-26,https://www.the-numbers.com//movie/Blood-and-Chocolate#tab=summary
 38031,You Will Meet a Tall Dark Stranger,15000000,34247816,2010-05-23,https://www.the-numbers.com//movie/You-Will-Meet-a-Tall-Dark-Stranger#tab=summary
-112430,The Company,,,2007-08-05,
 13853,The Clan of the Cave Bear,15000000,1953732,1986-01-17,https://www.the-numbers.com//movie/Clan-of-the-Cave-Bear-The#tab=summary
 31306,Crazy in Alabama,15000000,1954202,1999-10-22,https://www.the-numbers.com//movie/Crazy-in-Alabama#tab=summary
-331592,Listening,,0,2015-09-11,https://www.the-numbers.com//movie/Listening#tab=summary
 47692,Felicia's Journey,15000000,1970268,1999-11-24,https://www.the-numbers.com//movie/Felicias-Journey#tab=summary
 9104,Buffalo Soldiers,15000000,353743,2001-09-08,https://www.the-numbers.com//movie/Buffalo-Soldiers#tab=summary
 11190,The Return,15000000,5953886,2003-06-25,https://www.the-numbers.com//movie/Return-The#tab=summary
+24206,Silent Trigger,15000000,76382,1996-06-26,https://www.the-numbers.com//movie/Silent-Trigger#tab=summary
 75033,Winnie Mandela,15000000,61847,2011-09-16,https://www.the-numbers.com//movie/Winnie#tab=summary
 74536,The Son of No One,15000000,1148578,2011-11-04,https://www.the-numbers.com//movie/Son-of-No-One#tab=summary
-15208,Bathory: Countess of Blood,,,2008-07-04,
+31668,All The Queen's Men,15000000,22723,2001-10-14,https://www.the-numbers.com//movie/All-the-Queens-Men#tab=summary
+13501,The Good Night,15000000,22441,2007-01-25,https://www.the-numbers.com//movie/Good-Night-The#tab=summary
 262543,Automata,15000000,6775458,2014-10-09,https://www.the-numbers.com//movie/Automata#tab=summary
 9288,Dungeons & Dragons: Wrath of the Dragon God,15000000,909822,2005-01-01,https://www.the-numbers.com//movie/Dungeons-and-Dragons-2-The-Elemental-Might#tab=summary
 370980,Chiamatemi Francesco - Il Papa della gente,15000000,3454036,2015-12-03,https://www.the-numbers.com//movie/Chiamatemi-Francesco-papa-della-gente-Il#tab=summary
 20083,Shinjuku Incident,15000000,0,2009-03-22,https://www.the-numbers.com//movie/Shinjuku-Incident#tab=summary
 40880,Pandaemonium,15000000,0,2001-06-29,https://www.the-numbers.com//movie/Pandaemonium#tab=summary
-288980,Freedom,,0,2014-08-21,https://www.the-numbers.com//movie/Freedom-(2011)#tab=summary
 9396,Crocodile Dundee 2,14000000,239606210,1988-05-19,https://www.the-numbers.com//movie/Crocodile-Dundee-2#tab=summary
 319910,Broken Horses,15000000,3471,2015-03-15,https://www.the-numbers.com//movie/Broken-Horses#tab=summary
 62008,Good Deeds,14000000,35579177,2012-02-23,https://www.the-numbers.com//movie/Tyler-Perrys-Good-Deeds#tab=summary
@@ -455,9 +425,8 @@ movie_id,title,budget,revenue,release_date,movie_url
 41317,Caravans,14000000,1000000,1978-11-02,https://www.the-numbers.com//movie/Caravans#tab=summary
 245700,Mr. Turner,14000000,25187026,2014-10-31,https://www.the-numbers.com//movie/Mr-Turner#tab=summary
 37842,Wild Grass,14000000,1903952,2009-05-20,https://www.the-numbers.com//movie/herbes-folles-Les#tab=summary
-9045,Amen.,,,2002-02-13,
-44092,Reign of Assassins,,,2010-09-01,
 16005,The Lucky Ones,14000000,266967,2008-09-26,https://www.the-numbers.com//movie/Lucky-Ones-The#tab=summary
+44754,Margaret,14000000,623292,2011-09-30,https://www.the-numbers.com//movie/Margaret#tab=summary
 23988,Stan Helsing,14000000,1553556,2009-10-27,https://www.the-numbers.com//movie/Stan-Helsing-A-Parody#tab=summary
 9603,Clueless,13700000,56598476,1995-07-19,https://www.the-numbers.com//movie/Clueless#tab=summary
 25208,The Caveman's Valentine,13500000,892506,2001-01-19,https://www.the-numbers.com//movie/Cavemans-Valentine-The#tab=summary
@@ -472,7 +441,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 9683,Bubble Boy,13000000,5002310,2001-08-24,https://www.the-numbers.com//movie/Bubble-Boy#tab=summary
 2084,Birthday Girl,13000000,8130727,2001-09-06,https://www.the-numbers.com//movie/Birthday-Girl#tab=summary
 13074,Resurrecting the Champ,13000000,3260555,2007-06-14,https://www.the-numbers.com//movie/Resurrecting-the-Champ#tab=summary
-48217,The Widow of Saint-Pierre,,,2000-01-01,
 44853,The Claim,13000000,1375635,2000-12-29,https://www.the-numbers.com//movie/Claim-The#tab=summary
 407887,Operation Chromite,12700000,49196532,2016-07-27,https://www.the-numbers.com//movie/Operation-Chromite-(South-Korea)#tab=summary
 17043,The Crocodile Hunter: Collision Course,12500000,33436931,2002-07-26,https://www.the-numbers.com//movie/Crocodile-Hunter-Collision-Course-The#tab=summary
@@ -480,7 +448,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 59457,Womb,13000000,0,2010-07-15,https://www.the-numbers.com//movie/Womb#tab=summary
 37414,The Killer Inside Me,13000000,3617277,2010-02-19,https://www.the-numbers.com//movie/Killer-Inside-Me-The#tab=summary
 6217,Cat People,12500000,21000000,1982-04-02,https://www.the-numbers.com//movie/Cat-People-(1982)#tab=summary
-43867,The Prisoner of Zenda,,,1937-09-03,
 39780,Oscar and Lucinda,12500000,1612957,1997-12-31,https://www.the-numbers.com//movie/Oscar-and-Lucinda#tab=summary
 11658,Tae Guik Gi: The Brotherhood of War,12500000,69826708,2004-02-05,https://www.the-numbers.com//movie/Tae-Guik-Gi-The-Brotherhood-of-War#tab=summary
 3179,Beavis and Butt-Head Do America,12000000,63118386,1996-12-15,https://www.the-numbers.com//movie/Beavis-and-Butt-head-Do-America#tab=summary
@@ -501,6 +468,7 @@ movie_id,title,budget,revenue,release_date,movie_url
 14299,Cadillac Records,12000000,8942516,2008-12-05,https://www.the-numbers.com//movie/Cadillac-Records#tab=summary
 19419,Screwed,12000000,6982680,2000-05-12,https://www.the-numbers.com//movie/Screwed#tab=summary
 9466,Celebrity,12000000,6200000,1998-09-07,https://www.the-numbers.com//movie/Celebrity#tab=summary
+10944,In the Cut,12000000,23693646,2003-09-09,https://www.the-numbers.com//movie/In-the-Cut#tab=summary
 14778,Last Orders,12000000,2326407,2001-09-10,https://www.the-numbers.com//movie/Last-Orders#tab=summary
 45226,The Pursuit of D.B. Cooper,12000000,2104164,1981-11-13,https://www.the-numbers.com//movie/Pursuit-of-D-B-Cooper-The#tab=summary
 10212,Ravenous,12000000,2062406,1999-03-16,https://www.the-numbers.com//movie/Ravenous#tab=summary
@@ -510,23 +478,19 @@ movie_id,title,budget,revenue,release_date,movie_url
 15907,Duma,12000000,994790,2005-04-22,https://www.the-numbers.com//movie/Duma#tab=summary
 9260,Welcome to Collinwood,12000000,4606284,2002-05-24,https://www.the-numbers.com//movie/Welcome-to-Collinwood#tab=summary
 61337,Critical Care,12000000,220175,1997-10-31,https://www.the-numbers.com//movie/Critical-Care#tab=summary
-13079,The Life Before Her Eyes,,,2007-09-08,
 89325,Darling Companion,12000000,1200346,2012-04-20,https://www.the-numbers.com//movie/Darling-Companion#tab=summary
 4170,Trade,12000000,1513388,2007-01-23,https://www.the-numbers.com//movie/Trade#tab=summary
 41508,Fateless,12000000,196857,2005-02-10,https://www.the-numbers.com//movie/Fateless#tab=summary
 12479,Breakfast of Champions,12000000,178287,1999-02-13,https://www.the-numbers.com//movie/Breakfast-of-Champions#tab=summary
 44555,"A Woman, a Gun and a Noodle Shop",12000000,310946,2009-12-11,https://www.the-numbers.com//movie/San-qiang-pai-an-jing-qi#tab=summary
-10133,Cypher,,,2002-10-01,
+50601,5 Days of War,12000000,87793,2011-04-14,https://www.the-numbers.com//movie/5-Days-of-War#tab=summary
 26466,Triangle,12000000,1595168,2009-10-16,https://www.the-numbers.com//movie/Triangle-(2009)#tab=summary
 345003,10 Days in a Madhouse,12000000,14616,2015-11-20,https://www.the-numbers.com//movie/10-Days-in-a-Madhouse#tab=summary
 357837,Dancin' It's On,12000000,0,2015-10-16,https://www.the-numbers.com//movie/Dancin-Its-On#tab=summary
-13889,Madadayo,,,1993-04-17,
 18530,The Cry of the Owl,11500000,0,2009-02-07,https://www.the-numbers.com//movie/Cry-of-the-Owl#tab=summary
-358451,A Tale of Three Cities,,,2015-08-28,
 206563,Trash,12000000,6553186,2014-10-09,https://www.the-numbers.com//movie/Trash-(2014)#tab=summary
 11887,High School Musical 3: Senior Year,11000000,274392880,2008-10-22,https://www.the-numbers.com//movie/High-School-Musical-3-Senior-Year#tab=summary
 256092,Drive Hard,12000000,0,2014-05-26,https://www.the-numbers.com//movie/Drive-Hard#tab=summary
-10748,St. Trinian's,,,2007-12-21,
 11184,Kinsey,11000000,13000959,2004-09-04,https://www.the-numbers.com//movie/Kinsey#tab=summary
 766,Army of Darkness,11000000,21502976,1992-10-09,https://www.the-numbers.com//movie/Army-of-Darkness#tab=summary
 11109,Vera Drake,11000000,13353855,2004-10-22,https://www.the-numbers.com//movie/Vera-Drake#tab=summary
@@ -534,8 +498,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 11065,O,5000000,16017403,2001-08-31,https://www.the-numbers.com//movie/O-(Othello)#tab=summary
 13994,Romance & Cigarettes,11000000,3231251,2005-09-13,https://www.the-numbers.com//movie/Romance-and-Cigarettes#tab=summary
 1590,Copying Beethoven,11000000,6586324,2006-09-10,https://www.the-numbers.com//movie/Copying-Beethoven#tab=summary
-62728,Brighton Rock,,46466,2010-09-13,https://www.the-numbers.com//movie/Brighton-Rock#tab=summary
-45138,Machine Gun McCain,,,1969-04-01,
 80271,LOL,11000000,10431506,2012-02-10,https://www.the-numbers.com//movie/LOL#tab=summary
 4657,Jindabyne,10800000,2862544,2006-07-20,https://www.the-numbers.com//movie/Jindabyne#tab=summary
 190847,The Last Days on Mars,10600000,261364,2013-08-11,https://www.the-numbers.com//movie/Last-Days-on-Mars-The#tab=summary
@@ -582,24 +544,22 @@ movie_id,title,budget,revenue,release_date,movie_url
 15394,Owning Mahowny,10000000,1011054,2003-05-02,https://www.the-numbers.com//movie/Owning-Mahowny#tab=summary
 10071,The Brothers Solomon,10000000,900926,2007-09-07,https://www.the-numbers.com//movie/Brothers-Solomon-The#tab=summary
 91076,Illuminata,10000000,836641,1998-05-21,https://www.the-numbers.com//movie/Illuminata#tab=summary
-11770,Shaolin Soccer,,,2001-07-12,
 12703,The Brown Bunny,10000000,630427,2004-08-27,https://www.the-numbers.com//movie/Brown-Bunny-The#tab=summary
 64559,The Swindle,10000000,5045359,1997-10-15,https://www.the-numbers.com//movie/Swindle-The#tab=summary
 222649,Rosewater,10000000,3168858,2014-11-07,https://www.the-numbers.com//movie/Rosewater#tab=summary
-115872,The Chambermaid on the Titanic,,,1997-10-10,
 25350,Imaginary Heroes,10000000,290875,2004-09-14,https://www.the-numbers.com//movie/Imaginary-Heroes#tab=summary
 10034,High Heels and Low Lifes,10000000,226792,2001-07-16,https://www.the-numbers.com//movie/High-Heels-and-Low-Lifes#tab=summary
 5072,Severance,10000000,5950002,2006-05-19,https://www.the-numbers.com//movie/Severance#tab=summary
 18191,Edmond,10000000,241719,2005-08-31,https://www.the-numbers.com//movie/Edmond#tab=summary
 31007,Welcome to the Rileys,10000000,355919,2010-10-29,https://www.the-numbers.com//movie/Welcome-to-the-Rileys#tab=summary
-11546,Police Academy: Mission to Moscow,,,1994-06-09,
 41894,Blood Done Sign My Name,10000000,109383,2010-02-01,https://www.the-numbers.com//movie/Blood-Done-Sign-My-Name#tab=summary
-184374,Cinco de Mayo: La Batalla,,,2013-05-03,
 268171,Elsa & Fred,10000000,109144,2014-03-07,https://www.the-numbers.com//movie/Elsa-and-Fred-(2014)#tab=summary
 24663,The Open Road,10000000,19716,2009-02-07,https://www.the-numbers.com//movie/Open-Road-The#tab=summary
 39037,The Good Guy,10000000,106466,2009-04-25,https://www.the-numbers.com//movie/Good-Guy-The#tab=summary
 22805,Motherhood,10000000,723388,2009-01-21,https://www.the-numbers.com//movie/Motherhood#tab=summary
 39055,Free Style,10000000,721108,2008-12-24,https://www.the-numbers.com//movie/Free-Style#tab=summary
+245846,Strangerland,10000000,161097,2015-07-01,https://www.the-numbers.com//movie/Strangerland#tab=summary
+25186,Janky Promoters,10000000,9069,2009-10-16,https://www.the-numbers.com//movie/Janky-Promoters#tab=summary
 15017,Blonde Ambition,10000000,1537479,2007-12-21,https://www.the-numbers.com//movie/Blonde-Ambition#tab=summary
 12245,The Oxford Murders,10000000,17704131,2008-01-18,https://www.the-numbers.com//movie/Oxford-Murders-The#tab=summary
 49787,The Reef,10000000,15037867,2010-05-15,https://www.the-numbers.com//movie/Reef-The#tab=summary
@@ -609,6 +569,7 @@ movie_id,title,budget,revenue,release_date,movie_url
 17622,Fifty Dead Men Walking,10000000,997921,2008-09-10,https://www.the-numbers.com//movie/Fifty-Dead-Men-Walking#tab=summary
 283671,Jungle Shuffle,10000000,314073,2014-08-07,https://www.the-numbers.com//movie/Jungle-Shuffle-(Mexico-South-Korea)#tab=summary
 18516,Adam Resurrected,10000000,90909,2008-08-08,https://www.the-numbers.com//movie/Adam-Resurrected#tab=summary
+217708,Of Horses and Men,10000000,11894,2013-08-30,https://www.the-numbers.com//movie/Hross-i-oss#tab=summary
 42057,It's a Wonderful Afterlife,10000000,1642939,2010-05-07,https://www.the-numbers.com//movie/Its-a-Wonderful-Afterlife#tab=summary
 17577,The Devil's Tomb,10000000,0,2009-05-26,https://www.the-numbers.com//movie/Devils-Tomb-The#tab=summary
 14608,Partition,10000000,0,2007-02-02,https://www.the-numbers.com//movie/Partition#tab=summary
@@ -637,30 +598,20 @@ movie_id,title,budget,revenue,release_date,movie_url
 14057,Trust the Man,9000000,2548378,2005-09-01,https://www.the-numbers.com//movie/Trust-the-Man#tab=summary
 12621,Hamlet 2,9000000,4934104,2008-01-21,https://www.the-numbers.com//movie/Hamlet-2#tab=summary
 1808,Velvet Goldmine,9000000,4313644,1998-10-23,https://www.the-numbers.com//movie/Velvet-Goldmine#tab=summary
-293670,The Wailing,,51261551,2016-05-12,https://www.the-numbers.com//movie/Goksung-(S-Korea)#tab=summary
 27329,The Legend of Suriyothai,9000000,454255,2001-08-17,https://www.the-numbers.com//movie/Legend-of-Suriyothai-The#tab=summary
-29514,Two Evil Eyes,,,1990-01-25,
 12454,All or Nothing,9000000,184255,2002-05-17,https://www.the-numbers.com//movie/All-or-Nothing#tab=summary
-8883,Flame & Citron,,,2008-03-25,
-291081,Red Riding: In the Year of Our Lord 1974,,,2009-02-28,
 41248,The Girl on the Train,9000000,208163,2009-03-18,https://www.the-numbers.com//movie/fille-du-RER-La#tab=summary
-25968,Veronika Decides to Die,,,2009-05-16,
-52010,"Ultramarines: A Warhammer 40,000 Movie",,,2010-12-10,
 11588,The I Inside,8800000,0,2004-01-15,https://www.the-numbers.com//movie/I-Inside-The#tab=summary
-43418,Beneath Hill 60,,,2010-04-15,
 71157,Polisse,8900000,22744132,2011-10-06,https://www.the-numbers.com//movie/Polisse#tab=summary
-333355,Star Wars: Clone Wars: Volume 1,,,2005-03-21,
 327833,Skin Trade,9000000,1242,2014-11-07,https://www.the-numbers.com//movie/Skin-Trade#tab=summary
 71805,Shipwrecked,8500000,15024232,1990-10-03,https://www.the-numbers.com//movie/Haakon-Haakonsen#tab=summary
 9451,Election,8500000,17202854,1999-04-23,https://www.the-numbers.com//movie/Election#tab=summary
-150202,The Haunting in Connecticut 2: Ghosts of Georgia,,,2013-02-01,
 19644,Silmido,8500000,30298347,2003-12-24,https://www.the-numbers.com//movie/Silmido#tab=summary
 20360,Namastey London,8400000,6831069,2007-03-27,https://www.the-numbers.com//movie/Namastey-London#tab=summary
 14353,Repo! The Genetic Opera,8500000,198883,2008-07-18,https://www.the-numbers.com//movie/Repo-The-Genetic-Opera#tab=summary
 11818,Valley of the Wolves: Iraq,8300000,24906717,2006-02-03,https://www.the-numbers.com//movie/Kurtlar-vadisi-Irak#tab=summary
 11176,The Muppet Movie,8000000,76657000,1979-05-31,https://www.the-numbers.com//movie/Muppet-Movie-The#tab=summary
 14114,You Got Served,8000000,50811858,2004-01-30,https://www.the-numbers.com//movie/You-Got-Served#tab=summary
-28121,A Thin Line Between Love and Hate,,,1996-04-04,
 10885,Shutter,8000000,47782426,2008-03-21,https://www.the-numbers.com//movie/Shutter#tab=summary
 16471,Modern Problems,8000000,24474312,1981-12-25,https://www.the-numbers.com//movie/Modern-Problems#tab=summary
 385736,Kicks,10000000,150191,2016-09-09,https://www.the-numbers.com//movie/Kicks#tab=summary
@@ -683,12 +634,11 @@ movie_id,title,budget,revenue,release_date,movie_url
 17044,The Land Girls,8000000,146083,1998-09-25,https://www.the-numbers.com//movie/Land-Girls-The#tab=summary
 12183,The Wendell Baker Story,8000000,127188,2005-08-03,https://www.the-numbers.com//movie/Wendell-Baker-Story-The#tab=summary
 12192,Pathology,8000000,3270974,2008-04-11,https://www.the-numbers.com//movie/Pathology#tab=summary
-36597,Wuthering Heights,,460041,2009-01-18,https://www.the-numbers.com//movie/Wuthering-Heights-(2009)#tab=summary
 10913,Dear Wendy,8000000,446438,2005-01-22,https://www.the-numbers.com//movie/Dear-Wendy#tab=summary
+251321,Aloft,8000000,53086,2014-02-12,https://www.the-numbers.com//movie/Aloft#tab=summary
 256687,Swelter,8000000,44197,2014-04-20,https://www.the-numbers.com//movie/Swelter#tab=summary
 220488,My Lucky Star,8000000,21970000,2013-09-17,https://www.the-numbers.com//movie/Feichang-Xingyun#tab=summary
 1544,Imagine Me & You,7900000,3129471,2005-02-01,https://www.the-numbers.com//movie/Imagine-Me-and-You#tab=summary
-374461,Mr. Church,,685780,2016-09-16,https://www.the-numbers.com//movie/Mr-Church#tab=summary
 182873,Green Street Hooligans: Underground,8000000,0,2013-01-01,https://www.the-numbers.com//movie/Green-Street-Hooligans-Underground#tab=summary
 21512,The Blood of Heroes,7700000,882290,1989-10-19,https://www.the-numbers.com//movie/Blood-of-Heroes-The#tab=summary
 389425,Code of Honor,8000000,0,2016-05-06,https://www.the-numbers.com//movie/Code-of-Honor-(2015)#tab=summary
@@ -697,13 +647,9 @@ movie_id,title,budget,revenue,release_date,movie_url
 11308,The Hotel New Hampshire,7500000,5142858,1984-03-09,https://www.the-numbers.com//movie/Hotel-New-Hampshire-The#tab=summary
 15365,Witless Protection,7500000,4151836,2008-02-22,https://www.the-numbers.com//movie/Witless-Protection#tab=summary
 24356,Masked and Anonymous,7500000,555335,2003-08-08,https://www.the-numbers.com//movie/Masked-and-Anonymous#tab=summary
-55903,Betty Fisher and Other Stories,,,2001-09-01,
 2577,Code 46,7500000,1788324,2003-09-02,https://www.the-numbers.com//movie/Code-46#tab=summary
-103903,Outside Bet,,,2012-04-27,
-312113,Black November,,,2012-12-07,
 14165,Ta Ra Rum Pum,7400000,9443864,2007-04-27,https://www.the-numbers.com//movie/Ta-Ra-Rum-Pum#tab=summary
 2011,Persepolis,7300000,25397460,2007-05-23,https://www.the-numbers.com//movie/Persepolis#tab=summary
-45650,The Hole,,,2009-09-09,
 29064,The Omega Code,7200000,12678312,1999-10-15,https://www.the-numbers.com//movie/Omega-Code-The#tab=summary
 326284,Pound of Flesh,7500000,0,2015-05-07,https://www.the-numbers.com//movie/Pound-of-Flesh#tab=summary
 10727,Darkness Falls,7000000,47289758,2003-01-24,https://www.the-numbers.com//movie/Darkness-Falls#tab=summary
@@ -712,13 +658,13 @@ movie_id,title,budget,revenue,release_date,movie_url
 9392,The Descent,7000000,57051053,2005-07-08,https://www.the-numbers.com//movie/Descent-The#tab=summary
 24977,Michael Jordan to the Max,7000000,18642318,2000-05-05,https://www.the-numbers.com//movie/Michael-Jordan-to-the-MAX#tab=summary
 1696,The Devil's Rejects,7000000,20940428,2005-07-22,https://www.the-numbers.com//movie/Devils-Rejects-The#tab=summary
-77156,Alien Zone,,,1978-11-22,
 44718,Get Low,7000000,10828305,2010-01-22,https://www.the-numbers.com//movie/Get-Low#tab=summary
 11342,Warlock,7000000,8824553,1989-06-01,https://www.the-numbers.com//movie/Warlock#tab=summary
 34653,A Single Man,7000000,28142379,2009-10-19,https://www.the-numbers.com//movie/Single-Man-A#tab=summary
 57825,Bride & Prejudice,7000000,25269040,2004-02-11,https://www.the-numbers.com//movie/Bride-and-Prejudice#tab=summary
 9555,Rabbit-Proof Fence,7000000,16866928,2002-02-04,https://www.the-numbers.com//movie/Rabbit-Proof-Fence#tab=summary
 15581,Who's Your Caddy?,7000000,5694308,2007-07-27,https://www.the-numbers.com//movie/Whos-Your-Caddy#tab=summary
+13006,Split Second,7000000,5430822,1992-05-01,https://www.the-numbers.com//movie/Split-Second#tab=summary
 12400,Redbelt,7000000,2667084,2008-04-07,https://www.the-numbers.com//movie/Redbelt#tab=summary
 39053,Cyrus,7000000,10062896,2010-06-18,https://www.the-numbers.com//movie/Cyrus#tab=summary
 104896,A Dog Of Flanders,7000000,2165637,1999-08-27,https://www.the-numbers.com//movie/Dog-of-Flanders-A#tab=summary
@@ -727,16 +673,16 @@ movie_id,title,budget,revenue,release_date,movie_url
 48620,The Mighty Macs,7000000,1891936,2009-10-21,https://www.the-numbers.com//movie/Mighty-Macs-The#tab=summary
 37080,Mother and Child,7000000,6537179,2009-11-07,https://www.the-numbers.com//movie/Mother-and-Child#tab=summary
 25388,March or Die,7000000,1000000,1977-09-08,https://www.the-numbers.com//movie/March-or-Die#tab=summary
-11687,The Visitors,,,1993-01-27,
 39210,Somewhere,7000000,17023121,2010-09-03,https://www.the-numbers.com//movie/Somewhere#tab=summary
 31535,Chairman of the Board,7000000,306715,1998-03-13,https://www.the-numbers.com//movie/Chairman-of-the-Board#tab=summary
 192134,Dom Hemingway,7000000,1857458,2013-11-15,https://www.the-numbers.com//movie/Dom-Hemingway#tab=summary
 1956,Gerry,7000000,719699,2002-01-12,https://www.the-numbers.com//movie/Gerry#tab=summary
 24985,The Heart of Me,7000000,196067,2002-01-01,https://www.the-numbers.com//movie/Heart-of-Me-The#tab=summary
+27004,Ca$h,13700000,11738256,2010-01-01,https://www.the-numbers.com//movie/Cash-(2008)#tab=summary
 15013,Wah-Wah,7000000,463039,2005-08-17,https://www.the-numbers.com//movie/Wah-Wah#tab=summary
+8374,The Boondock Saints,7000000,411874,1999-01-22,https://www.the-numbers.com//movie/Boondock-Saints-The#tab=summary
 277519,Z Storm,7000000,2053330,2014-06-19,https://www.the-numbers.com//movie/Z-Storm-(Hong-Kong)#tab=summary
 78381,Twixt,7000000,1268346,2011-09-10,https://www.the-numbers.com//movie/Twixt#tab=summary
-294512,Alpha and Omega: The Legend of the Saw Tooth Cave,,,2014-07-21,
 8879,Pale Rider,6900000,41410568,1985-06-28,https://www.the-numbers.com//movie/Pale-Rider#tab=summary
 13649,High School Musical 2,7000000,0,2007-08-17,https://www.the-numbers.com//movie/High-School-Musical-2#tab=summary
 325373,Two Lovers and a Bear,6840000,22273,2016-10-02,https://www.the-numbers.com//movie/Two-Lovers-and-a-Bear#tab=summary
@@ -747,6 +693,7 @@ movie_id,title,budget,revenue,release_date,movie_url
 38970,"Remember Me, My Love",6700000,223878,2003-02-11,https://www.the-numbers.com//movie/Remember-Me-My-Love#tab=summary
 41009,Perrier’s Bounty,6600000,828,2009-09-11,https://www.the-numbers.com//movie/Perriers-Bounty#tab=summary
 7347,Elite Squad,6537890,14319195,2007-10-12,https://www.the-numbers.com//movie/Tropa-de-Elite#tab=summary
+38415,Bran Nue Dae,6750000,6812530,2009-08-09,https://www.the-numbers.com//movie/Bran-Nue-Dae#tab=summary
 25113,The Four Seasons,6500000,42488161,1981-05-22,https://www.the-numbers.com//movie/Four-Seasons-The#tab=summary
 34723,The Adventures of Huck Finn,6500000,24103594,1993-04-02,https://www.the-numbers.com//movie/Adventures-of-Huck-Finn-The#tab=summary
 10496,Bats,6500000,10155691,1999-10-22,https://www.the-numbers.com//movie/Bats#tab=summary
@@ -765,7 +712,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 8545,Little Voice,6000000,21787233,1998-11-05,https://www.the-numbers.com//movie/Little-Voice#tab=summary
 19556,Miss March,6000000,4713059,2009-03-13,https://www.the-numbers.com//movie/Miss-March#tab=summary
 13403,Hedwig and the Angry Inch,6000000,3740030,2001-07-20,https://www.the-numbers.com//movie/Hedwig-and-the-Angry-Inch#tab=summary
-347764,Goddess of Love,,0,2015-08-31,https://www.the-numbers.com//movie/Goddess-of-Love#tab=summary
 31064,The Business of Strangers,6000000,1290920,2001-01-19,https://www.the-numbers.com//movie/Business-of-Strangers-The#tab=summary
 11583,The First Great Train Robbery,6000000,391942,1979-01-25,https://www.the-numbers.com//movie/First-Great-Train-Robbery-The#tab=summary
 18602,Morvern Callar,6000000,267194,2002-01-01,https://www.the-numbers.com//movie/Morvern-Callar#tab=summary
@@ -773,14 +719,15 @@ movie_id,title,budget,revenue,release_date,movie_url
 32395,The Greatest,6000000,117796,2009-01-17,https://www.the-numbers.com//movie/Greatest-The#tab=summary
 7547,Come Early Morning,6000000,119452,2006-01-10,https://www.the-numbers.com//movie/Come-Early-Morning#tab=summary
 35944,Lucky Break,6000000,4316497,2001-08-24,https://www.the-numbers.com//movie/Lucky-Break#tab=summary
-42222,Julia,,0,1977-10-02,https://www.the-numbers.com//movie/Julia-(1977)#tab=summary
+13827,"Surfer, Dude",6000000,36497,2008-09-05,https://www.the-numbers.com//movie/Surfer-Dude#tab=summary
 44260,Lake of Fire,6000000,26007,2006-09-09,https://www.the-numbers.com//movie/Lake-of-Fire#tab=summary
 9282,11:14,6000000,0,2003-05-16,https://www.the-numbers.com//movie/11-14#tab=summary
 38940,Men of War,6000000,0,1994-09-04,https://www.the-numbers.com//movie/Men-of-War#tab=summary
 35689,Don McKay,6000000,13722,2009-04-24,https://www.the-numbers.com//movie/Don-McKay#tab=summary
+97614,Deadfall,6000000,1673635,2012-11-08,https://www.the-numbers.com//movie/Deadfall#tab=summary
 37206,A Shine of Rainbows,6000000,0,2009-10-01,https://www.the-numbers.com//movie/Shine-of-Rainbows-A#tab=summary
 58626,The Hit List,6000000,0,2011-04-02,https://www.the-numbers.com//movie/Hit-List-The#tab=summary
-183894,Emma,,0,2009-10-11,https://www.the-numbers.com//movie/Emma-(2009)#tab=summary
+244783,Song One,6000000,437089,2014-01-20,https://www.the-numbers.com//movie/Song-One#tab=summary
 168027,Freaky Deaky,6000000,0,2012-04-22,https://www.the-numbers.com//movie/Freaky-Deaky#tab=summary
 135595,Trade Of Innocents,5800000,15091,2012-09-27,https://www.the-numbers.com//movie/Trade-of-Innocents#tab=summary
 89861,Stiff Upper Lips,5700000,69582,1998-06-12,https://www.the-numbers.com//movie/Stiff-Upper-Lips#tab=summary
@@ -797,7 +744,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 73532,Le Havre,5500000,13480196,2011-05-17,https://www.the-numbers.com//movie/Havre-Le#tab=summary
 979,Irreversible,5400000,8133256,2002-05-22,https://www.the-numbers.com//movie/Irreversible#tab=summary
 193722,R100,5500000,24956,2013-10-05,https://www.the-numbers.com//movie/R100#tab=summary
-253253,Animals,,22001,2014-05-15,https://www.the-numbers.com//movie/Animals-(2014)#tab=summary
 51995,Salvation Boulevard,5500000,28468,2011-07-15,https://www.the-numbers.com//movie/Salvation-Boulevard#tab=summary
 13173,The Ten,5250000,786677,2007-08-03,https://www.the-numbers.com//movie/Ten-The#tab=summary
 22908,A Room for Romeo Brass,5250000,20097,1999-08-23,https://www.the-numbers.com//movie/Room-for-Romeo-Brass-A#tab=summary
@@ -825,18 +771,14 @@ movie_id,title,budget,revenue,release_date,movie_url
 10786,Robin and Marian,5000000,8000000,1976-03-11,https://www.the-numbers.com//movie/Robin-and-Marian#tab=summary
 12484,The Forsaken,5000000,6755271,2001-04-27,https://www.the-numbers.com//movie/Forsaken-The#tab=summary
 11959,UHF,5000000,6157157,1989-07-21,https://www.the-numbers.com//movie/UHF#tab=summary
-9900,Grandma's Boy,,,2006-01-06,
 14662,Slums of Beverly Hills,5000000,5502773,1998-08-14,https://www.the-numbers.com//movie/Slums-of-Beverly-Hills#tab=summary
 21014,Keeping Up with the Steins,5000000,4414753,2006-05-12,https://www.the-numbers.com//movie/Keeping-Up-with-the-Steins#tab=summary
-3028,Jekyll and Hyde ... Together Again,,,1982-11-10,
 36351,Light Sleeper,5000000,1050861,1992-08-21,https://www.the-numbers.com//movie/Light-Sleeper#tab=summary
 14474,The Oh in Ohio,5000000,648183,2006-03-30,https://www.the-numbers.com//movie/Oh-in-Ohio-The#tab=summary
 8744,Albino Alligator,5000000,353480,1996-09-09,https://www.the-numbers.com//movie/Albino-Alligator#tab=summary
 38428,"Gandhi, My Father",5000000,1375194,2007-08-03,https://www.the-numbers.com//movie/Gandhi-My-Father#tab=summary
 8847,Standard Operating Procedure,5000000,332120,2008-02-12,https://www.the-numbers.com//movie/Standard-Operating-Procedure#tab=summary
-39269,Out of the Blue,,,1980-05-01,
 51384,"Lovely, Still",5000000,282687,2008-01-01,https://www.the-numbers.com//movie/Lovely-Still#tab=summary
-56930,Tycoon,,,1947-12-27,
 41730,Desert Blue,5000000,99147,1999-06-06,https://www.the-numbers.com//movie/Desert-Blue#tab=summary
 18442,Decoys,5000000,96760,2004-02-27,https://www.the-numbers.com//movie/Decoys#tab=summary
 71547,Fascination,5000000,83356,2004-10-13,https://www.the-numbers.com//movie/Fascination#tab=summary
@@ -848,11 +790,9 @@ movie_id,title,budget,revenue,release_date,movie_url
 19615,Flying By,5000000,4568257,2009-01-01,https://www.the-numbers.com//movie/Flying-By#tab=summary
 244403,Rudderless,5000000,567219,2014-10-17,https://www.the-numbers.com//movie/Rudderless#tab=summary
 292481,Henry & Me,5000000,0,2014-08-18,https://www.the-numbers.com//movie/Henry-and-Me#tab=summary
-340816,Christmas Eve,,91302,2015-12-04,https://www.the-numbers.com//movie/Christmas-Eve#tab=summary
 78814,We Have Your Husband,5000000,0,2011-11-12,https://www.the-numbers.com//movie/We-Have-Your-Husband#tab=summary
 297596,Dying of the Light,5000000,0,2014-12-04,https://www.the-numbers.com//movie/Dying-of-the-Light-(2015-Thriller)#tab=summary
 299552,Born Of War,5000000,0,2013-12-05,https://www.the-numbers.com//movie/Born-of-War#tab=summary
-11935,Capricorn One,,,1977-12-10,
 113406,Should've Been Romeo,5000000,0,2012-04-28,https://www.the-numbers.com//movie/Shouldve-Been-Romeo#tab=summary
 447027,Running Forever,5000000,0,2015-10-27,https://www.the-numbers.com//movie/Running-Forever#tab=summary
 290825,Yoga Hosers,5000000,2199,2016-07-08,https://www.the-numbers.com//movie/Yoga-Hosers#tab=summary
@@ -870,7 +810,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 166624,Treading Water,4700000,0,2013-09-13,https://www.the-numbers.com//movie/Treading-Water#tab=summary
 10822,Savage Grace,4600000,968805,2007-05-18,https://www.the-numbers.com//movie/Savage-Grace#tab=summary
 10844,Out of the Blue,4600000,731767,2006-10-12,https://www.the-numbers.com//movie/Out-of-the-Blue#tab=summary
-27686,State Fair,,10000000,1945-08-29,https://www.the-numbers.com//movie/State-Fair#tab=summary
 65749,Tango,4500000,5428387,1998-02-12,https://www.the-numbers.com//movie/Tango#tab=summary
 6106,Salvador,4500000,1500000,1986-04-23,https://www.the-numbers.com//movie/Salvador#tab=summary
 66607,Saving Private Perez,4500000,9330465,2011-03-18,https://www.the-numbers.com//movie/Salvando-al-Soldado-Perez#tab=summary
@@ -885,7 +824,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 281730,Fugly,4500000,0,2014-06-13,https://www.the-numbers.com//movie/Fugly#tab=summary
 362105,R.L. Stine's Monsterville: The Cabinet of Souls,4400000,0,2015-09-29,https://www.the-numbers.com//movie/RL-Stines-Monsterville-The-Cabinet-of-Souls#tab=summary
 10970,Silent Movie,4400000,36145695,1976-06-17,https://www.the-numbers.com//movie/Silent-Movie#tab=summary
-17663,Anne of Green Gables,,,1985-12-01,
 270938,Falcon Rising,4500000,11774,2014-09-05,https://www.the-numbers.com//movie/Falcon-Rising#tab=summary
 11826,Sexy Beast,4300000,10158355,2000-09-13,https://www.the-numbers.com//movie/Sexy-Beast#tab=summary
 29920,Easy Money,4300000,10212403,2010-01-15,https://www.the-numbers.com//movie/Snabba-Cash-(Remake)#tab=summary
@@ -920,33 +858,31 @@ movie_id,title,budget,revenue,release_date,movie_url
 29122,An Everlasting Piece,4000000,75078,2000-12-22,https://www.the-numbers.com//movie/Everlasting-Piece-An#tab=summary
 125123,Among Giants,4000000,64359,1998-06-24,https://www.the-numbers.com//movie/Among-Giants#tab=summary
 133575,The Velocity of Gary,4000000,34145,1999-07-16,https://www.the-numbers.com//movie/Velocity-of-Gary-The#tab=summary
+52015,Stake Land,4000000,679482,2010-09-30,https://www.the-numbers.com//movie/Stake-Land#tab=summary
 34941,The Last Time I Committed Suicide,4000000,12836,1997-06-20,https://www.the-numbers.com//movie/Last-Time-I-Committed-Suicide-The#tab=summary
 227975,Futuro Beach,4000000,760678,2014-05-01,https://www.the-numbers.com//movie/Praia-do-Futuro#tab=summary
 10981,Nothing,4000000,63180,2003-09-09,https://www.the-numbers.com//movie/Nothing#tab=summary
-225235,The Geographer Drank His Globe Away,,,2013-07-26,
 14902,1776,4000000,0,1972-11-09,https://www.the-numbers.com//movie/1776#tab=summary
 121676,Inescapable,4000000,4327,2012-09-14,https://www.the-numbers.com//movie/Inescapable#tab=summary
 20065,Purple Violets,4000000,0,2007-04-30,https://www.the-numbers.com//movie/Purple-Violets#tab=summary
 257087,The Veil,4000000,0,2016-04-21,https://www.the-numbers.com//movie/Veil-The-(BH-Tilt)#tab=summary
-46420,The Loved Ones,,,2009-09-13,
 114635,The Helpers,4000000,0,2012-10-27,https://www.the-numbers.com//movie/Helpers-The#tab=summary
 158150,How to Fall in Love,4000000,0,2012-07-21,https://www.the-numbers.com//movie/How-to-Fall-in-Love#tab=summary
 251979,The Perfect Wave,4000000,0,2014-02-28,https://www.the-numbers.com//movie/Perfect-Wave-The#tab=summary
 266102,Desert Dancer,4000000,324218,2014-07-03,https://www.the-numbers.com//movie/Desert-Dancer#tab=summary
+29715,Major Dundee,3800000,14873,1965-04-07,https://www.the-numbers.com//movie/Major-Dundee#tab=summary
 29262,The House of Sand,3750000,1178175,2005-05-13,https://www.the-numbers.com//movie/Casa-de-Areia#tab=summary
+34769,Defendor,3750000,44462,2009-09-12,https://www.the-numbers.com//movie/Defendor#tab=summary
 5178,The Good Heart,3800000,340930,2009-09-11,https://www.the-numbers.com//movie/Good-Heart-The#tab=summary
 352978,Chain of Command,4000000,0,2015-08-30,https://www.the-numbers.com//movie/Chain-of-Command#tab=summary
 40505,I Got the Hook Up,3500000,10317779,1998-05-27,https://www.the-numbers.com//movie/I-Got-the-Hook-Up#tab=summary
-22007,Train,,243743,2008-10-16,https://www.the-numbers.com//movie/Drawing-Restraint-9#tab=summary
 10615,Pootie Tang,3500000,3293258,2001-06-29,https://www.the-numbers.com//movie/Pootie-Tang#tab=summary
-205321,Sharknado,,0,2013-07-11,https://www.the-numbers.com//movie/Sharknado#tab=summary
 89540,The Other Conquest,3500000,886410,1999-04-01,https://www.the-numbers.com//movie/Otra-conquista-La#tab=summary
 38007,Ira & Abby,3500000,221096,2006-01-01,https://www.the-numbers.com//movie/Ira-and-Abby#tab=summary
 540,D.E.B.S.,3500000,96793,2004-01-21,https://www.the-numbers.com//movie/D-E-B-S#tab=summary
 370464,The Masked Saint,3500000,182695,2016-01-08,https://www.the-numbers.com//movie/Masked-Saint-The#tab=summary
 20055,The Betrayed,3500000,0,2008-09-27,https://www.the-numbers.com//movie/Betrayed-The#tab=summary
 224569,Taxman,3500000,9871,1999-09-16,https://www.the-numbers.com//movie/Taxman#tab=summary
-395766,The Secret,,0,2016-04-29,https://www.the-numbers.com//movie/Secret-The-(2018)#tab=summary
 39303,2:13,3500000,0,2009-04-25,https://www.the-numbers.com//movie/2-13#tab=summary
 142061,"Batman: The Dark Knight Returns, Part 2",3500000,0,2013-01-18,https://www.the-numbers.com//movie/Batman-The-Dark-Knight-Returns-Part-2#tab=summary
 370662,Time to Choose,3500000,29233,2015-09-04,https://www.the-numbers.com//movie/Time-to-Choose#tab=summary
@@ -960,6 +896,8 @@ movie_id,title,budget,revenue,release_date,movie_url
 850,A Christmas Story,3250000,20605209,1983-11-18,https://www.the-numbers.com//movie/Christmas-Story-A#tab=summary
 12586,Bella,3300000,12405473,2006-09-09,https://www.the-numbers.com//movie/Bella#tab=summary
 11564,Class of 1984,3250000,6965361,1982-08-20,https://www.the-numbers.com//movie/Class-of-1984#tab=summary
+301748,The Opposite Sex,3300000,40262,2014-11-08,https://www.the-numbers.com//movie/Opposite-Sex-The-(2015)#tab=summary
+108346,Dreaming of Joseph Lees,3250000,7680,1999-10-29,https://www.the-numbers.com//movie/Dreaming-of-Joseph-Lees#tab=summary
 8841,The Class,3250000,34114067,2008-09-24,https://www.the-numbers.com//movie/Entre-les-murs#tab=summary
 22051,Adam,3200000,2828590,2009-07-29,https://www.the-numbers.com//movie/Adam#tab=summary
 436,Maria Full of Grace,3200000,14441158,2004-01-18,https://www.the-numbers.com//movie/Maria-Full-of-Grace#tab=summary
@@ -967,8 +905,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 125490,Antiviral,3100000,123407,2012-09-19,https://www.the-numbers.com//movie/Antiviral#tab=summary
 23618,The Original Kings of Comedy,3000000,38236338,2000-08-18,https://www.the-numbers.com//movie/Original-Kings-of-Comedy-The#tab=summary
 10162,Waking Ned,3000000,55193251,1998-09-15,https://www.the-numbers.com//movie/Waking-Ned-Devine#tab=summary
-259943,Coming Home,,862287,2014-05-16,https://www.the-numbers.com//movie/Gui-lai#tab=summary
-223485,Slow West,,1393329,2015-04-16,https://www.the-numbers.com//movie/Slow-West#tab=summary
 29463,Krush Groove,3000000,11052713,1985-10-25,https://www.the-numbers.com//movie/Krush-Groove#tab=summary
 18065,Next Day Air,3000000,10172519,2009-02-06,https://www.the-numbers.com//movie/Next-Day-Air#tab=summary
 53862,Trippin',3000000,9017070,1999-05-12,https://www.the-numbers.com//movie/Trippin#tab=summary
@@ -989,13 +925,12 @@ movie_id,title,budget,revenue,release_date,movie_url
 11229,Freeway,3000000,295493,1996-08-23,https://www.the-numbers.com//movie/Freeway-(1996)#tab=summary
 22488,Love's Abiding Joy,3000000,252726,2006-10-06,https://www.the-numbers.com//movie/Loves-Abiding-Joy#tab=summary
 82533,Damsels in Distress,3000000,1324299,2012-04-06,https://www.the-numbers.com//movie/Damsels-in-Distress#tab=summary
-50942,Creature,,1108,1998-05-17,https://www.the-numbers.com//movie/Creature-(2000)#tab=summary
-34099,Brave New Girl,,,2004-04-25,
 79940,Tim and Eric's Billion Dollar Movie,3000000,223652,2012-03-02,https://www.the-numbers.com//movie/Tim-and-Eric-s-Billion-Dollar-Movie#tab=summary
 342,Summer Storm,3000000,95204,2004-09-02,https://www.the-numbers.com//movie/Sommersturm#tab=summary
 281230,Fort McCoy,3000000,78948,2014-01-01,https://www.the-numbers.com//movie/Fort-McCoy#tab=summary
 38033,Chain Letter,3000000,1022453,2010-10-01,https://www.the-numbers.com//movie/Chain-Letter#tab=summary
 100975,Just Looking,3000000,39852,1999-10-21,https://www.the-numbers.com//movie/Just-Looking#tab=summary
+38541,The Divide,3000000,156362,2011-03-13,https://www.the-numbers.com//movie/Divide-The#tab=summary
 39563,The Eclipse,3000000,133411,2009-04-24,https://www.the-numbers.com//movie/Eclipse-The#tab=summary
 27404,My Big Fat Independent Movie,3000000,4655,2005-03-04,https://www.the-numbers.com//movie/My-Big-Fat-Independent-Movie#tab=summary
 170480,The Deported,3000000,0,2010-06-15,https://www.the-numbers.com//movie/Deported-The#tab=summary
@@ -1008,7 +943,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 176077,Enter the Dangerous Mind,3000000,0,2013-03-11,https://www.the-numbers.com//movie/Enter-the-Dangerous-Mind#tab=summary
 260947,Something Wicked,3000000,0,2014-04-04,https://www.the-numbers.com//movie/Something-Wicked#tab=summary
 342502,AWOL-72,3000000,0,2015-08-07,https://www.the-numbers.com//movie/AWOL-72#tab=summary
-191229,Iguana,,,1988-04-01,
 43213,Chicago Overcoat,3000000,0,2009-10-10,https://www.the-numbers.com//movie/Chicago-Overcoat#tab=summary
 44594,Barry Munday,3000000,0,2010-03-13,https://www.the-numbers.com//movie/Barry-Munday#tab=summary
 325173,Close Range,3000000,0,2015-12-11,https://www.the-numbers.com//movie/Close-Range#tab=summary
@@ -1030,14 +964,13 @@ movie_id,title,budget,revenue,release_date,movie_url
 9591,That Thing You Do!,2500000,34557416,1996-10-04,https://www.the-numbers.com//movie/That-Thing-You-Do#tab=summary
 181330,Kevin Hart: Let Me Explain,2500000,32327255,2013-07-03,https://www.the-numbers.com//movie/Kevin-Hart-Let-Me-Explain#tab=summary
 468,My Own Private Idaho,2500000,6401336,1991-10-17,https://www.the-numbers.com//movie/My-Own-Private-Idaho#tab=summary
-50538,Evil Words,,,2003-10-03,
 25636,Jesus' Son,2500000,1687548,1999-09-05,https://www.the-numbers.com//movie/Jesus-Son#tab=summary
 19316,Saving Face,2500000,1269705,2004-09-12,https://www.the-numbers.com//movie/Saving-Face#tab=summary
 21074,Brick Lane,2500000,3838486,2007-11-16,https://www.the-numbers.com//movie/Brick-Lane#tab=summary
 20,My Life Without Me,2500000,12267275,2003-03-07,https://www.the-numbers.com//movie/My-Life-Without-Me#tab=summary
 13007,Religulous,2500000,13881317,2008-10-01,https://www.the-numbers.com//movie/Religulous#tab=summary
 13518,Fuel,2500000,174255,2008-11-14,https://www.the-numbers.com//movie/Fuel#tab=summary
-116584,Valley of the Heart's Delight,,,2006-04-24,
+46849,Eye of the Dolphin,2500000,72260,2007-08-24,https://www.the-numbers.com//movie/Eye-of-the-Dolphin#tab=summary
 40428,8: The Mormon Proposition,2500000,100280,2010-01-01,https://www.the-numbers.com//movie/8-The-Mormon-Proposition#tab=summary
 17334,The Other End of the Line,2500000,507446,2008-10-29,https://www.the-numbers.com//movie/Other-End-of-the-Line-The#tab=summary
 1698,Anatomy,2500000,9598,2000-02-03,https://www.the-numbers.com//movie/Anatomie#tab=summary
@@ -1046,28 +979,22 @@ movie_id,title,budget,revenue,release_date,movie_url
 332285,Antibirth,2500000,0,2016-09-02,https://www.the-numbers.com//movie/Antibirth#tab=summary
 13569,Thr3e,2400000,1420418,2006-12-01,https://www.the-numbers.com//movie/Thr3e#tab=summary
 356216,The Rise of the Krays,2500000,0,2015-08-29,https://www.the-numbers.com//movie/Rise-of-the-Krays-The#tab=summary
-146631,U.F.O.,,,2012-12-14,
 61038,Go for It!,2450000,182358,2011-05-13,https://www.the-numbers.com//movie/Go-For-It#tab=summary
 78373,"Dancer, Texas Pop. 81",2300000,574838,1998-05-01,https://www.the-numbers.com//movie/Dancer-Texas-Pop-81#tab=summary
 74457,Redemption Road,2300000,29384,2011-08-26,https://www.the-numbers.com//movie/Redemption-Road#tab=summary
-283384,The Calling,,0,2014-08-05,https://www.the-numbers.com//movie/Calling-The-(2014)#tab=summary
 19933,The Brave Little Toaster,2300000,0,1987-07-09,https://www.the-numbers.com//movie/Brave-Little-Toaster-The#tab=summary
 433715,8 Days,2500000,0,2014-06-15,https://www.the-numbers.com//movie/8-Days#tab=summary
 9916,The Last Sin Eater,2200000,388390,2007-02-09,https://www.the-numbers.com//movie/Last-Sin-Eater-The#tab=summary
 309425,Do You Believe?,2300000,14305450,2015-03-20,https://www.the-numbers.com//movie/Do-You-Believe#tab=summary
 14156,Impact Point,2200000,0,2008-06-13,https://www.the-numbers.com//movie/Impact-Point#tab=summary
-360339,Eden,,0,2015-10-22,https://www.the-numbers.com//movie/Eden-(2012)#tab=summary
 31163,Chicken Tikka Masala,2160000,37865,2005-04-22,https://www.the-numbers.com//movie/Chicken-Tikka-Masala#tab=summary
-297621,There's Always Woodstock,,,2014-11-14,
 16205,Jack Brooks: Monster Slayer,2150000,0,2007-10-09,https://www.the-numbers.com//movie/Jack-Brooks-Monster-Slayer#tab=summary
 9517,Bully,2100000,1381824,2001-06-15,https://www.the-numbers.com//movie/Bully#tab=summary
 6007,Elling,2100000,313436,2001-03-16,https://www.the-numbers.com//movie/Elling#tab=summary
+364083,Mi America,2100000,3330,2015-10-16,https://www.the-numbers.com//movie/Mi-America#tab=summary
 69640,Lies in Plain Sight,2100000,0,2010-10-03,https://www.the-numbers.com//movie/Lies-in-Plain-Sight#tab=summary
 371085,Sharkskin,2100000,0,2015-01-01,https://www.the-numbers.com//movie/Sharkskin#tab=summary
-347548,Containment,,1428,2015-07-09,https://www.the-numbers.com//movie/Containment#tab=summary
 322443,The Timber,2100000,0,2015-02-27,https://www.the-numbers.com//movie/Timber-The#tab=summary
-28165,The Toxic Avenger Part II,,,1989-02-24,
-12207,The Legend of Drunken Master,,,1994-02-03,
 20862,Smoke Signals,2000000,7756617,1998-01-16,https://www.the-numbers.com//movie/Smoke-Signals#tab=summary
 2771,American Splendor,2000000,8685632,2003-08-15,https://www.the-numbers.com//movie/American-Splendor#tab=summary
 11194,Touching the Void,2000000,15396525,2003-09-05,https://www.the-numbers.com//movie/Touching-the-Void#tab=summary
@@ -1080,36 +1007,29 @@ movie_id,title,budget,revenue,release_date,movie_url
 55561,Clockwatchers,2000000,539961,1997-01-01,https://www.the-numbers.com//movie/Clockwatchers#tab=summary
 24363,House of D,2000000,466106,2005-04-15,https://www.the-numbers.com//movie/House-of-D#tab=summary
 13121,Teeth,2000000,2350641,2007-01-19,https://www.the-numbers.com//movie/Teeth#tab=summary
-325140,Hum To Mohabbat Karega,,,2000-05-26,
 22913,24 7: Twenty Four Seven,2000000,72544,1997-08-31,https://www.the-numbers.com//movie/24-7-Twenty-Four-Seven#tab=summary
 67373,This Thing of Ours,2000000,37227,2005-01-01,https://www.the-numbers.com//movie/This-Thing-of-Ours#tab=summary
 171759,The Lost Medallion: The Adventures of Billy Stone,2500000,549632,2013-03-01,https://www.the-numbers.com//movie/Lost-Medallion-The#tab=summary
 206296,The Last Five Years,2000000,147299,2014-11-03,https://www.the-numbers.com//movie/Last-5-Years-The#tab=summary
 35219,The Missing Person,2000000,17896,2009-01-16,https://www.the-numbers.com//movie/Missing-Person-The#tab=summary
+28260,Return of the Living Dead 3,2000000,21000,1993-10-01,https://www.the-numbers.com//movie/Return-of-the-Living-Dead-3#tab=summary
 7515,London,2000000,12667,2005-02-10,https://www.the-numbers.com//movie/London#tab=summary
-335866,Circle,,0,2015-10-02,https://www.the-numbers.com//movie/Circle-(2015)#tab=summary
 13510,Eden Lake,2000000,4294373,2008-09-12,https://www.the-numbers.com//movie/Eden-Lake#tab=summary
 215881,Plush,2000000,28864,2013-09-13,https://www.the-numbers.com//movie/Plush#tab=summary
 18238,Lesbian Vampire Killers,2000000,3620902,2009-03-16,https://www.the-numbers.com//movie/Lesbian-Vampire-Killers#tab=summary
 22600,Gangster's Paradise: Jerusalema,2000000,10679,2008-02-11,https://www.the-numbers.com//movie/Jerusalema#tab=summary
 12612,Freeze Frame,2000000,105377,2004-05-01,https://www.the-numbers.com//movie/Freeze-Frame#tab=summary
 50698,Grave Encounters,2000000,2151887,2011-09-09,https://www.the-numbers.com//movie/Grave-Encounters#tab=summary
+115210,Stitches,2000000,63555,2012-05-19,https://www.the-numbers.com//movie/Stitches#tab=summary
 34335,Nine Dead,2000000,0,2010-01-01,https://www.the-numbers.com//movie/Nine-Dead#tab=summary
 459488,"To Be Frank, Sinatra at 100",2000000,926,2015-12-12,https://www.the-numbers.com//movie/To-Be-Frank-Sinatra-at-100#tab=summary
-119458,Supercapitalist,,15919,2012-08-10,https://www.the-numbers.com//movie/Supercapitalist#tab=summary
 20406,Rockaway,2000000,0,2007-07-07,https://www.the-numbers.com//movie/Rockaway#tab=summary
-3766,The Lady from Shanghai,,,1947-12-24,
 18616,No Man's Land: The Rise of Reeker,2000000,0,2008-05-01,https://www.the-numbers.com//movie/No-Mans-Land-The-Rise-of-Reeker#tab=summary
-18808,Highway,,0,2002-01-01,https://www.the-numbers.com//movie/Highway-(2002)#tab=summary
 95755,Small Apartments,2000000,0,2012-03-10,https://www.the-numbers.com//movie/Small-Apartments#tab=summary
 198062,Coffee Town,2000000,0,2013-07-09,https://www.the-numbers.com//movie/Coffee-Town#tab=summary
 188652,The Ghastly Love of Johnny X,2000000,2436,2013-04-26,https://www.the-numbers.com//movie/Ghastly-Love-of-Johnny-X-The#tab=summary
-174311,All Is Bright,,4556,2013-09-10,https://www.the-numbers.com//movie/All-is-Bright#tab=summary
-12602,The Torture Chamber of Dr. Sadism,,,1967-10-05,
 153795,Straight A's,2000000,0,2013-01-16,https://www.the-numbers.com//movie/Straight-A-s#tab=summary
-17768,A Funny Thing Happened on the Way to the Forum,,,1966-10-16,
 13516,Slacker Uprising,2000000,0,2007-09-27,https://www.the-numbers.com//movie/Slacker-Uprising#tab=summary
-98549,The Legend of Hell's Gate: An American Conspiracy,,,2011-03-03,
 312793,The Walking Deceased,2000000,0,2015-03-20,https://www.the-numbers.com//movie/Walking-Deceased-The#tab=summary
 309919,The Curse of Downers Grove,2000000,0,2015-08-21,https://www.the-numbers.com//movie/Curse-of-Downers-Grove-The#tab=summary
 299553,Shark Lake,2000000,0,2015-10-02,https://www.the-numbers.com//movie/Shark-Lake#tab=summary
@@ -1121,18 +1041,14 @@ movie_id,title,budget,revenue,release_date,movie_url
 12838,One to Another,1900000,139317,2006-07-21,https://www.the-numbers.com//movie/Chacun-sa-nuit#tab=summary
 157293,ABCD (Any Body Can Dance),1900000,10137234,2013-02-07,https://www.the-numbers.com//movie/ABCD-(2012)#tab=summary
 14048,Man on Wire,1900000,5617067,2008-07-25,https://www.the-numbers.com//movie/Man-on-Wire#tab=summary
-356987,Abandoned,,0,2015-08-30,https://www.the-numbers.com//movie/Abandoned#tab=summary
 295886,Brotherly Love,1900000,478595,2015-04-24,https://www.the-numbers.com//movie/Brotherly-Love#tab=summary
 33511,Nowhere Boy,1900000,7785229,2009-12-25,https://www.the-numbers.com//movie/Nowhere-Boy#tab=summary
-542,The Crime of Padre Amaro,,,2002-10-01,
 62677,Songcatcher,1800000,3050934,2001-03-01,https://www.the-numbers.com//movie/Songcatcher#tab=summary
 260778,Vaalu,1900000,12444,2015-08-14,https://www.the-numbers.com//movie/Vaalu#tab=summary
 58492,The Greatest Movie Ever Sold,1800000,783733,2011-04-22,https://www.the-numbers.com//movie/POM-Wonderful-Presents-The-Greatest-Movie-Ever-Sold#tab=summary
 44562,Ed and His Dead Mother,1800000,673,1993-06-04,https://www.the-numbers.com//movie/Ed-and-his-Dead-Mother#tab=summary
 37232,Travellers and Magicians,1800000,1322161,2003-09-09,https://www.the-numbers.com//movie/Travellers-and-Magicians#tab=summary
-36334,Deadline - U.S.A.,,,1952-03-14,
 9783,Sublime,1800000,0,2007-06-15,https://www.the-numbers.com//movie/Sublime#tab=summary
-386826,A Beginner's Guide to Snuff,,,2016-03-04,
 205126,Independence Daysaster,1800000,0,2013-06-27,https://www.the-numbers.com//movie/Independence-Daysaster#tab=summary
 98557,Dysfunctional Friends,1800000,0,2012-02-03,https://www.the-numbers.com//movie/Dysfunctional-Friends#tab=summary
 246449,Against the Wild,1800000,0,2013-12-29,https://www.the-numbers.com//movie/Against-the-Wild#tab=summary
@@ -1144,13 +1060,8 @@ movie_id,title,budget,revenue,release_date,movie_url
 27455,Foolish,1600000,6026908,1999-04-09,https://www.the-numbers.com//movie/Foolish#tab=summary
 66468,N-Secure,1600000,2595644,2010-10-15,https://www.the-numbers.com//movie/N-Secure#tab=summary
 7973,Caramel,1600000,14253760,2007-07-01,https://www.the-numbers.com//movie/Sukkar-banat#tab=summary
-283686,Out of the Dark,,24487,2014-08-27,https://www.the-numbers.com//movie/Out-of-the-Dark-(2014)#tab=summary
-15976,The Bubble,,157121,2006-06-06,https://www.the-numbers.com//movie/Ha-Buah#tab=summary
 74084,Dil Jo Bhi Kahey...,1600000,129319,2006-12-07,https://www.the-numbers.com//movie/Dil-Jo-Bhi-Kahey#tab=summary
-1651,Mississippi Mermaid,,,1969-06-18,
 25428,I Love Your Work,1600000,3264,2003-10-05,https://www.the-numbers.com//movie/I-Love-Your-Work#tab=summary
-298584,Cabin Fever,,4825,2016-02-12,https://www.the-numbers.com//movie/Cabin-Fever-(Remake)#tab=summary
-308529,Kickboxer: Vengeance,,78794,2016-07-14,https://www.the-numbers.com//movie/Kickboxer-Vengeance#tab=summary
 20156,Exotica,1500000,5046118,1994-09-24,https://www.the-numbers.com//movie/Exotica#tab=summary
 18079,Nine Queens,1500000,12412889,2000-08-31,https://www.the-numbers.com//movie/Nueve-Reinas#tab=summary
 127918,The Gatekeepers,1500000,2592308,2012-07-09,https://www.the-numbers.com//movie/Gatekeepers-The#tab=summary
@@ -1159,11 +1070,13 @@ movie_id,title,budget,revenue,release_date,movie_url
 13066,I Want Someone to Eat Cheese With,1500000,194568,2006-01-01,https://www.the-numbers.com//movie/I-Want-Someone-To-Eat-Cheese-With#tab=summary
 66025,Mooz-lum,1500000,372239,2011-02-11,https://www.the-numbers.com//movie/MOOZ-lum#tab=summary
 11908,Hatchet,1500000,240396,2006-04-27,https://www.the-numbers.com//movie/Hatchet#tab=summary
+3082,Modern Times,1500000,165049,1936-02-05,https://www.the-numbers.com//movie/Modern-Times#tab=summary
 39541,Stolen Summer,1500000,119841,2002-03-22,https://www.the-numbers.com//movie/Stolen-Summer#tab=summary
 51820,The Salon,1500000,139084,2005-01-13,https://www.the-numbers.com//movie/Salon-The#tab=summary
 291362,Road Hard,1500000,113169,2015-03-06,https://www.the-numbers.com//movie/Road-Hard#tab=summary
 30082,Forty Shades of Blue,1500000,172569,2005-12-07,https://www.the-numbers.com//movie/Forty-Shades-of-Blue#tab=summary
 72913,Amigo,1500000,184705,2010-07-14,https://www.the-numbers.com//movie/Amigo#tab=summary
+23963,Pontypool,1500000,31916,2009-03-06,https://www.the-numbers.com//movie/Pontypool#tab=summary
 29406,Trucker,1500000,52429,2008-04-24,https://www.the-numbers.com//movie/Trucker#tab=summary
 361505,Me You and Five Bucks,1500000,2105,2015-07-07,https://www.the-numbers.com//movie/Me-You-and-Five-Bucks#tab=summary
 253306,Housebound,1500000,236863,2014-09-04,https://www.the-numbers.com//movie/Housebound#tab=summary
@@ -1174,7 +1087,6 @@ movie_id,title,budget,revenue,release_date,movie_url
 290370,Mutant World,1500000,0,2014-09-27,https://www.the-numbers.com//movie/Mutant-World#tab=summary
 426469,Growing Up Smith,2000000,35312,2017-02-03,https://www.the-numbers.com//movie/Growing-up-Smith#tab=summary
 356841,Checkmate,1500000,0,2015-07-03,https://www.the-numbers.com//movie/Checkmate#tab=summary
-301325,#Horror,,,2015-11-20,
 347755,Wind Walkers,2000000,0,2016-01-28,https://www.the-numbers.com//movie/Wind-Walkers#tab=summary
 44413,The Holy Girl,1400000,1261792,2004-05-06,https://www.the-numbers.com//movie/The-Holy-Girl(La-nina-santa)#tab=summary
 48463,Incident at Loch Ness,1400000,56073,2004-12-17,https://www.the-numbers.com//movie/Incident-at-Loch-Ness#tab=summary
@@ -1188,11 +1100,8 @@ movie_id,title,budget,revenue,release_date,movie_url
 27845,Trees Lounge,1300000,749741,1996-10-11,https://www.the-numbers.com//movie/Trees-Lounge#tab=summary
 52790,The Basket,1300000,609042,2000-05-05,https://www.the-numbers.com//movie/Basket-The#tab=summary
 100275,Eddie: The Sleepwalking Cannibal,1400000,1632,2012-04-22,https://www.the-numbers.com//movie/Eddie-The-Sleepwalking-Cannibal#tab=summary
-295914,Queen of the Mountains,,,2014-08-22,
 42033,Def-Con 4,1300000,210904,1985-03-15,https://www.the-numbers.com//movie/Def-Con-4#tab=summary
 19187,The Hebrew Hammer,1300000,90213,2003-01-01,https://www.the-numbers.com//movie/Hebrew-Hammer-The#tab=summary
-46415,Neal 'n' Nikki,,,2005-12-09,
-38570,The 41–Year–Old Virgin Who Knocked Up Sarah Marshall and Felt Superbad About It,,,2010-06-08,
 27588,Forget Me Not,1300000,13465,2009-10-22,https://www.the-numbers.com//movie/Forget-Me-Not#tab=summary
 84197,Filly Brown,1250000,2940411,2013-04-19,https://www.the-numbers.com//movie/Filly-Brown#tab=summary
 46256,The Lion of Judah,1500000,0,2011-06-03,https://www.the-numbers.com//movie/Lion-of-Judah-The#tab=summary
@@ -1203,30 +1112,24 @@ movie_id,title,budget,revenue,release_date,movie_url
 480,Monsoon Wedding,1200000,27025600,2001-08-30,https://www.the-numbers.com//movie/Monsoon-Wedding#tab=summary
 14295,You Can Count on Me,1200000,10827356,2000-11-17,https://www.the-numbers.com//movie/You-Can-Count-on-Me#tab=summary
 20770,But I'm a Cheerleader,1200000,2509344,1999-09-12,https://www.the-numbers.com//movie/But-I-m-a-Cheerleader#tab=summary
-60400,The Blue Bird,,,1940-01-19,
 310569,The Second Mother,1200000,3048209,2015-02-08,https://www.the-numbers.com//movie/Que-Horas-Ela-Volta#tab=summary
 98369,Blue Like Jazz,1200000,595018,2012-04-13,https://www.the-numbers.com//movie/Blue-Like-Jazz#tab=summary
 114065,Down & Out With The Dolls,1200000,58936,2003-03-20,https://www.the-numbers.com//movie/Down-and-Out-with-the-Dolls#tab=summary
-49951,Certifiably Jonathan,,,2007-03-01,
-86331,Desire,,59192,2011-09-14,https://www.the-numbers.com//movie/Roman-Polanski-Wanted-and-Desired#tab=summary
+89750,"Pink Ribbons, Inc.",1200000,26608,2011-09-11,https://www.the-numbers.com//movie/Pink-Ribbons-Inc#tab=summary
 355629,The Blade of Don Juan,1200000,4254,2013-10-27,https://www.the-numbers.com//movie/navaja-de-Don-Juan-La#tab=summary
 16433,Grand Theft Parsons,1200000,0,2003-06-18,https://www.the-numbers.com//movie/Grand-Theft-Parsons#tab=summary
 15544,Extreme Movie,1200000,81338,2008-12-05,https://www.the-numbers.com//movie/Extreme-Movie#tab=summary
 107315,Below Zero,1200000,0,2011-10-22,https://www.the-numbers.com//movie/Below-Zero#tab=summary
 137955,Crowsnest,1200000,0,2012-01-01,https://www.the-numbers.com//movie/Crowsnest#tab=summary
-59917,Cotton Comes to Harlem,,,1970-05-27,
 157422,The Wicked Within,1200000,0,2015-10-16,https://www.the-numbers.com//movie/Wicked-Within-The#tab=summary
 310933,Bleeding Hearts,1200000,0,2013-06-01,https://www.the-numbers.com//movie/Bleeding-Hearts#tab=summary
 12877,Dead Man's Shoes,1125000,414736,2004-09-29,https://www.the-numbers.com//movie/Dead-Mans-Shoes#tab=summary
 102840,Sex With Strangers,1100000,247740,2002-02-22,https://www.the-numbers.com//movie/Sex-with-Strangers#tab=summary
 55616,Dracula: Pages from a Virgin's Diary,1100000,81371,2002-02-28,https://www.the-numbers.com//movie/Dracula-Pages-from-a-Virgins-Diary#tab=summary
-29697,Faith Like Potatoes,,,2006-10-27,
 50037,Beyond the Black Rainbow,1100000,56491,2010-12-03,https://www.the-numbers.com//movie/Beyond-the-Black-Rainbow#tab=summary
-53502,The Dead Undead,,,2010-05-13,
 202604,The Vatican Exorcisms,1100000,0,2013-05-29,https://www.the-numbers.com//movie/Vatican-Exorcisms-The#tab=summary
 27374,Lake Mungo,1100000,0,2008-06-17,https://www.the-numbers.com//movie/Lake-Mungo#tab=summary
 26815,Rocket Singh: Salesman of the Year,1070000,5348767,2009-12-11,https://www.the-numbers.com//movie/Rocket-Singh-Salesman-of-the-Year#tab=summary
-811,Silent Running,,,1972-03-09,
 244776,The Sleepwalker,1100000,2636,2014-01-20,https://www.the-numbers.com//movie/Sleepwalker-The#tab=summary
 93856,Chernobyl Diaries,1000000,42411721,2012-05-24,https://www.the-numbers.com//movie/Chernobyl-Diaries#tab=summary
 7944,Shine a Light,1000000,16173879,2008-02-07,https://www.the-numbers.com//movie/Shine-a-Light#tab=summary
@@ -1264,9 +1167,10 @@ movie_id,title,budget,revenue,release_date,movie_url
 55180,The Last Big Thing,1000000,22434,1998-09-23,https://www.the-numbers.com//movie/Last-Big-Thing-The#tab=summary
 29015,The Specials,1000000,12996,2000-09-22,https://www.the-numbers.com//movie/Specials-The#tab=summary
 91122,16 to Life,1000000,11574,2009-09-19,https://www.the-numbers.com//movie/16-to-Life#tab=summary
+18206,Alone With Her,1000000,844377,2006-04-28,https://www.the-numbers.com//movie/Alone-with-Her#tab=summary
 320146,Creative Control,1000000,63014,2016-03-11,https://www.the-numbers.com//movie/Creative-Control#tab=summary
+13856,Special,1000000,26822,2006-01-30,https://www.the-numbers.com//movie/Special#tab=summary
 219716,Sparkler,1000000,5494,1999-03-19,https://www.the-numbers.com//movie/Sparkler#tab=summary
-43630,The Helix... Loaded,,,2005-01-01,
 56491,In Her Line of Fire,1000000,884,2006-04-21,https://www.the-numbers.com//movie/In-Her-Line-of-Fire#tab=summary
 99826,The Jimmy Show,1000000,703,2002-01-16,https://www.the-numbers.com//movie/Jimmy-Show-The#tab=summary
 186935,Heli,1000000,552614,2013-08-09,https://www.the-numbers.com//movie/Heli#tab=summary
@@ -1275,19 +1179,15 @@ movie_id,title,budget,revenue,release_date,movie_url
 242083,Hits,1000000,15156,2014-01-21,https://www.the-numbers.com//movie/Hits#tab=summary
 18869,Jimmy and Judy,1000000,0,2006-01-01,https://www.the-numbers.com//movie/Jimmy-and-Judy#tab=summary
 26673,Frat Party,1000000,0,2009-01-01,https://www.the-numbers.com//movie/Frat-Party#tab=summary
-41830,The Party's Over,,,1965-04-22,
 37694,Proud,1000000,0,2004-07-02,https://www.the-numbers.com//movie/Proud#tab=summary
 63287,The Poker House,1000000,0,2008-06-20,https://www.the-numbers.com//movie/Poker-House-The#tab=summary
 335874,Childless,1000000,1036,2015-04-03,https://www.the-numbers.com//movie/Childless#tab=summary
-34592,ZMD: Zombies of Mass Destruction,,,2009-01-01,
 92635,Snow White: A Deadly Summer,1000000,0,2012-03-16,https://www.the-numbers.com//movie/Snow-White-A-Deadly-Summer#tab=summary
 258755,Hidden Away,1000000,0,2014-10-03,https://www.the-numbers.com//movie/Hidden-Away#tab=summary
 96534,My Last Day Without You,1000000,0,2011-06-11,https://www.the-numbers.com//movie/My-Last-Day-Without-You#tab=summary
 21283,Steppin: The Movie,1000000,0,2009-05-19,https://www.the-numbers.com//movie/Steppin-The-Movie#tab=summary
 272724,Doc Holliday's Revenge,1000000,0,2014-06-01,https://www.the-numbers.com//movie/Doc-Holliday-s-Revenge#tab=summary
 84178,Black Rock,1000000,0,2012-01-21,https://www.the-numbers.com//movie/Black-Rock#tab=summary
-101179,Truth or Dare,,,2012-08-05,
-52462,The Pet,,,2006-05-17,
 269057,Bang Bang Baby,1000000,0,2014-09-08,https://www.the-numbers.com//movie/Bang-Bang-Baby#tab=summary
 287524,Fear Clinic,1000000,0,2014-10-31,https://www.the-numbers.com//movie/Fear-Clinic#tab=summary
 206213,Zombie Hunter,1000000,0,2013-07-25,https://www.the-numbers.com//movie/Zombie-Hunter#tab=summary
@@ -1296,60 +1196,49 @@ movie_id,title,budget,revenue,release_date,movie_url
 271185,Ask Me Anything,950000,0,2014-04-19,https://www.the-numbers.com//movie/Ask-Me-Anything#tab=summary
 29731,And Then Came Love,989000,8158,2007-01-01,https://www.the-numbers.com//movie/And-Then-Came-Love#tab=summary
 292539,Food Chains,913000,0,2014-04-26,https://www.the-numbers.com//movie/Food-Chains#tab=summary
-323270,The Horror Network Vol. 1,,,2015-10-27,
+91070,L!fe Happens,930000,30905,2011-06-18,https://www.the-numbers.com//movie/Life-Happens#tab=summary
 60421,Circumstance,900000,958978,2011-08-26,https://www.the-numbers.com//movie/Circumstance#tab=summary
 157354,Fruitvale Station,900000,17549645,2013-07-25,https://www.the-numbers.com//movie/Fruitvale-Station#tab=summary
 127867,The Brass Teapot,900000,413733,2012-09-08,https://www.the-numbers.com//movie/Brass-Teapot-The#tab=summary
 14014,The Hammer,850000,442638,2007-04-01,https://www.the-numbers.com//movie/Hammer-The-(2008)#tab=summary
-146882,Elza,,,2011-04-11,
-215918,1982,,,2013-12-31,
 84184,Celeste & Jesse Forever,840000,3787689,2012-08-03,https://www.the-numbers.com//movie/Celeste-and-Jesse-Forever#tab=summary
 45767,Time Changer,825000,1500711,2002-10-25,https://www.the-numbers.com//movie/Time-Changer#tab=summary
-14823,London to Brighton,,,2006-12-01,
 367551,American Hero,1000000,26,2015-12-11,https://www.the-numbers.com//movie/American-Hero#tab=summary
 343409,Windsor Drive,850000,3256,2015-06-26,https://www.the-numbers.com//movie/Windsor-Drive#tab=summary
 60243,A Separation,800000,24426169,2011-03-15,https://www.the-numbers.com//movie/Jodaeiye-Nader-az-Simin#tab=summary
 57294,Crying with Laughter,820000,16909,2009-06-01,https://www.the-numbers.com//movie/Crying-With-Laughter#tab=summary
 11446,Welcome to the Dollhouse,800000,5034794,1995-05-24,https://www.the-numbers.com//movie/Welcome-to-the-Dollhouse#tab=summary
-905,Pandora's Box,,,1929-01-30,
 279759,Harrison Montgomery,850000,0,2008-01-01,https://www.the-numbers.com//movie/Harrison-Montgomery#tab=summary
-78705,Live-In Maid,,,2004-09-21,
 25212,Deterrence,800000,371647,2000-03-10,https://www.the-numbers.com//movie/Deterrence#tab=summary
-146269,The Young Unknowns,,,2000-03-12,
+26899,The Mudge Boy,800000,62544,2003-01-17,https://www.the-numbers.com//movie/Mudge-Boy-The#tab=summary
 292483,Not Cool,800000,35688,2014-09-23,https://www.the-numbers.com//movie/Not-Cool#tab=summary
 10105,Saints and Soldiers,780000,1310470,2003-09-11,https://www.the-numbers.com//movie/Saints-and-Soldiers#tab=summary
-211557,Vessel,,,2012-10-28,
 40862,Iraq for Sale: The War Profiteers,775000,0,2006-01-01,https://www.the-numbers.com//movie/Iraq-for-Sale-The-War-Profiteers#tab=summary
 13158,Aqua Teen Hunger Force Colon Movie Film for Theaters,750000,5520368,2007-04-13,https://www.the-numbers.com//movie/Aqua-Teen-Hunger-Force-The-Movie#tab=summary
 74510,Kevin Hart: Laugh at My Pain,750000,7712436,2011-09-09,https://www.the-numbers.com//movie/Kevin-Hart-Laugh-at-My-Pain#tab=summary
-8416,The Conformist,,,1970-10-21,
+58428,The Innkeepers,750000,1011535,2011-12-01,https://www.the-numbers.com//movie/Innkeepers-The#tab=summary
 36584,Interview with the Assassin,750000,47329,2002-05-09,https://www.the-numbers.com//movie/Interview-with-the-Assassin#tab=summary
 13429,Donkey Punch,750000,814801,2008-07-18,https://www.the-numbers.com//movie/Donkey-Punch#tab=summary
-9022,All the Boys Love Mandy Lane,,,2008-02-15,
 22530,Bled,750000,0,2008-01-01,https://www.the-numbers.com//movie/Bled#tab=summary
 2287,Rize,700000,4857731,2005-01-15,https://www.the-numbers.com//movie/Rize#tab=summary
 206197,The Sisterhood of Night,1000000,6870,2015-04-10,https://www.the-numbers.com//movie/Sisterhood-of-Night-The#tab=summary
 26837,B-Girl,700000,1160,2009-07-29,https://www.the-numbers.com//movie/B-Girl#tab=summary
+302579,Naturally Native,700000,10508,1999-10-08,https://www.the-numbers.com//movie/Naturally-Native#tab=summary
 51955,Hav Plenty,650000,2301777,1997-09-11,https://www.the-numbers.com//movie/Hav-Plenty#tab=summary
 376004,Adulterers,750000,0,2016-01-05,https://www.the-numbers.com//movie/Adulterers#tab=summary
 158752,Escape from Tomorrow,650000,171962,2013-10-11,https://www.the-numbers.com//movie/Escape-from-Tomorrow#tab=summary
 40658,Starsuckers,640000,14812,2009-09-30,https://www.the-numbers.com//movie/Starsuckers#tab=summary
-296943,The Hadza:  Last of the First,,,2014-10-31,
-118612,After,,34358,2012-08-27,https://www.the-numbers.com//movie/After-(2014)#tab=summary
 138976,Treachery,625000,0,2013-05-16,https://www.the-numbers.com//movie/Treachery#tab=summary
 323967,Walter,700000,0,2015-03-13,https://www.the-numbers.com//movie/Walter#tab=summary
+2667,The Blair Witch Project,600000,248300000,1999-07-14,https://www.the-numbers.com//movie/Blair-Witch-Project-The#tab=summary
 11598,The Kentucky Fried Movie,600000,20000000,1977-08-10,https://www.the-numbers.com//movie/Kentucky-Fried-Movie#tab=summary
 26916,Mercy Streets,600000,173599,2000-10-31,https://www.the-numbers.com//movie/Mercy-Streets#tab=summary
-181940,Carousel of Revenge,,,2007-07-20,
 125263,Broken Vessels,600000,85343,1998-04-18,https://www.the-numbers.com//movie/Broken-Vessels#tab=summary
 263503,Water & Power,600000,42557,2014-05-02,https://www.the-numbers.com//movie/Water-and-Power-(2013-Drama)#tab=summary
 324322,They Will Have to Kill Us First,600000,7943,2015-10-13,https://www.the-numbers.com//movie/They-Will-Have-to-Kill-Us-First#tab=summary
 331493,Light from the Darkroom,600000,0,2014-01-01,https://www.the-numbers.com//movie/Light-from-the-Darkroom#tab=summary
-375950,The Country Doctor,,12065463,2016-03-23,https://www.the-numbers.com//movie/Medecin-de-Campagne-(France)#tab=summary
 278348,The Maid's Room,600000,0,2014-08-08,https://www.the-numbers.com//movie/Maids-Room-The#tab=summary
-70875,The Harvest (La Cosecha),,,2011-07-29,
 75986,Love Letters,550000,5269990,1983-04-01,https://www.the-numbers.com//movie/Love-Letters#tab=summary
-385636,Juliet and Alfa Romeo,,,2015-09-17,
 211086,Faith Connections,550000,9111,2013-11-21,https://www.the-numbers.com//movie/Faith-Connections#tab=summary
 23069,Benji,500000,31559560,1974-10-17,https://www.the-numbers.com//movie/Benji#tab=summary
 89857,High Road,546173,0,2012-03-06,https://www.the-numbers.com//movie/High-Road#tab=summary
@@ -1370,15 +1259,12 @@ movie_id,title,budget,revenue,release_date,movie_url
 84318,The Other Dream Team,500000,314444,2012-09-28,https://www.the-numbers.com//movie/Other-Dream-Team-The#tab=summary
 45145,Johnny Suede,500000,55000,1991-08-18,https://www.the-numbers.com//movie/Johnny-Suede#tab=summary
 13983,Finishing The Game,500000,53201,2007-01-21,https://www.the-numbers.com//movie/Finishing-the-Game#tab=summary
+45649,Rubber,500000,680914,2010-07-09,https://www.the-numbers.com//movie/Rubber#tab=summary
 19844,Kiss the Bride,500000,32033,2007-01-01,https://www.the-numbers.com//movie/Kiss-the-Bride-(2008)#tab=summary
 21801,The Slaughter Rule,500000,13134,2002-01-01,https://www.the-numbers.com//movie/Slaughter-Rule-The#tab=summary
 73511,The Californians,500000,4134,2005-10-21,https://www.the-numbers.com//movie/Californians-The#tab=summary
-43653,The Living Wake,,,2007-01-01,
 139715,Detention of the Dead,500000,1778,2012-04-27,https://www.the-numbers.com//movie/Detention-of-the-Dead#tab=summary
-45380,Crazy Stone,,,2006-01-01,
-30867,Scott Walker: 30 Century Man,,,2006-10-31,
 81220,Everything Put Together,500000,7890,2001-11-02,https://www.the-numbers.com//movie/Everything-Put-Together#tab=summary
-253626,Good Kill,,703380,2015-04-09,https://www.the-numbers.com//movie/Good-Kill#tab=summary
 294550,The Outrageous Sophie Tucker,500000,0,2014-05-02,https://www.the-numbers.com//movie/Outrageous-Sophie-Tucker-The#tab=summary
 90369,Now Is Good,500000,2141436,2012-05-25,https://www.the-numbers.com//movie/Now-is-Good#tab=summary
 117942,Girls Gone Dead,500000,0,2012-03-28,https://www.the-numbers.com//movie/Girls-Gone-Dead#tab=summary
@@ -1394,25 +1280,23 @@ movie_id,title,budget,revenue,release_date,movie_url
 297100,The Little Ponderosa Zoo,500000,0,2014-09-11,https://www.the-numbers.com//movie/Little-Ponderosa-Zoo-The#tab=summary
 15239,The Toxic Avenger,475000,0,1984-05-01,https://www.the-numbers.com//movie/Toxic-Avenger-The#tab=summary
 94072,Straight Out of Brooklyn,450000,2712293,1991-06-13,https://www.the-numbers.com//movie/Straight-out-of-Brooklyn#tab=summary
-4107,Bloody Sunday,,773228,2002-01-16,https://www.the-numbers.com//movie/Bloody-Sunday#tab=summary
 325579,Diamond Ruff,500000,0,2015-01-01,https://www.the-numbers.com//movie/Diamond-Ruff#tab=summary
 17287,Poultrygeist: Night of the Chicken Dead,450000,22623,2006-12-26,https://www.the-numbers.com//movie/Poultrygeist-Night-of-the-Chicken-Dead#tab=summary
 198370,Mutual Friends,450000,0,2014-04-15,https://www.the-numbers.com//movie/Mutual-Friends#tab=summary
-328307,Rise of the Entrepreneur: The Search for a Better Way,,,2014-11-20,
 15389,Metropolitan,430000,2938000,1990-08-03,https://www.the-numbers.com//movie/Metropolitan#tab=summary
-464,As It Is in Heaven,,,2004-09-03,
 308467,Roadside,500000,0,2013-03-01,https://www.the-numbers.com//movie/Roadside#tab=summary
 188166,Blue Ruin,420000,435168,2014-04-25,https://www.the-numbers.com//movie/Blue-Ruin#tab=summary
+23827,Paranormal Activity,450000,194183034,2007-09-14,https://www.the-numbers.com//movie/Paranormal-Activity#tab=summary
 1282,Dogtown and Z-Boys,400000,1600566,2001-01-18,https://www.the-numbers.com//movie/Dogtown-and-Z-Boys#tab=summary
 64499,Quinceañera,400000,2797199,2006-06-05,https://www.the-numbers.com//movie/Quinceanera#tab=summary
 281189,Gory Gory Hallelujah,425000,12604,2003-11-05,https://www.the-numbers.com//movie/Gory-Gory-Hallelujah#tab=summary
+1435,Tarnation,400000,1162014,2003-10-19,https://www.the-numbers.com//movie/Tarnation#tab=summary
 47546,I Want Your Money,400000,433588,2010-07-06,https://www.the-numbers.com//movie/I-Want-Your-Money#tab=summary
 189711,Love in the Time of Monsters,500000,0,2014-03-08,https://www.the-numbers.com//movie/Love-in-the-Time-of-Monsters#tab=summary
 19204,The Beyond,400000,126387,1981-04-22,https://www.the-numbers.com//movie/E-tu-vivrai-nel-terrore-Laldila#tab=summary
 18045,The Dark Hours,400000,423,2005-03-11,https://www.the-numbers.com//movie/Dark-Hours-The#tab=summary
 43743,Fabled,400000,31425,2002-01-01,https://www.the-numbers.com//movie/Fabled#tab=summary
 157909,Show Me,400000,0,2004-09-23,https://www.the-numbers.com//movie/Show-Me-(2004)#tab=summary
-10238,Cries and Whispers,,,1972-12-21,
 15800,Trekkies,375000,617172,1997-10-18,https://www.the-numbers.com//movie/Trekkies#tab=summary
 319069,Censored Voices,450000,42503,2015-01-24,https://www.the-numbers.com//movie/Siakh-lokhamim-ha-slilim-ha-gnouzim#tab=summary
 25678,American Ninja 2: The Confrontation,350000,4000000,1987-05-01,https://www.the-numbers.com//movie/American-Ninja-2-The-Confrontation#tab=summary
@@ -1422,18 +1306,15 @@ movie_id,title,budget,revenue,release_date,movie_url
 38810,Dogtooth,323000,1373407,2009-06-01,https://www.the-numbers.com//movie/Dogtooth#tab=summary
 11956,When the Cat's Away,300000,2525984,1996-04-03,https://www.the-numbers.com//movie/When-The-Cats-Away#tab=summary
 1550,Pieces of April,300000,3571253,2003-01-19,https://www.the-numbers.com//movie/Pieces-of-April#tab=summary
-162396,The Big Swap,,,1998-06-11,
 26518,Old Joy,300000,399908,2006-01-01,https://www.the-numbers.com//movie/Old-Joy#tab=summary
 8942,Wendy and Lucy,300000,1416046,2008-05-22,https://www.the-numbers.com//movie/Wendy-and-Lucy#tab=summary
 68412,3 Backyards,300000,39475,2010-01-01,https://www.the-numbers.com//movie/3-Backyards#tab=summary
-2786,Pierrot le Fou,,,1965-08-29,
 87943,Sisters in Law,300000,33312,2005-09-03,https://www.the-numbers.com//movie/Sisters-in-Law#tab=summary
-91721,Nothing But a Man,,,1964-01-01,
+118452,"First Love, Last Rites",300000,10876,1998-08-07,https://www.the-numbers.com//movie/First-Love-Last-Rites#tab=summary
 47534,Fighting Tommy Riley,300000,10514,2005-05-06,https://www.the-numbers.com//movie/Fighting-Tommy-Riley#tab=summary
 40914,Royal Kill,350000,0,2009-04-10,https://www.the-numbers.com//movie/Royal-Kill#tab=summary
 365052,The Looking Glass,300000,1711,2015-10-23,https://www.the-numbers.com//movie/Looking-Glass-The#tab=summary
 250184,Locker 13,300000,3496,2014-03-29,https://www.the-numbers.com//movie/Locker-13#tab=summary
-426067,Midnight Cabaret,,,1990-01-01,
 324352,Anderson's Cross,300000,0,2010-05-20,https://www.the-numbers.com//movie/Andersons-Cross#tab=summary
 318040,Bizarre,500000,0,2015-02-07,https://www.the-numbers.com//movie/Brooklyn-Bizarre-(France)#tab=summary
 27420,Graduation Day,250000,23894000,1981-05-01,https://www.the-numbers.com//movie/Graduation-Day#tab=summary
@@ -1450,15 +1331,13 @@ movie_id,title,budget,revenue,release_date,movie_url
 325123,Teeth and Blood,300000,0,2015-03-10,https://www.the-numbers.com//movie/Teeth-and-Blood#tab=summary
 142132,Sugar Town,250000,178095,1999-09-17,https://www.the-numbers.com//movie/Sugar-Town#tab=summary
 20520,The Motel,250000,51540,2005-01-01,https://www.the-numbers.com//movie/Motel-The#tab=summary
+109729,The Canyons,250000,62375,2013-07-29,https://www.the-numbers.com//movie/Canyons-The#tab=summary
 78307,On the Outs,250000,237816,2004-09-11,https://www.the-numbers.com//movie/On-the-Outs#tab=summary
 12247,Shotgun Stories,250000,284174,2007-10-01,https://www.the-numbers.com//movie/Shotgun-Stories#tab=summary
-29917,Exam,,120712,2009-06-19,https://www.the-numbers.com//movie/Examined-Life#tab=summary
-70687,The Sticky Fingers of Time,,,1997-06-06,
 60463,Sunday School Musical,250000,0,2008-10-21,https://www.the-numbers.com//movie/Sunday-School-Musical#tab=summary
 46252,Rust,250000,0,2010-10-07,https://www.the-numbers.com//movie/Rust#tab=summary
 24869,Ink,250000,0,2009-01-23,https://www.the-numbers.com//movie/Ink#tab=summary
 77934,The Christmas Bunny,250000,0,2010-11-28,https://www.the-numbers.com//movie/Christmas-Bunny-The#tab=summary
-34697,Butterfly,,,1982-02-05,
 320435,UnDivided,250000,0,2013-02-01,https://www.the-numbers.com//movie/Undivided#tab=summary
 150211,The Frozen,250000,0,2012-10-10,https://www.the-numbers.com//movie/Frozen-The#tab=summary
 306667,Horse Camp,250000,0,2015-01-10,https://www.the-numbers.com//movie/Horse-Camp#tab=summary
@@ -1469,16 +1348,9 @@ movie_id,title,budget,revenue,release_date,movie_url
 77332,Urbania,225000,1032075,2000-01-24,https://www.the-numbers.com//movie/Urbania#tab=summary
 194588,Short Cut to Nirvana: Kumbh Mela,200000,439651,2004-05-11,https://www.the-numbers.com//movie/Short-Cut-to-Nirvana-Kumbh-Mela#tab=summary
 83588,Middle of Nowhere,200000,236806,2012-10-12,https://www.the-numbers.com//movie/Middle-of-Nowhere#tab=summary
-53256,Three,,0,2010-12-23,https://www.the-numbers.com//movie/Three-and-Out#tab=summary
-40920,The Business of Fancydancing,,,2002-01-14,
-287815,Call + Response,,,2008-10-10,
 54702,Malevolence,200000,346106,2004-09-10,https://www.the-numbers.com//movie/Malevolence#tab=summary
-176074,Reality Show,,,2015-01-01,
-69270,Super Hybrid,,,2010-01-01,
 5759,Baghead,200000,140016,2008-01-21,https://www.the-numbers.com//movie/Baghead#tab=summary
-402515,American Beast,,,2014-10-21,
 126141,The Case of the Grinning Cat,200000,7033,2004-12-05,https://www.the-numbers.com//movie/Case-of-the-Grinning-Cat-The#tab=summary
-48035,Ordet,,,1955-01-09,
 14758,Good Dick,200000,52443,2008-10-03,https://www.the-numbers.com//movie/Good-Dick#tab=summary
 13363,The Man from Earth,200000,0,2007-06-10,https://www.the-numbers.com//movie/Man-From-Earth-The#tab=summary
 37985,The Trials Of Darryl Hunt,200000,1217,2007-06-15,https://www.the-numbers.com//movie/Trials-of-Darryl-Hunt-The#tab=summary
@@ -1487,51 +1359,42 @@ movie_id,title,budget,revenue,release_date,movie_url
 361398,Theresa Is a Mother,200000,0,2015-09-25,https://www.the-numbers.com//movie/Theresa-Is-a-Mother#tab=summary
 289180,H.,200000,0,2014-08-28,https://www.the-numbers.com//movie/H-(2014)#tab=summary
 288927,Archaeology of a Woman,200000,0,2014-09-12,https://www.the-numbers.com//movie/Archaeology-of-a-Woman#tab=summary
+79120,Weekend,190000,1577585,2011-09-22,https://www.the-numbers.com//movie/Weekend#tab=summary
 27995,She's Gotta Have It,175000,7137502,1986-08-08,https://www.the-numbers.com//movie/Shes-Gotta-Have-It#tab=summary
 253290,Butterfly Girl,180000,17503,2014-03-10,https://www.the-numbers.com//movie/Butterfly-Girl#tab=summary
 344466,The World Is Mine,168000,29827,2015-06-05,https://www.the-numbers.com//movie/Lumea-e-a-mea#tab=summary
 408429,Perfect Cowboy,200000,0,2014-07-13,https://www.the-numbers.com//movie/Perfect-Cowboy#tab=summary
-28666,The Woman Chaser,,,1999-10-08,
 30979,The Horse Boy,160000,156612,2009-11-25,https://www.the-numbers.com//movie/Horse-Boy-The#tab=summary
-50497,When the Lights Went Out,,,2012-01-31,
 354624,Heroes of Dirt,175000,0,2015-09-04,https://www.the-numbers.com//movie/Heroes-of-Dirt#tab=summary
-13187,A Charlie Brown Christmas,,,1965-12-09,
-335244,Antarctic Edge: 70° South,,,2015-04-17,
 178862,Aroused,150000,0,2013-02-20,https://www.the-numbers.com//movie/Aroused#tab=summary
 331745,Top Spin,150000,5858,2014-11-15,https://www.the-numbers.com//movie/Top-Spin#tab=summary
 282128,An American in Hollywood,125000,0,2014-07-18,https://www.the-numbers.com//movie/American-in-Hollywood-An#tab=summary
 86812,Sound of My Voice,135000,429448,2011-01-22,https://www.the-numbers.com//movie/Sound-of-My-Voice#tab=summary
 38786,The Blood of My Brother: A Story of Death in Iraq,120000,0,2005-11-25,https://www.the-numbers.com//movie/Blood-of-My-Brother-The#tab=summary
 18632,A Dog's Breakfast,120000,0,2007-03-03,https://www.the-numbers.com//movie/Dog-s-Breakfast-A#tab=summary
-40652,The Married Woman,,,1964-12-04,
 266857,The Work and The Story,103000,16137,2003-01-01,https://www.the-numbers.com//movie/Work-and-the-Story-The#tab=summary
+985,Eraserhead,100000,7012524,1977-03-19,https://www.the-numbers.com//movie/Eraserhead#tab=summary
 34101,Hollywood Shuffle,100000,5228617,1987-03-20,https://www.the-numbers.com//movie/Hollywood-Shuffle#tab=summary
 9821,The Mighty,100000,6121582,1998-10-23,https://www.the-numbers.com//movie/Mighty-The#tab=summary
 65448,Penitentiary,100000,287000,1979-12-01,https://www.the-numbers.com//movie/Penitentiary#tab=summary
-18841,The Lost Skeleton of Cadavra,,,2001-09-12,
-272726,Dude Where's My Dog?,,,2014-06-12,
 175291,Cheap Thrills,100000,59424,2013-03-08,https://www.the-numbers.com//movie/Cheap-Thrills#tab=summary
 80215,Indie Game: The Movie,100000,0,2012-05-18,https://www.the-numbers.com//movie/Indie-Game-The-Movie#tab=summary
-13538,Straightheads,,,2007-04-27,
-51130,Open Secret,,,1948-02-14,
 270554,Echo Dr.,100000,0,2013-11-08,https://www.the-numbers.com//movie/Echo-Dr#tab=summary
-72086,The Night Visitor,,,1971-01-01,
 268917,The Past Is a Grotesque Animal,100000,20056,2014-06-15,https://www.the-numbers.com//movie/Past-is-a-Grotesque-Animal-The#tab=summary
 64973,"Peace, Propaganda & the Promised Land",70000,4930,2005-01-28,https://www.the-numbers.com//movie/Peace-Propaganda-and-the-Promised-Land#tab=summary
-90414,"I Love You, Don't Touch Me!",,,1997-01-21,
+473,Pi,68000,4678513,1998-07-10,https://www.the-numbers.com//movie/Pi-(1998)#tab=summary
 111794,20 Dates,66000,602920,1998-01-01,https://www.the-numbers.com//movie/20-Dates#tab=summary
 360188,Queen Crab,75000,0,2015-09-29,https://www.the-numbers.com//movie/Queen-Crab#tab=summary
+9372,Super Size Me,65000,22233808,2004-01-17,https://www.the-numbers.com//movie/Super-Size-Me#tab=summary
 85860,The FP,60000,0,2011-03-13,https://www.the-numbers.com//movie/FP-The#tab=summary
 244534,Happy Christmas,70000,30312,2014-06-26,https://www.the-numbers.com//movie/Happy-Christmas#tab=summary
-33468,The Brain That Wouldn't Die,,,1962-02-25,
 294086,Tiger Orange,100000,0,2014-07-26,https://www.the-numbers.com//movie/Tiger-Orange#tab=summary
 139998,Supporting Characters,60000,4917,2012-01-23,https://www.the-numbers.com//movie/Supporting-Characters#tab=summary
 74777,Absentia,70000,8555,2011-03-03,https://www.the-numbers.com//movie/Absentia#tab=summary
 16388,The Brothers McMullen,50000,10426506,1995-08-09,https://www.the-numbers.com//movie/Brothers-McMullen-The#tab=summary
 159770,The Dirties,55000,0,2013-10-04,https://www.the-numbers.com//movie/Dirties-The#tab=summary
-42109,Gabriela,,0,1983-03-24,https://www.the-numbers.com//movie/Gabriela-(1984)#tab=summary
+47607,Tiny Furniture,50000,424149,2010-11-12,https://www.the-numbers.com//movie/Tiny-Furniture#tab=summary
 193603,Hayride,60000,0,2012-10-13,https://www.the-numbers.com//movie/Hayride#tab=summary
-84659,The Naked Ape,,,2006-09-16,
 322745,Counting,50000,8374,2015-02-09,https://www.the-numbers.com//movie/Counting#tab=summary
 20981,The Call of Cthulhu,50000,0,2005-01-01,https://www.the-numbers.com//movie/Call-of-Cthulhu-The#tab=summary
 174362,Bending Steel,50000,0,2013-04-20,https://www.the-numbers.com//movie/Bending-Steel#tab=summary
@@ -1542,17 +1405,15 @@ movie_id,title,budget,revenue,release_date,movie_url
 125537,Smiling Fish & Goat On Fire,40000,277233,1999-09-16,https://www.the-numbers.com//movie/Smiling-Fish-and-Goat-on-Fire#tab=summary
 326576,Dawn of the Crescent Moon,75000,8799,2014-04-05,https://www.the-numbers.com//movie/Dawn-of-the-Crescent-Moon#tab=summary
 228550,Raymond Did It,40000,3632,2011-03-27,https://www.the-numbers.com//movie/Raymond-Did-It#tab=summary
-13963,The Last Waltz,,,1978-05-01,
 290391,"Run, Hide, Die",50000,0,2015-09-01,https://www.the-numbers.com//movie/Run-Hide-Die#tab=summary
 44770,The Exploding Girl,40000,25572,2009-04-22,https://www.the-numbers.com//movie/Exploding-Girl-The#tab=summary
 69382,The Legend of God's Gun,30000,243768,2007-07-08,https://www.the-numbers.com//movie/Legend-of-Gods-Gun-The#tab=summary
 40769,Mutual Appreciation,30000,103509,2005-03-01,https://www.the-numbers.com//movie/Mutual-Appreciation#tab=summary
 220490,Her Cry: La Llorona Investigation,35000,0,2013-04-19,https://www.the-numbers.com//movie/Her-Cry-La-Llorona-Investigation#tab=summary
-42497,Pink Narcissus,,,1971-01-01,
-33693,Funny Ha Ha,,,2002-09-20,
+42151,Down Terrace,30000,9812,2009-09-01,https://www.the-numbers.com//movie/Down-Terrace#tab=summary
+2292,Clerks,27000,3894240,1994-09-13,https://www.the-numbers.com//movie/Clerks#tab=summary
 14585,In the Company of Men,25000,2883661,1997-01-19,https://www.the-numbers.com//movie/In-the-Company-of-Men#tab=summary
 185465,Manito,25000,0,2002-01-15,https://www.the-numbers.com//movie/Manito#tab=summary
-38780,Rampage,,0,2009-08-14,https://www.the-numbers.com//movie/Rampage-Killing-Without-Reason#tab=summary
 14022,Slacker,23000,1227508,1990-07-27,https://www.the-numbers.com//movie/Slacker#tab=summary
 366967,Dutch Kills,25000,0,2015-10-02,https://www.the-numbers.com//movie/Dutch-Kills#tab=summary
 255266,Dry Spell,22000,0,2013-02-14,https://www.the-numbers.com//movie/Dry-Spell#tab=summary
@@ -1565,11 +1426,10 @@ movie_id,title,budget,revenue,release_date,movie_url
 39851,Clean,10000,138711,2004-09-01,https://www.the-numbers.com//movie/Clean#tab=summary
 13898,The Circle,10000,673780,2000-09-08,https://www.the-numbers.com//movie/Dayereh#tab=summary
 157185,Tin Can Man,12000,0,2007-01-01,https://www.the-numbers.com//movie/Tin-Can-Man#tab=summary
-182291,On The Downlow,,,2004-04-11,
-286939,Sanctuary: Quite a Conundrum,,,2012-01-20,
 124606,Bang,10000,527,1995-09-09,https://www.the-numbers.com//movie/Bang#tab=summary
+14337,Primer,7000,841926,2004-10-08,https://www.the-numbers.com//movie/Primer#tab=summary
 67238,Cavite,7000,71644,2005-03-12,https://www.the-numbers.com//movie/Cavite#tab=summary
 72766,Newlyweds,9000,4584,2011-12-26,https://www.the-numbers.com//movie/Newlyweds#tab=summary
 231617,"Signed, Sealed, Delivered",5000,0,2013-10-13,https://www.the-numbers.com//movie/Signed-Sealed-Delivered#tab=summary
-126186,Shanghai Calling,,10443,2012-05-03,https://www.the-numbers.com//movie/Shanghai-Calling#tab=summary
 25975,My Date with Drew,1100,181041,2005-08-05,https://www.the-numbers.com//movie/My-Date-With-Drew#tab=summary
+16340, Rugrats in Paris, 30000000, 103284813, 2000-11-17, https://www.the-numbers.com/movie/Rugrats-in-Paris#tab=summary
