@@ -177,7 +177,7 @@ def clean_no_json(tmdb_movie_df, meta_list, json_columns, interim_data_path, ext
     merged['release_date_y'].fillna(dt(1900,1,1), inplace=True)
     merged['release_date'] = np.max(merged[['release_date_x', 'release_date_y']], axis=1)
 
-    merged = merged.drop(labels=['budget_x', 'budget_y','revenue_x', 'revenue_y', 'release_date_x', 'release_date_y', 'movie_url'], axis=1)
+    final_movie_df = merged.drop(labels=['budget_x', 'budget_y','revenue_x', 'revenue_y', 'release_date_x', 'release_date_y', 'movie_url'], axis=1)
 
     #if some budget & revenue data is still be missing, filter out those movies
     final_movie_df.to_csv(os.path.join(ext_data_path,'tmdb_movie_main_final.csv'), index=False)
