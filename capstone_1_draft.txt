@@ -2,6 +2,7 @@ The Problem
 ----------- 
 The film industry is already a billion dollar industry and steadily growing. The global box office revenue is forecast to increase 50 billion U.S. dollars in 2020. The film "Avatar" is the current record holder for worldwide box office revenue is $2.8 billion with an estimated budget of $237 million. The risk, however, can be as great as the reward. One of the biggest box office bombs is "13th Warrior" which claimed an estimated loss of $129 million. Film studio executives and investors are constantly inundated with sales pitches for movies. How can anyone navigate the risk and choose a profitable film to finance? What does the next box office hit look like?
 
+
 The Client
 ----------
 Film studios and investors who are considering financing a film.
@@ -41,5 +42,9 @@ Alternative Datasets
 --------------------
 Data could also be obtained from other movie databases such as IMDB. There is also a Python API for TMDB -- as well as IMDB -- but it is currently not functioning properly. The same can also be said about the IMDB API. 
 
+
 Initial Findings
 ----------------
+There are several variables that go into the making of a movie and influence its success. The focus of analysis so far has been on variables that can be defined prior to film production -- and prior to a major financial commitment. When a movie is pitched to studios and other financiers, several variables are already defined such as the director, lead actors, associated genres, and expected runtime. 
+
+Exploring the data led to some interesting discoveries regarding net revenue and net revenue percentage. The net revenue is calculated by subtracing the production budget from the worldwide box office revenue. The net revenue percentage is calculated by dividing the net revenue by the production budget. It was clear that the movies with the highest net revenue also required the largest production budget. On the other hand, it was th lower budget films that were typically produced the highest net revenue percentage. 
