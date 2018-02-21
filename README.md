@@ -9,6 +9,9 @@ The [TMBDB data set from Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata
 
 The `tmdb_credits.csv` file contains cast and crew data including names, character names, job title, and the order of billed actors. The `tmdb_movies.csv` file contains all other information regarding each movie including title, budget, revenue, language, popularity, runtime, viewer rating data, and release date. 
 
+# Alternative Datasets
+Data could also be obtained from other movie databases such as IMDB. There is also a Python API for TMDB -- as well as IMDB -- but it is currently not functioning properly. The same can also be said about the IMDB API. 
+
 # Cleaning the Data
 The `cleaning_data.py` script contains the code to conduct the initial munging of the raw csv files. After cleaning the data cleaned data files were saved with *\*_cleaned.csv* suffix. 
 
@@ -27,16 +30,27 @@ The JSON and non-JSON data columns were separated and saved into individual csv 
 
 Although there were no null values present in the data, there were numerous cases where a movie had $0 in budget and revenue, as well as 0 minutes runtime. A web scraper (see `movie_scraper.py`) was developed in Python to obtain data from searching the database in www.the-numbers.com. The search results contained links for a movie webpage that contained budget, revenue, and runtime data. The budget was referred to as *Production Budget*, runtime was referred to as *Running Time*, and the revenue was determined by taking the max value of Domestic, International, and Worldwide Box Office revenue due to the possibility that some movies only had Domestic or International revenue data. In some cases, the movie title from TMDB did not match the database in www.the-numbers.com and IMDB was cross referenced to find other possible titles. As this process was highly labor intensive, alternative titles were found for only a handful of movies as the dataset was already a significant sample of the movie population. For movies that returned several results from a title search, the correct result was determined based on release date. It was observed that movies with the same title would not be released within several years of each other. If the scraper was unable to find budget, revenue, and/or runtime information on the website; the movie was deleted from the dataset. Out of 5000 movies in the original dataset, 4357 remained after cleaning process.
 
-# Alternative Datasets
-Data could also be obtained from other movie databases such as IMDB. There is also a Python API for TMDB -- as well as IMDB -- but it is currently not functioning properly. The same can also be said about the IMDB API. 
-
 # Initial Findings
-There are several variables that go into the making of a movie and influence its success. The focus of analysis so far has been on variables that can be defined prior to film production -- and prior to a major financial commitment. When a movie is pitched to studios and other financiers, several variables are already defined such as the director, lead actors, associated genres, and expected runtime. 
+There are several variables that go into the making of a movie and influence its success. The focus of analysis so far has been on variables that can be defined prior to film production; and prior to a major financial commitment. When a movie is pitched to studios and other financiers, several variables are already defined such as the director, lead actors, writer, release date, and proposed budget. 
 
-Exploring the data led to some interesting discoveries regarding net revenue and net revenue percentage. The net revenue is calculated by subtracing the production budget from the worldwide box office revenue. The net revenue percentage is calculated by dividing the net revenue by the production budget. It was clear that the movies with the highest net revenue also required the largest production budget. On the other hand, the lower budget that were often found at the top of the list of movies that produced the highest net revenue percentage. 
+Exploring the data led to some interesting discoveries regarding net revenue and net revenue percentage. The net revenue is calculated by subtracing the production budget from the worldwide box office revenue. The net revenue percentage is calculated by dividing the net revenue by the production budget. 
 
-The distribution of successful movies based on release date also showed that more hits were released either at the beginning or end of the month. This is most likely explained by the fact that most major US holidays also fall at the beginning or end of the month. It was also interesting to observe that most movies for both hits and flops were released in September.
+net revenue = budget - revenue
 
+net revenue percentage = (budget - revenue) / revenue
+
+The dataset are split into two main categories: `hits` and `flops`. Any movie that produced a positive net revenue was considered a `hit` movie. The remaining films who failed to break even are considered `flops`. The goal of this project is to be able to predict a `hit` movie based on the features defined that would be defined at the initial pitch of a film.
+
+## Budget and Revenue
+As expected, there was a strong positive linear correlation between budget and net revenue. It was clear that the movies with the highest net revenue also required the largest production budget. On the other hand, the lower budget that were often found at the top of the list of movies that produced the highest net revenue percentage. 
+
+## Actors
 There was also a trend in the average net revenue of all credits for veteran actors versus the net revenue of movies from new faces. Actors with more film credits had a much lower average for net revenue. The highest average net revenue belonged to less experienced actors. This may be evidence regression to the mean for an actor's success.
 
+## Directors
+
+## Release Date
+The distribution of successful movies based on release date also showed that more hits were released either at the beginning or end of the month. This is most likely explained by the fact that most major US holidays also fall at the beginning or end of the month. It was also interesting to observe that most movies for both hits and flops were released in September.
+
+## Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. The same method was used to observe any trends with genres. Most movies in general had between 2 and 3 genres associated with them. Dramas and comedies, however, were the most likely movies to be profitable.
