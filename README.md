@@ -10,7 +10,7 @@ The [TMBDB data set from Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata
 The `tmdb_credits.csv` file contains cast and crew data including names, character names, job title, and the order of billed actors. The `tmdb_movies.csv` file contains all other information regarding each movie including title, budget, revenue, language, popularity, runtime, viewer rating data, and release date. 
 
 # Cleaning the Data
-The `cleaning_data.py` script contains the code to conduct the initial munging of the raw csv files. After cleaning the data cleaned data files were saved with *_cleaned.csv* suffix. 
+The `cleaning_data.py` script contains the code to conduct the initial munging of the raw csv files. After cleaning the data cleaned data files were saved with *\*_cleaned.csv* suffix. 
 
 The process of cleaning `tmdb_movies.csv` includes:
 * removing`original_title` and `homepage` columns
