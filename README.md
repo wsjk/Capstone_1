@@ -5,7 +5,7 @@ Film studios and investors who are considering financing a film.
 The film industry is already a billion dollar industry and steadily growing. The global box office revenue is forecast to increase 50 billion U.S. dollars in 2020. The film "Avatar" is the current record holder for worldwide box office revenue is $2.8 billion with an estimated budget of $237 million. The risk, however, can be as great as the reward. One of the biggest box office bombs is "13th Warrior" which claimed an estimated loss of $129 million. Film studio executives and investors are constantly inundated with sales pitches for movies. How can anyone navigate the risk and choose a profitable film to finance? What does the next box office hit look like?
 
 # The Dataset
-The movie data is obtained from [Kaggle's TMDB dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata/data). The link contains a zip file that contains two csv files: `tmdb_credits.csv`, `tmdb_movies.csv`.
+The [TMBDB data set from Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata/data) contains information for 5000 films. The link contains a zip file that contains two csv files: `tmdb_credits.csv`, `tmdb_movies.csv`.
 
 The `tmdb_credits.csv` file contains cast and crew data including names, character names, job title, and the order of billed actors. The `tmdb_movies.csv` file contains all other information regarding each movie including title, budget, revenue, language, popularity, runtime, viewer rating data, and release date. 
 
