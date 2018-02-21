@@ -41,16 +41,16 @@ net revenue percentage = (budget - revenue) / revenue
 
 The dataset are split into two main categories: `hits` and `flops`. Any movie that produced a positive net revenue was considered a `hit` movie. The remaining films who failed to break even are considered `flops`. The goal of this project is to be able to predict a `hit` movie based on the features defined that would be defined at the initial pitch of a film.
 
-## Budget and Revenue
+  ### Budget and Revenue
 As expected, there was a strong positive linear correlation between budget and net revenue. It was clear that the movies with the highest net revenue also required the largest production budget. On the other hand, the lower budget that were often found at the top of the list of movies that produced the highest net revenue percentage. 
 
-## Actors
+  ### Actors
 There was also a trend in the average net revenue of all credits for veteran actors versus the net revenue of movies from new faces. Actors with more film credits had a much lower average for net revenue. The highest average net revenue belonged to less experienced actors. This may be evidence regression to the mean for an actor's success.
 
-## Directors
+  ### Directors
 
-## Release Date
+  ### Release Date
 The distribution of successful movies based on release date also showed that more hits were released either at the beginning or end of the month. This is most likely explained by the fact that most major US holidays also fall at the beginning or end of the month. It was also interesting to observe that most movies for both hits and flops were released in September.
 
-## Runtime
+  ### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. The same method was used to observe any trends with genres. Most movies in general had between 2 and 3 genres associated with them. Dramas and comedies, however, were the most likely movies to be profitable.
