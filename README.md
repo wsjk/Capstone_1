@@ -30,7 +30,7 @@ The JSON and non-JSON data columns were separated and saved into individual csv 
 
 Although there were no null values present in the data, there were numerous cases where a movie had $0 in budget and revenue, as well as 0 minutes runtime. A web scraper (see `movie_scraper.py`) was developed in Python to obtain data from searching the database in www.the-numbers.com. The search results contained links for a movie webpage that contained budget, revenue, and runtime data. The budget was referred to as *Production Budget*, runtime was referred to as *Running Time*, and the revenue was determined by taking the max value of Domestic, International, and Worldwide Box Office revenue due to the possibility that some movies only had Domestic or International revenue data. In some cases, the movie title from TMDB did not match the database in www.the-numbers.com and IMDB was cross referenced to find other possible titles. As this process was highly labor intensive, alternative titles were found for only a handful of movies as the dataset was already a significant sample of the movie population. For movies that returned several results from a title search, the correct result was determined based on release date. It was observed that movies with the same title would not be released within several years of each other. If the scraper was unable to find budget, revenue, and/or runtime information on the website; the movie was deleted from the dataset. Out of 5000 movies in the original dataset, 4357 remained after cleaning process.
 
-# Initial Findings
+# Exploring the Data 
 There are several variables that go into the making of a movie and influence its success. The focus of analysis so far has been on variables that can be defined prior to film production; and prior to a major financial commitment. When a movie is pitched to studios and other financiers, several variables are already defined such as the director, lead actors, writer, release date, and proposed budget. 
 
 Exploring the data led to some interesting discoveries regarding net revenue and net revenue percentage. The net revenue is calculated by subtracing the production budget from the worldwide box office revenue. The net revenue percentage is calculated by dividing the net revenue by the production budget. 
@@ -41,8 +41,37 @@ net revenue percentage = (budget - revenue) / revenue
 
 The dataset are split into two main categories: `hits` and `flops`. Any movie that produced a positive net revenue was considered a `hit` movie. The remaining films who failed to break even are considered `flops`. The goal of this project is to be able to predict a `hit` movie based on the features defined that would be defined at the initial pitch of a film.
 
+#### Initial Findings
+Some initial exploration via visual inspection of the data was conducted by creating a pairplot of the data in `tmdb_movies.csv`. The distribution of the net revenue percentage (`net_pct`) versus `budget` had a very odd shape that indicated that films with high net revenue percentage were all concentrated at lower budget levels. As you increased `budget`, however, the `net_pct` value was much lower and almost at a constant level.
+
+It was also interesting to note that a significant number of profitable films were clustered around the 100 min runtime mark for `net_pct`. 
+
+The plots of the net revenue (`net`) versus the same dependent variables of `budget` or `runtime` looked very different. Which may indicate that the goal of increasing net revenue and net revenue percentage may require very different approaches.
+
+![figure_1]
+
+
 #### Budget and Revenue
-As expected, there was a strong positive linear correlation between budget and net revenue. It was clear that the movies with the highest net revenue also required the largest production budget. On the other hand, the lower budget that were often found at the top of the list of movies that produced the highest net revenue percentage. 
+As expected, there was a positive linear correlation (Pearson's r = 0.56) between budget and net revenue. It was clear that the movies with the highest net revenue also required the largest production budget. On the other hand, the films with highest net revenue percentage (`net_pct`) were on the lower end of spectrum for `budget`. This may hint at the possibility that there is an optimum `budget` if the goal is to achieve the largest net revenue percentage. 
+
+<div>
+    <a href="https://plot.ly/~wsjk/1/?share_key=QwVayGJKukfjPbrzELFpe6" target="_blank" title="Plot 1" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/1.png?share_key=QwVayGJKukfjPbrzELFpe6" alt="Plot 1" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+<div>
+    <a href="https://plot.ly/~wsjk/3/?share_key=xZ7pBFB5GXb1QEiaIVkkcD" target="_blank" title="Plot 3" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/3.png?share_key=xZ7pBFB5GXb1QEiaIVkkcD" alt="Plot 3" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+The histogram below shows the distribution of `hits` and `flops` for range of production budgets and reinforces the idea that lower budget films generally return a profit. Although the number of `flops` at lower budgets relative to `hits` is also quite significant, the risk is much lower. The histogram also shows that as the budget increases, the number of `flops` relative to `hits` also decreases. This could indicate that high production value can lead increase the chances of a box office hit.
+<div>
+    <a href="https://plot.ly/~wsjk/5/?share_key=hPHHZ17WCLTNkKC4KBcQuW" target="_blank" title="Plot 5" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/5.png?share_key=hPHHZ17WCLTNkKC4KBcQuW" alt="Plot 5" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+Film budgets have clearly ballooned throughout the years. The high budget flops seem to have decreased as of late. It could indicate that studios are getting smarter about their investments when the stakes are high. 
+<div>
+    <a href="https://plot.ly/~wsjk/7/?share_key=iPSdQAIpl1ozVxKDg62FDf" target="_blank" title="Plot 7" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/7.png?share_key=iPSdQAIpl1ozVxKDg62FDf" alt="Plot 7" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
 
 #### Actors
 There was also a trend in the average net revenue of all credits for veteran actors versus the net revenue of movies from new faces. Actors with more film credits had a much lower average for net revenue. The highest average net revenue belonged to less experienced actors. This may be evidence regression to the mean for an actor's success.
@@ -54,3 +83,5 @@ The distribution of successful movies based on release date also showed that mor
 
 #### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. The same method was used to observe any trends with genres. Most movies in general had between 2 and 3 genres associated with them. Dramas and comedies, however, were the most likely movies to be profitable.
+
+[figure_1]: https://github.com/wsjk/Capstone_1/blob/master/report/pairplot.png "Pairplot"
