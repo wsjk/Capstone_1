@@ -62,6 +62,16 @@ As expected, there was a positive linear correlation (Pearson's r = 0.56) betwee
     <a href="https://plot.ly/~wsjk/3/?share_key=xZ7pBFB5GXb1QEiaIVkkcD" target="_blank" title="Plot 3" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/3.png?share_key=xZ7pBFB5GXb1QEiaIVkkcD" alt="Plot 3" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
+The histogram below shows the distribution of `hits` and `flops` for range of production budgets and reinforces the idea that lower budget films generally return a profit. Although the number of `flops` at lower budgets relative to `hits` is also quite significant, the risk is much lower. The histogram also shows that as the budget increases, the number of `flops` relative to `hits` also decreases. This could indicate that high production value can lead increase the chances of a box office hit.
+<div>
+    <a href="https://plot.ly/~wsjk/5/?share_key=hPHHZ17WCLTNkKC4KBcQuW" target="_blank" title="Plot 5" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/5.png?share_key=hPHHZ17WCLTNkKC4KBcQuW" alt="Plot 5" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+Film budgets have clearly ballooned throughout the years. The high budget flops seem to have decreased as of late. It could indicate that studios are getting smarter about their investments when the stakes are high. 
+<div>
+    <a href="https://plot.ly/~wsjk/7/?share_key=iPSdQAIpl1ozVxKDg62FDf" target="_blank" title="Plot 7" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/7.png?share_key=iPSdQAIpl1ozVxKDg62FDf" alt="Plot 7" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
 
 #### Actors
 There was also a trend in the average net revenue of all credits for veteran actors versus the net revenue of movies from new faces. Actors with more film credits had a much lower average for net revenue. The highest average net revenue belonged to less experienced actors. This may be evidence regression to the mean for an actor's success.
