@@ -52,7 +52,7 @@ The plots of the net revenue (`net`) versus the same dependent variables of `bud
 
 
 #### Budget and Revenue
-As expected, there was a positive linear correlation (Pearson's r = 0.56) between budget and net revenue. It was clear that the movies with the highest net revenue also required the largest production budget. On the other hand, the films with highest net revenue percentage (`net_pct`) were on the lower end of spectrum for `budget`. This may hint at the possibility that there is an optimum `budget` if the goal is to achieve the largest net revenue percentage. 
+As expected, there is a positive linear correlation (Pearson's r = 0.56) between budget (`budget`) and net revenue (`net`). On the other hand, the films with highest net revenue percentage (`net_pct`) were on the lower end of spectrum for `budget`; but the data also exhibits variance. This may, however, hint at the possibility that there is an optimal `budget` level if the goal is to achieve the largest net revenue percentage. 
 
 <div>
     <a href="https://plot.ly/~wsjk/1/?share_key=QwVayGJKukfjPbrzELFpe6" target="_blank" title="Plot 1" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/1.png?share_key=QwVayGJKukfjPbrzELFpe6" alt="Plot 1" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -72,11 +72,27 @@ Film budgets have clearly ballooned throughout the years. The high budget flops 
     <a href="https://plot.ly/~wsjk/7/?share_key=iPSdQAIpl1ozVxKDg62FDf" target="_blank" title="Plot 7" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/7.png?share_key=iPSdQAIpl1ozVxKDg62FDf" alt="Plot 7" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
+The level of net revenue that films bring have also increased as of late, but it is also important to note that the losses have been held steady. The net revenue percentage, on the other hand, does not exhibit a clear trend with time.
+
+<div>
+    <a href="https://plot.ly/~wsjk/13/?share_key=61inZB9ZBwKPO2VSae9y8x" target="_blank" title="Plot 13" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/13.png?share_key=61inZB9ZBwKPO2VSae9y8x" alt="Plot 13" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+<div>
+    <a href="https://plot.ly/~wsjk/15/?share_key=POPpsqV5on9GbFV9qFTzZC" target="_blank" title="Plot 15" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/15.png?share_key=POPpsqV5on9GbFV9qFTzZC" alt="Plot 15" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
 
 #### Actors
-There was also a trend in the average net revenue of all credits for veteran actors versus the net revenue of movies from new faces. Actors with more film credits had a much lower average for net revenue. The highest average net revenue belonged to less experienced actors. This may be evidence regression to the mean for an actor's success.
+There was also a trend in the average net revenue of all credits for veteran actors versus the net revenue of movies from new faces as shown in the plot below. Actors with more film credits (larger bubbles) had a much lower average for net revenue and net revenue percentage. The actors with highest average net revenue and net revenue percentage are difficult to spot in the plot because they belonged to actors with a single credit. This may be evidence of regression to the mean for the level of success for an actor's.
+
+<div>
+    <a href="https://plot.ly/~wsjk/17/?share_key=v7aWcF2zjp3ObnhOao3ZP4" target="_blank" title="Plot 17" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/17.png?share_key=v7aWcF2zjp3ObnhOao3ZP4" alt="Plot 17" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
 
 #### Directors
+
 
 #### Release Date
 The distribution of successful movies based on release date also showed that more hits were released either at the beginning or end of the month. This is most likely explained by the fact that most major US holidays also fall at the beginning or end of the month. It was also interesting to observe that most movies for both hits and flops were released in September.
