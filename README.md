@@ -122,7 +122,7 @@ Boxplots of the crew and their respective film credits are provided for those wi
 ![figure_7]
 
 #### Runtime
-With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. The same method was used to observe any trends with genres. Most movies in general had between 2 and 3 genres associated with them. Dramas and comedies, however, were the most likely movies to be profitable.
+With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. 
 
 ![figure_4]
 
