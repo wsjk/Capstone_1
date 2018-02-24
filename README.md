@@ -122,9 +122,11 @@ The actors whose movie credits generated the most and least net revenue are show
 ![figure_3]
 
 #### Crew
+Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, producers, original score composers, writers, etc. The boxplots show that Stan Lee is clearly behind the most profitable movies thanks to the success of Marvel films. The least successful crew members appears to directors Spike Lee and Renny Harlin. 
 
-![figure_5]
 ![figure_6]
+
+![figure_7]
 
 #### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. The same method was used to observe any trends with genres. Most movies in general had between 2 and 3 genres associated with them. Dramas and comedies, however, were the most likely movies to be profitable.
@@ -137,5 +139,5 @@ With some bootstrapping, we observed that there was a significant difference bet
 [figure_3]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors.png "Box Plot of Worst Actors"
 [figure_4]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime.png "CI for runtime"
 [figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/genre.png "CI for genre count"
-[figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/crew.png "CI for best crew"
-[figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/bad_crew.png "CI for worst crew"
+[figure_6]: https://github.com/wsjk/Capstone_1/blob/master/report/crew.png "CI for best crew"
+[figure_7]: https://github.com/wsjk/Capstone_1/blob/master/report/bad_crew.png "CI for worst crew"
