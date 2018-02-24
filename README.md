@@ -101,6 +101,12 @@ Although genre movies are prevalent, as shown in the histogram below, most succe
     <a href="https://plot.ly/~wsjk/21/?share_key=mn5UQP7OkiqTZ3eoNk96C7" target="_blank" title="Plot 21" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/21.png?share_key=mn5UQP7OkiqTZ3eoNk96C7" alt="Plot 21" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
+Bootstrap distribution of the mean of genre count of `hits` and `flops` is provided below. The 95% confidence interval of average genre count for `hits` is not too far from the confidence interval for `flops`. 
+
+95% CI for hits:  [ 2.5729792   2.65418656]
+95% CI for flops:  [ 2.45172657  2.56449965]
+
+![figure_5]
 
 # Bootstrap Analysis
 Bootstrapping was utilized to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
@@ -109,17 +115,27 @@ Bootstrapping was utilized to calculate confidence intervals for several of the 
 As mentioned earlier, the budget appears to be positively correlated with net revenue. The 95% confidence interval for the mean budget of `hits` is \[$36.7 million $40.2 million\]. For `flops`, there is 95% confidence that the mean of the budget is between $22.5 million and $25.4 million.
 
 #### Actors
+The actors whose movie credits generated the most and least net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. Judging by the box plots, it appears that Tom Hanks and Tom Cruise have been consistently starring in hit films. Conversely, films featuring Bob Hoskins and Val Kilmer do not typically fair well.
 
 ![figure_2]
 
 ![figure_3]
 
-#### Release Date
-The distribution of successful movies based on release date also showed that more hits were released either at the beginning or end of the month. This is most likely explained by the fact that most major US holidays also fall at the beginning or end of the month. It was also interesting to observe that most movies for both hits and flops were released in September.
+#### Crew
+
+![figure_5]
+![figure_6]
 
 #### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. The same method was used to observe any trends with genres. Most movies in general had between 2 and 3 genres associated with them. Dramas and comedies, however, were the most likely movies to be profitable.
 
+![figure_4]
+
+
 [figure_1]: https://github.com/wsjk/Capstone_1/blob/master/report/pairplot.png "Pairplot"
 [figure_2]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors.png "Box Plot of Top Actors"
 [figure_3]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors.png "Box Plot of Worst Actors"
+[figure_4]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime.png "CI for runtime"
+[figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/genre.png "CI for genre count"
+[figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/crew.png "CI for best crew"
+[figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/bad_crew.png "CI for worst crew"
