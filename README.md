@@ -101,13 +101,6 @@ Although genre movies are prevalent, as shown in the histogram below, most succe
     <a href="https://plot.ly/~wsjk/21/?share_key=mn5UQP7OkiqTZ3eoNk96C7" target="_blank" title="Plot 21" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/21.png?share_key=mn5UQP7OkiqTZ3eoNk96C7" alt="Plot 21" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
-Bootstrap distribution of the mean of genre count of `hits` and `flops` is provided below. The 95% confidence interval of average genre count for `hits` is not too far from the confidence interval for `flops`. 
-
-95% CI for hits:  [ 2.5729792   2.65418656]
-95% CI for flops:  [ 2.45172657  2.56449965]
-
-![figure_5]
-
 # Bootstrap Analysis
 Bootstrapping was utilized to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
 
