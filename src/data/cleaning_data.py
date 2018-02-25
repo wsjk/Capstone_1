@@ -102,6 +102,12 @@ def clean_movies_data(movie_data_file, interim_data_path, ext_data_path):
     date_mask = tmdb_movie_df.movie_id == 380097
     tmdb_movie_df.loc[date_mask,'release_date'] = dt(2014,12,31)
 
+    #replace budget of Metropolis
+    #wiki says 5.1 million Reichsmarks. Used historical currency converter from http://www.historicalstatistics.org/Currencyconverter.html 
+    #to get equivalent budget for USD in 1927
+    budget_mask = tmdb_movie_df.movie_id == 19
+    tmdb_movie_df.loc[budget_mask, 'budget'] = 1212416
+
     #zero out budget for movies with incorrect data so that they will be considered in webscraper section
     wrong_budgets = [23827, 2667, 985, 692]
     for movie_id in wrong_budgets:
