@@ -114,11 +114,28 @@ Bootstrapping was utilized to calculate confidence intervals for several of the 
 As mentioned earlier, the budget appears to be positively correlated with net revenue. The 95% confidence interval for the mean budget of `hits` is \[$36.7 million $40.2 million\]. For `flops`, there is 95% confidence that the mean of the budget is between $22.5 million and $25.4 million.
 
 #### Actors
-The actors whose movie credits generated the most and least net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. Judging by the box plots, it appears that Tom Hanks and Tom Cruise have been consistently starring in hit films. Conversely, films featuring Bob Hoskins and Val Kilmer do not typically fair well.
+The actors whose movie credits generated the most and least net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. A boxplot of the top grossing actors (i.e., the sum of net revenue of all film credits for each actor), is show below. We can see that this plot includes actors who often play major roles (e.g., Tom Hanks) and some who only make cameo appearances (e.g., Stan Lee).
+
+![figure_8]
+
+A boxplot of the actors who have been involved with the most amount of hit movies (i.e., net revenue > 0) shows us a slightly different list of actors. Judging by the two box plots, it appears that Tom Hanks and Tom Cruise have been consistently starring in hit films.
 
 ![figure_2]
 
-![figure_3]
+The same boxplots for actors in flops show that Bob Hoskins and Val Kilmer have been attached to the most flops, and Martin Landau films have genearated the least amount of revenue.
+
+![figure_3
+
+![figure_9]
+
+Although, the track record of actors are not consistent in terms of their hits and flops. The following plots show the net revenue of actors who have generated the most and least amount of net revenue.
+<div>
+    <a href="https://plot.ly/~wsjk/25/?share_key=ZOeWzDlPZdBXKkU9Pm7Bga" target="_blank" title="Plot 25" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/25.png?share_key=ZOeWzDlPZdBXKkU9Pm7Bga" alt="Plot 25" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+<div>
+    <a href="https://plot.ly/~wsjk/27/?share_key=UGNndQt08xkawdHf6If94G" target="_blank" title="Plot 27" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/27.png?share_key=UGNndQt08xkawdHf6If94G" alt="Plot 27" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
 
 #### Crew
 Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, producers, original score composers, writers, etc. The boxplots show that Stan Lee is clearly behind the most profitable movies thanks to the success of Marvel films. The least successful crew members appears to directors Spike Lee and Renny Harlin. 
@@ -140,3 +157,6 @@ With some bootstrapping, we observed that there was a significant difference bet
 [figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/genre.png "CI for genre count"
 [figure_6]: https://github.com/wsjk/Capstone_1/blob/master/report/crew.png "CI for best crew"
 [figure_7]: https://github.com/wsjk/Capstone_1/blob/master/report/bad_crew.png "CI for worst crew"
+[figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
+[figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
+
