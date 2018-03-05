@@ -147,12 +147,13 @@ Boxplots of the crew and their respective film credits are provided for those wi
 Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad.
 
 <div>
-    <a href="https://plot.ly/~wsjk/29/?share_key=mkxuuncBdSHr4YnDZA18M3" target="_blank" title="Plot 29" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/29.png?share_key=mkxuuncBdSHr4YnDZA18M3" alt="Plot 29" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
+    <a href="https://plot.ly/~wsjk/35/?share_key=H4qfX4HhqPBXOGY7IHeU9L" target="_blank" title="Plot 35" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/35.png?share_key=H4qfX4HhqPBXOGY7IHeU9L" alt="Plot 35" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+ </div>
 
 <div>
-    <a href="https://plot.ly/~wsjk/31/?share_key=LHLNtHtEZHxZ5ezeeyIwu6" target="_blank" title="Plot 31" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/31.png?share_key=LHLNtHtEZHxZ5ezeeyIwu6" alt="Plot 31" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~wsjk/37/?share_key=0jvCr98kagNqiFT5f8BPuo" target="_blank" title="Plot 37" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/37.png?share_key=0jvCr98kagNqiFT5f8BPuo" alt="Plot 37" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
+
 
 #### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. 
