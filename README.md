@@ -138,13 +138,14 @@ Although, the track record of actors are not consistent in terms of their hits a
 </div>
 
 #### Crew
-Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, producers, original score composers, writers, etc. The boxplots show that Stan Lee is clearly behind the most profitable movies thanks to the success of Marvel films. The least successful crew members appears to directors Spike Lee and Renny Harlin. 
+Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, directors of photography. The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
 
 ![figure_6]
 
+The most consistent out of the list of least successful crew members is executive producer Brad Blackbourn. 
 ![figure_7]
 
-Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad.
+Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad. It is Johnny Depp, however, who holds the record for being involved in the biggest flop as an executive producer for The Lone Ranger
 
 <div>
     <a href="https://plot.ly/~wsjk/35/?share_key=H4qfX4HhqPBXOGY7IHeU9L" target="_blank" title="Plot 35" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/35.png?share_key=H4qfX4HhqPBXOGY7IHeU9L" alt="Plot 35" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
