@@ -1,0 +1,123 @@
+#helper functions for EDA
+import os
+import importlib.util
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import sys
+from scipy import stats
+from tqdm import tqdm_notebook as tqdm
+from tqdm import tqdm_pandas
+import seaborn as sns
+tqdm().pandas()
+
+
+#bootstrap helper function
+def draw_bs_reps(data, func, size=1):
+    if len(data) == 1:
+        x = data[0]
+    else:
+        x, y = data
+    inds = np.arange(len(x))
+    bs_reps = np.empty(size)
+    
+    for i in range(size):
+        bs_inds = np.random.choice(inds, size=len(inds))
+        bs_x = x.iloc[bs_inds]
+        if len(data) > 1:
+            bs_y = y.iloc[bs_inds]
+            bs_reps[i] = func(bs_x, bs_y)[0] if len(func(bs_x, bs_y)) > 1 else func(bs_x, bs_y)
+        else:
+            bs_reps[i] = func(bs_x)
+    
+    return bs_reps
+
+#helper function to compare hits and flops data
+def plot_bs_comp(df, col, func, size, bins, split=True):
+    if split:
+        if isinstance(col, list):
+            hits = draw_bs_reps([df[df.net > 0][col[0]],df[df.net > 0][col[1]]], func=func, size=size)
+            flops = draw_bs_reps([df[df.net <= 0][col[0]],df[df.net <= 0][col[1]]], func=func, size=size)
+        else:
+            hits = draw_bs_reps([df[df.net > 0][col]], func=func, size=size)
+            flops = draw_bs_reps([df[df.net <= 0][col]], func=func, size=size)
+        
+        print("95% CI for hits: ", np.percentile(hits, [2.5, 97.5]))
+        print("95% CI for flops: ", np.percentile(flops, [2.5, 97.5]))
+
+        _ = plt.hist(hits, normed=True, bins=bins, label="Hits")
+        _ = plt.hist(flops, normed=True, bins=bins, label="Flops")
+        _ = plt.xlabel(col)
+        _ = plt.title('Distribution of ' + col)
+    else:
+        if isinstance(col, list):
+            total = draw_bs_reps([df[col[0]],df[col[1]]], func=func, size=size)
+        else:
+            total = draw_bs_reps([df[col]], func=func, size=size)
+        
+        print("95% CI: ", np.percentile(total, [2.5, 97.5]))
+        _ = plt.hist(total, normed=True, bins=bins, label="total")
+
+        
+    
+    plt.legend()
+
+
+def get_history(row, d):
+    actor = row['name']
+    movie = row['movie_id']
+    df = d[actor] 
+    count = df[df['movie_id'] == movie].index.tolist()
+    return count[0] + 1   
+
+def bin_by_credits(df, col='name', bins=[1,2,3,4,5]):
+    keycols = ['movie_id', 'title', 'release_date']
+    all_personnel = df[col].unique()
+    filmography = {person: df[df[col]==person][keycols].sort_values('release_date').reset_index(drop=True) 
+                    for person in tqdm(all_personnel)}
+    df['credits'] = df.progress_apply(get_history, args=(filmography,),axis=1)
+    
+    df['bins'] = np.clip(df['credits'], bins[0], bins[-1])
+    bin_count, _, _ = plt.hist(df['bins'], bins=bins, align='left')
+    plt.xticks(bins)
+    print(bin_count)
+    plt.show()
+    return df   
+
+
+def get_best_worst_personnel(df, sort_cols=('net','sum')):
+    hits = df[df.net > 0]
+    flops = df[df.net <= 0]
+
+    best = hits.groupby('name')[['net', 'net_pct']].agg(
+        ['count', 'max', 'min','sum', 'mean']).sort_values(sort_cols,ascending=False)
+
+    worst = flops.groupby('name')[['net', 'net_pct']].agg(
+        ['count', 'max', 'min','sum', 'mean']).sort_values(sort_cols,ascending=False)
+
+    #Only look at actors who have been in at least one film
+    best = best[best[sort_cols[0],'count']>1]
+    worst = worst[worst[sort_cols[0],'count']>1]
+
+
+    best_personnel = list(best.head(20).index)
+
+    worst_personnel = list(worst.head(20).index)
+
+    plt.figure()
+    _ = df[df['name'].isin(best_personnel)].boxplot(by="name", column=sort_cols[0], figsize=(9, 8), fontsize = 14, vert=False)
+    _ = plt.xlabel(sort_cols[0])
+    _ = plt.ylabel('Name')
+    _ = plt.suptitle("")
+    plt.title('The Best')
+
+    plt.figure()
+    _ = df[df['name'].isin(worst_personnel)].boxplot(by="name", column=sort_cols[0], figsize=(9, 8), fontsize = 14, vert=False)
+    _ = plt.xlabel(sort_cols[0])
+    _ = plt.ylabel('Name')
+    _ = plt.suptitle("")
+    plt.title('The Worst')
+    plt.show()
+
+    return best_personnel, worst_personnel
+    
