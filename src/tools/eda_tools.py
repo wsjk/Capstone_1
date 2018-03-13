@@ -62,24 +62,24 @@ def plot_bs_comp(df, col, func, size, bins, split=True):
     
     plt.legend()
 
-
-def get_history(row, d):
+def get_history_to_date(row, d, func, func_col):
     actor = row['name']
     movie = row['movie_id']
+    current_movie_release_date = row['release_date']
     df = d[actor] 
-    count = df[df['movie_id'] == movie].index.tolist()
-    return count[0] + 1   
+    count = func(df[df.release_date < current_movie_release_date][func_col])
+    return count
 
-def bin_by_credits(df, col='name', bins=[1,2,3,4,5]):
-    keycols = ['movie_id', 'title', 'release_date']
+def get_rolling_history(df, col='name', new_col='credits', func=len, func_col='title'):
+    keycols = ['movie_id', 'title', 'release_date', 'revenue']
+    if func_col not in keycols:
+        keycols.append(func_col)
     all_personnel = df[col].unique()
     filmography = {person: df[df[col]==person][keycols].sort_values('release_date').reset_index(drop=True) 
                     for person in tqdm(all_personnel)}
-    df['credits'] = df.progress_apply(get_history, args=(filmography,),axis=1)
+    df[new_col] = df.progress_apply(get_history_to_date, args=(filmography, func, func_col),axis=1)
     
-    df['bins'] = np.clip(df['credits'], bins[0], bins[-1])
-    bin_count, _, _ = plt.hist(df['bins'], bins=bins, align='left')
-    plt.xticks(bins)
+    bin_count, _, _ = plt.hist(df[new_col], align='left')
     print(bin_count)
     plt.show()
     return df   
