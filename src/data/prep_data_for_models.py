@@ -3,24 +3,25 @@ import importlib.util
 import pandas as pd
 import numpy as np
 import sys
+current_file_path = os.path.abspath(os.path.join("__file__" ,"../../.."))
+print(current_file_path)
+tools_path = os.path.abspath(os.path.join(current_file_path, 'src', 'tools'))
+sys.path.append(os.path.abspath(os.path.join(tools_path)))
+import eda_tools as eda
 
-def split_release_date(df):
-    df['release_day'] = df.release_date.dt.day
-    df['release_month'] = df.release_date.dt.month
-    df['release_year'] = df.release_date.dt.year
-    return df
+
 
 #get data for actor filmography
 def get_actor_credits(movies, save_csv):
     cast = data['tmdb_cast_credit']
-    first_billing = cast.groupby(['movie_id', 'title'], as_index=False)['name'].first()
+    first_billing = cast.groupby(['movie_id', 'title'], as_index=False).head(4)
     first_billing.set_index(['movie_id', 'title'], inplace=True)
     movies_with_actors = movies.merge(first_billing, left_index=True, right_index=True)
     actors_df = movies_with_actors.reset_index()
     binned_actors_df = eda.get_rolling_history(actors_df, 'name', new_col='credits', func=len, func_col='title')
-    new_df = split_release_date(binned_actors_df)
+    binned_actors_df = eda.get_rolling_history(actors_df, 'name', new_col='net_to_date', func=sum, func_col='net')
     if save_csv:
-    	new_df[['movie_id', 'title', 'name', 'credits', 'net_to_date']].to_csv('Actor_credits.csv')
+    	new_df[['movie_id', 'title', 'name', 'gender', 'credits', 'net_to_date']].to_csv('Actor_credits.csv', index=False)
 
     return new_df
 
@@ -35,8 +36,7 @@ def get_crew_credits(movies, save_csv):
         crew_dict = crew[crew.job == job].groupby(['movie_id', 'title'], as_index=False).first()
         df = pd.merge(crew_dict, movies.reset_index(), on=['movie_id','title']).sort_values('name')
         binned_crew = eda.get_rolling_history(df, 'name', new_col='credits', func=len, func_col='title')
-        binned_crew = eda.get_rolling_history(df, 'name', new_col='net_to_date', func=sum, func_col='net')
-        new_df = split_release_date(binned_crew)    
+        binned_crew = eda.get_rolling_history(df, 'name', new_col='net_to_date', func=sum, func_col='net')  
         if save_csv:
         	new_df[['movie_id','title','name','credits','net_to_date']].to_csv(k + '_credits.csv', index=False)
         dfs[job] = new_df
@@ -44,12 +44,6 @@ def get_crew_credits(movies, save_csv):
     return dfs
 
 def get_movies():
-	current_file_path = os.path.abspath(os.path.join("__file__" ,"../../.."))
-	print(current_file_path)
-	tools_path = os.path.abspath(os.path.join(current_file_path, 'src', 'tools'))
-	sys.path.append(os.path.abspath(os.path.join(tools_path)))
-	import eda_tools as eda
-
 
 	import_data_path = os.path.join(current_file_path,'src','data')
 

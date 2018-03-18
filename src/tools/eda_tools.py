@@ -120,4 +120,9 @@ def get_best_worst_personnel(df, sort_cols=('net','sum')):
     plt.show()
 
     return best_personnel, worst_personnel
-    
+
+def split_release_date(df):
+    df['release_day'] = df.release_date.dt.day
+    df['release_month'] = df.release_date.dt.month
+    df['release_year'] = df.release_date.dt.year
+    return df
