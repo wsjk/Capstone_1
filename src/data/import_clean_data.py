@@ -4,17 +4,16 @@ import glob
 import os
 import csv
 import re
+import ntpath
 
 
-def import_clean_csv():
-	current_file_path = os.path.abspath(os.path.join("__file__" ,"../../"))
+
+def import_clean_csv(current_file_path):
+	print(current_file_path)
 	raw_data_path = os.path.join(current_file_path,'data','raw')
 	interim_data_path = os.path.join(current_file_path,'data','interim')
 	proc_data_path = os.path.join(current_file_path,'data','processed')
 	data_files = glob.glob(os.path.join(proc_data_path, '*.csv'), recursive=False)
-
-	import re
-	import ntpath
 	pattern = r'(.+)_final.csv$'  #extract filenames of cleaned files for dict keys
 
 	#dict to contain all dataframes
@@ -28,7 +27,8 @@ def import_clean_csv():
 	return data
 
 if __name__ == "__main__":
-	data = import_clean_csv()
+	current_file_path = os.path.abspath(os.path.join("__file__" ,"../../"))
+	data = import_clean_csv(current_file_path)
 	for k, df in data.items():
 		print(k)
 		print(df.head())
