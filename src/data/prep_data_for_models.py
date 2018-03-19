@@ -14,13 +14,13 @@ import eda_tools as eda
 #get data for actor filmography
 def get_actor_credits(data, movies, save_csv):
     cast = data['tmdb_cast_credit']
-    first_billing = cast.groupby(['movie_id', 'title'], as_index=False).head(4)
+    first_billing = cast.groupby(['movie_id', 'title'], as_index=False).first()
     first_billing.set_index(['movie_id', 'title'], inplace=True)
     movies_with_actors = movies.merge(first_billing, left_index=True, right_index=True)
     actors_df = movies_with_actors.reset_index()
     binned_actors = eda.get_rolling_history(actors_df, 'name', new_col='credits', func=len, func_col='title')
     binned_actors = eda.get_rolling_history(actors_df, 'name', new_col='net_to_date', func=sum, func_col='net')
-    new_df = binned_actors[['movie_id', 'title', 'name', 'gender', 'credits', 'net_to_date', 'order']]
+    new_df = binned_actors[['movie_id', 'title', 'name', 'gender', 'credits', 'net_to_date']]
     if save_csv:
         new_df.to_csv(os.path.abspath(os.path.join(save_path,'Actor_credits.csv')), index=False)
 

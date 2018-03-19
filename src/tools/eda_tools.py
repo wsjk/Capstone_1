@@ -9,6 +9,7 @@ from scipy import stats
 from tqdm import tqdm_notebook as tqdm
 from tqdm import tqdm_pandas
 import seaborn as sns
+import datetime as dt
 tqdm().pandas()
 
 
@@ -123,7 +124,8 @@ def get_best_worst_personnel(df, sort_cols=('net','sum')):
     return best_personnel, worst_personnel
 
 def split_release_date(df):
-    df['release_day'] = df.release_date.dt.day
-    df['release_month'] = df.release_date.dt.month
-    df['release_year'] = df.release_date.dt.year
+    df['release_day'] = df['release_date'].apply(lambda x: x.day)
+    df['release_month'] = df['release_date'].apply(lambda x: x.month)
+    df['release_year'] = df['release_date'].apply(lambda x: x.year)
+    df['release_dow'] = df['release_date'].apply(lambda x: x.dayofweek)
     return df
