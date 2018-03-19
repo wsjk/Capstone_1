@@ -70,18 +70,19 @@ def get_history_to_date(row, d, func, func_col):
     count = func(df[df.release_date < current_movie_release_date][func_col])
     return count
 
-def get_rolling_history(df, col='name', new_col='credits', func=len, func_col='title'):
+def get_rolling_history(df, col='name', new_col='credits', func=len, func_col='title', show_plot=False):
     keycols = ['movie_id', 'title', 'release_date', 'revenue']
     if func_col not in keycols:
         keycols.append(func_col)
     all_personnel = df[col].unique()
     filmography = {person: df[df[col]==person][keycols].sort_values('release_date').reset_index(drop=True) 
                     for person in tqdm(all_personnel)}
-    df[new_col] = df.progress_apply(get_history_to_date, args=(filmography, func, func_col),axis=1)
+    df[new_col] = df.apply(get_history_to_date, args=(filmography, func, func_col),axis=1)
     
-    bin_count, _, _ = plt.hist(df[new_col], align='left')
-    print(bin_count)
-    plt.show()
+    if show_plot:
+        bin_count, _, _ = plt.hist(df[new_col], align='left')
+        print(bin_count)
+        plt.show()
     return df   
 
 
