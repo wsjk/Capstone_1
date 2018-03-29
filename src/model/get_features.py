@@ -9,7 +9,7 @@ import sys
 import datetime as dt
 import calendar
 
-current_file_path = os.path.abspath(os.path.join("__file__" ,"../../.."))
+current_file_path = os.path.abspath(os.path.join("__file__" ,"../.."))
 print(current_file_path)
 tools_path = os.path.abspath(os.path.join(current_file_path, 'src', 'tools'))
 sys.path.append(os.path.abspath(os.path.join(tools_path)))
@@ -91,6 +91,8 @@ def get_features():
 	total_df = pd.merge(total_df, combined_release_dates, left_index=True, right_index=True, how='inner')
 
 	final_df = total_df.dropna()
+
+	final_df.to_csv('features.csv')
 
 	return final_df
 
