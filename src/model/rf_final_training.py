@@ -37,7 +37,7 @@ for i in params_top_scores:
     for k,v in i.items():
         if k not in best_params:
             best_params[k] = [v]
-        elif k in params:
+        elif k in best_params:
             best_params[k].append(v)
 
 best_params = {k: list(set(v)) for k,v in best_params.items()}
