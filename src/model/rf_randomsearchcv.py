@@ -45,7 +45,7 @@ x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=
 
 # parameters and ranges to plot
 param_grid = {
-  "bootstrap":[True,False],
+  "bootstrap":[True],
   "oob_score": [True,False],
   "n_estimators": np.arange(10, 500, 10),
   "max_depth": np.arange(10, 500, 10),
