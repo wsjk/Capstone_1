@@ -74,5 +74,8 @@ print(rf_random.best_params_)
 
 print(rf_random.cv_results_)
 
+df = pd.DataFrame.from_dict(rf_random.cv_results_)
+df.to_csv('random_rf_cvresults.csv')
+
 filename = 'random_rf.sav'
 pickle.dump(rf_random, open(filename, 'wb'))
