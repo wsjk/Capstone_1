@@ -9,7 +9,7 @@ import datetime as dt
 import calendar
 import sklearn
 import pickle
-import get_features
+
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -22,8 +22,13 @@ from sklearn import utils
 
 
 current_file_path = os.path.abspath(os.path.join("__file__" ,"../../.."))
+nb_path = os.path.abspath(os.path.join(current_file_path, 'notebooks'))
+os.chdir(nb_path)
+
+import get_features
+
 print(current_file_path)
-features_path = os.path.abspath(os.path.join(current_file_path, 'notebooks', 'model','features.csv'))
+features_path = os.path.abspath(os.path.join(nb_path,'features.csv'))
 _ = get_features.get_features()
 
 df = pd.read_csv(features_path)
