@@ -42,6 +42,8 @@ for i in params_top_scores:
 
 best_params = {k: list(set(v)) for k,v in best_params.items()}
 
+features = pd.read_csv('features.csv')
+
 x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=0.3, random_state = 42)
 
 rf = RandomForestClassifier()
