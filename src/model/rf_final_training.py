@@ -26,6 +26,19 @@ os.chdir(nb_path)
 
 import get_features
 
+print(current_file_path)
+features_path = os.path.abspath(os.path.join(nb_path,'features.csv'))
+_ = get_features.get_features()
+
+df = pd.read_csv(features_path)
+
+df = df.set_index(['movie_id', 'title'])
+
+feature_list = df.drop('target',axis=1).columns
+
+features = np.array(df.drop('target',axis=1))
+labels = df['target']
+
 df = pd.read_csv('random_rf_cvresults.csv')
 
 df['params'] = df['params'].apply(lambda x: ast.literal_eval(x))
@@ -41,8 +54,6 @@ for i in params_top_scores:
             best_params[k].append(v)
 
 best_params = {k: list(set(v)) for k,v in best_params.items()}
-
-features = pd.read_csv('features.csv')
 
 x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=0.3, random_state = 42)
 
