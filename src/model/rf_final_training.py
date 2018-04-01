@@ -7,7 +7,6 @@ from tqdm import tqdm_notebook as tqdm
 from tqdm import tqdm_pandas
 import datetime as dt
 import calendar
-import sklearn
 import pickle
 import ast
 
@@ -69,6 +68,8 @@ best_grid = grid_search.best_estimator_
 filename = 'rf_final.sav'
 pickle.dump(grid_search, open(filename, 'wb'))
 
+print(grid_search.best_params_)
+print(grid_search.best_estimator_)
 print(best_grid.score(x_test,y_test))
 print(confusion_matrix(best_grid.predict(x_test), y_test))
 print(best_grid.predict_proba(x_test))
