@@ -67,7 +67,7 @@ grid_search.fit(x_train, y_train)
 best_grid = grid_search.best_estimator_
 
 filename = 'rf_final.sav'
-pickle.dump(best_grid, open(filename, 'wb'))
+pickle.dump(grid_search, open(filename, 'wb'))
 
 print(best_grid.score(x_test,y_test))
 print(confusion_matrix(best_grid.predict(x_test), y_test))
