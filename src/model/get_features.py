@@ -21,7 +21,7 @@ spec = importlib.util.spec_from_file_location("import_clean_csv", os.path.join(i
 import_data = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(import_data)
 
-def get_features():
+def get_features(save_csv=True):
 	data = import_data.import_clean_csv(current_file_path)
 
 	# create dataframes from cleaned data
@@ -91,8 +91,8 @@ def get_features():
 	total_df = pd.merge(total_df, combined_release_dates, left_index=True, right_index=True, how='inner')
 
 	final_df = total_df.dropna()
-
-	final_df.to_csv('features.csv')
+	if save_csv:
+		final_df.to_csv('features.csv')
 
 	return final_df
 
