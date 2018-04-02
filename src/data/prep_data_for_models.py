@@ -70,15 +70,25 @@ def get_genre_data(data,movies,save_csv):
     genre_dummies = pd.get_dummies(genres['name']).reset_index().groupby(['movie_id', 'title']).sum()
     genre_data = genre_dummies.merge(genre_count, left_index=True, right_index=True)
     if save_csv:
-        genre_data.to_csv('Genres.csv')
+        genre_data.to_csv(os.path.abspath(os.path.join(save_path, 'Genres.csv')))
     return genre_data
+
+def get_language_data(data,movies,save_csv):
+    languages = data['tmdb_movie_spoken_languages'].set_index(['movie_id', 'title'])
+    language_groups = languages.groupby(['movie_id','title'])['name'].agg('count').sort_values(ascending=False)
+    language_count = pd.DataFrame(language_groups)
+    language_count.columns = ['language_count']
+    if save_csv:
+        language_count.to_csv(os.path.abspath(os.path.join(save_path, 'Languages.csv')))
+    return language_count
 
 if __name__ == "__main__":
     data = get_data()
     movies = get_movies(data)
-    #crew_dfs = get_crew_credits(data, movies, save_csv=True)
+    crew_dfs = get_crew_credits(data, movies, save_csv=True)
     actor_df = get_actor_credits(data, movies, save_csv=True)
-    #genre_df = get_genre_data(data, movies, save_csv=True)
+    genre_df = get_genre_data(data, movies, save_csv=True)
+    language_df = get_language_data(data, movies, save_csv=True)
 
 
 	
