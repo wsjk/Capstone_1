@@ -10,16 +10,18 @@ import datetime as dt
 import calendar
 
 current_file_path = os.path.abspath(os.path.join("__file__" ,"../.."))
-print(current_file_path)
-tools_path = os.path.abspath(os.path.join(current_file_path, 'src', 'tools'))
-sys.path.append(os.path.abspath(os.path.join(tools_path)))
-import eda_tools as eda
+if current_file_path[-3:] == 'src':
+	current_file_path =  os.path.abspath(os.path.join("__file__" ,"../../.."))
 
+tools_path = os.path.abspath(os.path.join(current_file_path, 'src', 'tools'))
 import_data_path = os.path.join(current_file_path,'src','data')
 
-spec = importlib.util.spec_from_file_location("import_clean_csv", os.path.join(import_data_path,"import_clean_data.py"))
-import_data = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(import_data)
+sys.path.insert(0, tools_path)
+import eda_tools as eda
+
+sys.path.insert(0, import_data_path)
+import import_clean_data as import_data
+os.chdir(import_data_path)
 
 def get_features(save_csv=True):
 	data = import_data.import_clean_csv(current_file_path)
@@ -39,13 +41,13 @@ def get_features(save_csv=True):
 
 	#extract day, month, and day of week data from release_date (datetime type)
 	movies = eda.split_release_date(movies)
-	release_day = pd.get_dummies(movies['release_day'])
+	
 	release_month = pd.get_dummies(movies['release_month'])
 	release_dow = pd.get_dummies(movies['release_dow'])
 	release_month.columns = [calendar.month_name[i] for i in release_month.columns]
 	release_dow.columns = [calendar.day_name[i] for i in release_dow.columns]
-	release_date_dfs = [release_day, release_month, release_dow]
-	movies = movies.drop(['release_date','release_day','release_month', 'release_dow'], axis=1)
+	release_date_dfs = [release_month, release_dow]
+	movies = movies.drop(['release_date','release_month', 'release_dow'], axis=1)
 
 	#combine release date data into df
 	combined_release_dates = reduce(
@@ -55,7 +57,6 @@ def get_features(save_csv=True):
 
 	os.chdir(os.path.abspath(os.path.join(current_file_path, 'notebooks')))
 	files = glob.glob('*.csv')
-
 
 	#get data for other features into dict of dfs
 	other_data_dfs = {}
@@ -77,6 +78,8 @@ def get_features(save_csv=True):
 	other_data_dfs['genres'].columns = [i.lower() for i in other_data_dfs['genres'].columns]
 
 	genre_cols = list(other_data_dfs['genres'].columns)
+
+	other_data_dfs['languages'] = pd.read_csv('Languages.csv').set_index(['movie_id', 'title'])
 
 	combined_other_data = reduce(
 		lambda left,right: pd.merge(
