@@ -65,7 +65,8 @@ rf_random = RandomizedSearchCV(
   verbose=True,
   random_state=42,
   n_jobs=-1,
-  scoring='accuracy'
+  scoring='accuracy',
+  return_train_score=True
 )
 
 rf_random.fit(x_train, y_train)
