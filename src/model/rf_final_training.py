@@ -68,6 +68,9 @@ best_grid = grid_search.best_estimator_
 filename = 'rf_final.sav'
 pickle.dump(grid_search, open(filename, 'wb'))
 
+res_df = pd.DataFrame.from_dict(grid_search.cv_results_)
+res_df.to_csv('rf_final_results.csv')
+
 print(grid_search.best_params_)
 print(grid_search.best_estimator_)
 print(best_grid.score(x_test,y_test))
