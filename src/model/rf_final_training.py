@@ -59,7 +59,7 @@ x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=
 rf = RandomForestClassifier()
 
 grid_search = GridSearchCV(estimator = rf, param_grid = best_params, 
-                          cv = 5, n_jobs = -1, verbose = 2, return_train_score=True)
+                          cv = 5, n_jobs = -1, verbose = 0, return_train_score=True)
 
 grid_search.fit(x_train, y_train)
 
