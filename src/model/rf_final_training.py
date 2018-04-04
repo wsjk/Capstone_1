@@ -69,7 +69,7 @@ filename = 'rf_final.sav'
 pickle.dump(grid_search, open(filename, 'wb'))
 
 res_df = pd.DataFrame.from_dict(grid_search.cv_results_)
-res_df.to_csv('rf_final_results.csv')
+res_df.to_csv('rf_final_results.csv', index=False)
 
 print(grid_search.best_params_)
 print(grid_search.best_estimator_)
