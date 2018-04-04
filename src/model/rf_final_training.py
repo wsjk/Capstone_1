@@ -48,9 +48,10 @@ params = [i for i in res.columns if 'param_' in i]
 res_training = res.nlargest(3,'mean_train_score')[params].reset_index(drop=True)
 res_test = res.nlargest(3,'mean_test_score')[params].reset_index(drop=True)
 res_train_test = pd.concat([res_training,res_test])
+res_train_test.drop('param_max_features', axis=1, inplace=True)
 res_train_test_list = res_train_test.reset_index(drop=True).to_dict('records')
 
-best_params = {p: [] for p in params}
+best_params = {p: [] for p in res_train_test.columns}
 
 for i in res_train_test_list:
     for k,v in i.items():
@@ -65,7 +66,7 @@ for k,v in param_grid.items():
         param_grid[k] = v
         continue
 
-rf = RandomForestClassifier(bootstrap=True, random_state=42)
+rf = RandomForestClassifier(bootstrap=True, max_features=[None, 'auto', 'sqrt','log2'], random_state=42)
 
 grid_search = GridSearchCV(estimator = rf, param_grid = param_grid, 
                           cv = 5, n_jobs = -1, verbose = 0, return_train_score=True)
