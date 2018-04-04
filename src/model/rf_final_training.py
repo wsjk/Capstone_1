@@ -66,7 +66,7 @@ for k,v in param_grid.items():
         param_grid[k] = v
         continue
 
-rf = RandomForestClassifier(bootstrap=True, max_features=[None, 'auto', 'sqrt','log2'], random_state=42)
+rf = RandomForestClassifier(bootstrap=True, max_features=['auto', 'sqrt','log2'], random_state=42)
 
 grid_search = GridSearchCV(estimator = rf, param_grid = param_grid, 
                           cv = 5, n_jobs = -1, verbose = 0, return_train_score=True)
