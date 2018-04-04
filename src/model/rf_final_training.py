@@ -43,7 +43,7 @@ labels = df['target']
 x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=0.3, random_state = 42)
 
 #create param_grid based off of best results from RandomSearchCV
-res = pd.read_csv('random_rf_cvresults.csv')
+res = pd.read_csv(os.path.abspath(os.path.join(nb_path,'random_rf_cvresults.csv')))
 params = [i for i in res.columns if 'param_' in i]
 res_training = res.nlargest(3,'mean_train_score')[params].reset_index(drop=True)
 res_test = res.nlargest(3,'mean_test_score')[params].reset_index(drop=True)
