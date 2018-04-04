@@ -38,27 +38,19 @@ feature_list = df.drop('target',axis=1).columns
 features = np.array(df.drop('target',axis=1))
 labels = df['target']
 
-df = pd.read_csv('random_rf_cvresults.csv')
-
-df['params'] = df['params'].apply(lambda x: ast.literal_eval(x))
-
-params_top_scores = df.sort_values('mean_test_score', ascending=False)['params'].head(5).values
-
-best_params = {}
-for i in params_top_scores:
-    for k,v in i.items():
-        if k not in best_params:
-            best_params[k] = [v]
-        elif k in best_params:
-            best_params[k].append(v)
-
-best_params = {k: list(set(v)) for k,v in best_params.items()}
-
 x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=0.3, random_state = 42)
 
-rf = RandomForestClassifier(bootstrap=True, random_state=42)
+param_grid = {
+  "n_estimators": np.arange(200, 400, 20),
+  "max_depth": np.arange(250, 400, 10),
+  "min_samples_split": np.arange(1,40,3),
+  "min_samples_leaf": np.arange(1,10,1),
+  "max_leaf_nodes": np.arange(30,60,5)
+              }
 
-grid_search = GridSearchCV(estimator = rf, param_grid = best_params, 
+rf = RandomForestClassifier(bootstrap=True, max_features='sqrt', criterion='gini', oob_score=True, random_state=42)
+
+grid_search = GridSearchCV(estimator = rf, param_grid = param_grid, 
                           cv = 5, n_jobs = -1, verbose = 0, return_train_score=True)
 
 grid_search.fit(x_train, y_train)
