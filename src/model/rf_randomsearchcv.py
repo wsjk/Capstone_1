@@ -55,10 +55,9 @@ param_grid = {
   'criterion': ['gini', 'entropy'],
               }
 
-rf = RandomForestClassifier()
+rf = RandomForestClassifier(bootstrap=True, random_state=42)
 rf_random = RandomizedSearchCV(
   estimator=rf,
-  bootstrap=True,
   param_distributions=param_grid,
   n_iter=500,
   cv=3,
