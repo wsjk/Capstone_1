@@ -51,7 +51,7 @@ res_train_test = pd.concat([res_training,res_test])
 res_train_test.drop('param_max_features', axis=1, inplace=True)
 res_train_test_list = res_train_test.reset_index(drop=True).to_dict('records')
 
-est_params = {p[6:]: [] for p in res_train_test.columns}
+best_params = {p[6:]: [] for p in res_train_test.columns}
 
 for i in res_train_test_list:
     for k,v in i.items():
