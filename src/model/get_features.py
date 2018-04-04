@@ -60,14 +60,16 @@ def get_features(save_csv=True):
 
 	#get data for other features into dict of dfs
 	other_data_dfs = {}
-	for file in ['Actor_credits.csv', 'Director_credits.csv']:
+	for file in ['Actor_credits.csv', 'Director_credits.csv', 'Writer_credits.csv']:
 	    key = file.split('.')[0].lower()
 	    prefix = key.split('_')[0]
 	    other_data_dfs[key] = \
 	        pd.read_csv(file).set_index(['movie_id','title']).rename(
 	                                                                columns={
 	                                                                    'name': prefix + '_name', 
-	                                                                    'gender': prefix + '_gender',
+	                                                                    'unknown': prefix + '_unknown',
+	                                                                    'male': prefix + '_male',
+	                                                                    'female': prefix + '_female',
 	                                                                     'credits': prefix + '_credits', 
 	                                                                     'net_to_date': prefix + '_net_to_date'
 	                                                                    }
@@ -86,7 +88,7 @@ def get_features(save_csv=True):
 			left,right,left_index=True, right_index=True, how='outer'
 			), [i for _, i in other_data_dfs.items()])
 
-	combined_other_data.drop(['actor_name','director_name'], axis=1,inplace=True)
+	combined_other_data.drop(['actor_name','director_name', 'writer_name'], axis=1,inplace=True)
 
 	#merge othe feature dfs with main movies df
 	total_df = pd.merge(movies, combined_other_data, left_index=True, right_index=True, how='outer')

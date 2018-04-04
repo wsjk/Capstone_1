@@ -9,7 +9,7 @@ import ntpath
 
 
 def import_clean_csv(current_file_path):
-	current_file_path = os.path.abspath(os.path.join("__file__" ,"../../.."))
+	#current_file_path = os.path.abspath(os.path.join("__file__" ,"../../.."))
 	raw_data_path = os.path.join(current_file_path,'data','raw')
 	interim_data_path = os.path.join(current_file_path,'data','interim')
 	proc_data_path = os.path.join(current_file_path,'data','processed')

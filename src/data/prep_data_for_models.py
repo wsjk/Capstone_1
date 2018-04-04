@@ -46,17 +46,21 @@ def get_actor_credits(data, movies, save_csv):
 
 # get filmography of crew
 def get_crew_credits(data, movies, save_csv):
-    crew = data['tmdb_crew_credit'].set_index(['movie_id', 'title'])
-    movies_with_crew = movies.merge(crew, left_index=True, right_index=True)
+    crew = data['tmdb_crew_credit'].set_index(['movie_id', 'title','name','job'])
+    gender = pd.get_dummies(crew['gender'])
+    gender.columns = ['unknown', 'female', 'male']
+    gender.reset_index(['job','name'])
+    crew = crew.merge(gender, left_index=True, right_index=True)
+
     crew = crew.reset_index()
 
     dfs = {}
     for job in ['Producer', 'Writer', 'Director']:
-        crew_dict = crew[crew.job == job].groupby(['movie_id', 'title'], as_index=False).first()
+        crew_dict = crew[crew.job == job].groupby(['movie_id', 'title'], as_index=False).first()        
         df = pd.merge(crew_dict, movies.reset_index(), on=['movie_id','title']).sort_values('name')
         binned_crew = eda.get_rolling_history(df, 'name', new_col='credits', func=len, func_col='title')
         binned_crew = eda.get_rolling_history(df, 'name', new_col='net_to_date', func=sum, func_col='net')
-        new_df = binned_crew[['movie_id','title','name','credits','net_to_date']]
+        new_df = binned_crew[['movie_id','title','name', 'unknown','male','female','credits','net_to_date']]
         if save_csv:
         	new_df.to_csv(os.path.abspath(os.path.join(save_path, job + '_credits.csv')), index=False)
         dfs[job] = new_df
