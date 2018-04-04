@@ -45,7 +45,6 @@ x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=
 
 # parameters and ranges to plot
 param_grid = {
-  "bootstrap":[True],
   "oob_score": [True,False],
   "n_estimators": np.arange(10, 500, 10),
   "max_depth": np.arange(10, 500, 10),
@@ -59,6 +58,7 @@ param_grid = {
 rf = RandomForestClassifier()
 rf_random = RandomizedSearchCV(
   estimator=rf,
+  bootstrap=True,
   param_distributions=param_grid,
   n_iter=500,
   cv=3,
