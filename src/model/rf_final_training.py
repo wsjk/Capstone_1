@@ -43,7 +43,7 @@ x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=
 param_grid = {
   "n_estimators": np.arange(200, 400, 20),
   "max_depth": np.arange(250, 400, 10),
-  "min_samples_split": np.arange(1,40,3),
+  "min_samples_split": np.arange(2,40,4),
   "min_samples_leaf": np.arange(1,10,1),
   "max_leaf_nodes": np.arange(30,60,5)
               }
