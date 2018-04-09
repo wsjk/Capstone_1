@@ -61,7 +61,7 @@ param_grid = {k: list(set(v)) for k,v in best_params.items()}
 
 for k,v in param_grid.items():
     try:
-        param_grid[k] = [i for i in range(min(v), max(v),int((max(v)-min(v))/5))]
+        param_grid[k] = [i for i in range(min(v), max(v)+int(max(v)/10), int(max(v)/10))]
     except:
         param_grid[k] = v
         continue
