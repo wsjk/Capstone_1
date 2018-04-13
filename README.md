@@ -159,6 +159,19 @@ Similar to the actor track records, few cast members (e.g., directors, producers
 #### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. 
 
+# Predictive Model
+A Random Forest Classifier model was chosen to create model to predict whether a movie is a `hit` or a `flop`. The Random Forest Classifier is an ensemble algorithm and is derived from tree based methods. The difference between Random Forest algorithm and the Decision Tree algorithm, however, is that a Random Forest randomly.
+
+One of the many advantages to using a Random Forest Classifier is that its results are interpretable. 
+
+#### Training the Model
+Tuning hyperparameters
+
+#### Results of Training
+
+#### Results of Test Data
+Feature importance
+
 ![figure_4]
 
 
