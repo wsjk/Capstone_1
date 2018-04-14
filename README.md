@@ -95,32 +95,6 @@ There was also a trend in the average net revenue of all credits for veteran act
     <a href="https://plot.ly/~wsjk/17/?share_key=v7aWcF2zjp3ObnhOao3ZP4" target="_blank" title="Plot 17" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/17.png?share_key=v7aWcF2zjp3ObnhOao3ZP4" alt="Plot 17" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
-#### Genres
-The TMDB dataset allows for a film to have several genres associated to it. A distribution of genres associated with films show that comedies and drama hold the lion's share. 
-
-<div>
-    <a href="https://plot.ly/~wsjk/19/?share_key=ZRyGdOaTEiYCHj68mzGWbm" target="_blank" title="Plot 19" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/19.png?share_key=ZRyGdOaTEiYCHj68mzGWbm" alt="Plot 19" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
-
-Although genre movies are prevalent, as shown in the histogram below, most successful movies are more "complex" and use multiple genres to describe it. It appears the key number of genres may be limited to three as there is a sharp drop afterwards -- possibly indicating that sometimes movies are too complex.
-<div>
-    <a href="https://plot.ly/~wsjk/21/?share_key=mn5UQP7OkiqTZ3eoNk96C7" target="_blank" title="Plot 21" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/21.png?share_key=mn5UQP7OkiqTZ3eoNk96C7" alt="Plot 21" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
-
-#### Runtime
-The histogram below shows that both `hits` and `flops` have similar distributions and both types of films generally fall around the 100 minute mark. 
-
-<div>
-    <a href="https://plot.ly/~wsjk/41/?share_key=xo7gIPbJPg6p5gb7qGgvNT" target="_blank" title="Plot 41" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/41.png?share_key=xo7gIPbJPg6p5gb7qGgvNT" alt="Plot 41" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
-
-# Bootstrap Analysis
-Bootstrapping was utilized to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
-
-#### Budget
-As mentioned earlier, the budget appears to be positively correlated with net revenue. The 95% confidence interval for the mean budget of `hits` is \[$36.7 million $40.2 million\]. For `flops`, there is 95% confidence that the mean of the budget is between $22.5 million and $25.4 million.
-
-#### Actors
 The actors whose movie credits generated the most and least net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. A boxplot of the top grossing actors (i.e., the sum of net revenue of all film credits for each actor), is show below. We can see that this plot includes actors who often play major roles (e.g., Tom Hanks and Will Smith). The actors who are have been generated the most net revenue would be Harry Potters stars Rupert Grint and Daniel Radcliffe.
 
 ![figure_8]
@@ -163,6 +137,32 @@ Similar to the actor track records, few cast members (e.g., directors, producers
     <a href="https://plot.ly/~wsjk/37/?share_key=0jvCr98kagNqiFT5f8BPuo" target="_blank" title="Plot 37" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/37.png?share_key=0jvCr98kagNqiFT5f8BPuo" alt="Plot 37" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
+
+
+#### Genres
+The TMDB dataset allows for a film to have several genres associated to it. A distribution of genres associated with films show that comedies and drama hold the lion's share. 
+
+<div>
+    <a href="https://plot.ly/~wsjk/19/?share_key=ZRyGdOaTEiYCHj68mzGWbm" target="_blank" title="Plot 19" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/19.png?share_key=ZRyGdOaTEiYCHj68mzGWbm" alt="Plot 19" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+Although genre movies are prevalent, as shown in the histogram below, most successful movies are more "complex" and use multiple genres to describe it. It appears the key number of genres may be limited to three as there is a sharp drop afterwards -- possibly indicating that sometimes movies are too complex.
+<div>
+    <a href="https://plot.ly/~wsjk/21/?share_key=mn5UQP7OkiqTZ3eoNk96C7" target="_blank" title="Plot 21" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/21.png?share_key=mn5UQP7OkiqTZ3eoNk96C7" alt="Plot 21" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+#### Runtime
+The histogram below shows that both `hits` and `flops` have similar distributions and both types of films generally fall around the 100 minute mark. 
+
+<div>
+    <a href="https://plot.ly/~wsjk/41/?share_key=xo7gIPbJPg6p5gb7qGgvNT" target="_blank" title="Plot 41" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/41.png?share_key=xo7gIPbJPg6p5gb7qGgvNT" alt="Plot 41" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
+# Bootstrap Analysis
+Bootstrapping was utilized to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
+
+#### Budget
+As mentioned earlier, the budget appears to be positively correlated with net revenue. The 95% confidence interval for the mean budget of `hits` is \[$36.7 million $40.2 million\]. For `flops`, there is 95% confidence that the mean of the budget is between $22.5 million and $25.4 million.
 
 #### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. 
