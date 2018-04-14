@@ -131,7 +131,7 @@ A boxplot of the actors who have been involved with the most amount of hit movie
 
 The same boxplots for actors in flops show that Bob Hoskins and Val Kilmer have been attached to the most flops, and Martin Landau films have genearated the least amount of revenue.
 
-![figure_3
+![figure_3]
 
 ![figure_9]
 
