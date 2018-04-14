@@ -131,9 +131,9 @@ A boxplot of the actors who have been involved with the most amount of hit movie
 
 The same boxplots for actors in flops show lesser known actors such as Shea Whigham and Neil Maskill attached to the least successful films. In terms of amount of `flops`, Val Kilmer may be the most consistent in being associated with unsuccessful films.
 
-![figure_3]
-
 ![figure_9]
+
+![figure_3]
 
 Although, the track record of actors are not consistent in terms of their hits and flops. The following plots show the net revenue of actors who have generated the most and least amount of net revenue.
 <div>
