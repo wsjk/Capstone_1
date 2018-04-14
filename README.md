@@ -191,5 +191,5 @@ Feature importance
 [figure_7]: https://github.com/wsjk/Capstone_1/blob/master/report/bad_crew.png "CI for worst crew"
 [figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
 [figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
-
+ 
 
