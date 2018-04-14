@@ -111,9 +111,8 @@ Although genre movies are prevalent, as shown in the histogram below, most succe
 The histogram below shows that both `hits` and `flops` have similar distributions and both types of films generally fall around the 100 minute mark. 
 
 <div>
-    <a href="https://plot.ly/~wsjk/39/?share_key=hJOJuRvIuTkhfT9cSxB5Rd" target="_blank" title="Plot 39" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/39.png?share_key=hJOJuRvIuTkhfT9cSxB5Rd" alt="Plot 39" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~wsjk/41/?share_key=xo7gIPbJPg6p5gb7qGgvNT" target="_blank" title="Plot 41" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/41.png?share_key=xo7gIPbJPg6p5gb7qGgvNT" alt="Plot 41" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
-
 
 # Bootstrap Analysis
 Bootstrapping was utilized to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
