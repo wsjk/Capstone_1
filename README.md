@@ -121,15 +121,15 @@ Bootstrapping was utilized to calculate confidence intervals for several of the 
 As mentioned earlier, the budget appears to be positively correlated with net revenue. The 95% confidence interval for the mean budget of `hits` is \[$36.7 million $40.2 million\]. For `flops`, there is 95% confidence that the mean of the budget is between $22.5 million and $25.4 million.
 
 #### Actors
-The actors whose movie credits generated the most and least net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. A boxplot of the top grossing actors (i.e., the sum of net revenue of all film credits for each actor), is show below. We can see that this plot includes actors who often play major roles (e.g., Tom Hanks) and some who only make cameo appearances (e.g., Stan Lee).
+The actors whose movie credits generated the most and least net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. A boxplot of the top grossing actors (i.e., the sum of net revenue of all film credits for each actor), is show below. We can see that this plot includes actors who often play major roles (e.g., Tom Hanks and Will Smith). The actors who are have been generated the most net revenue would be Harry Potters stars Rupert Grint and Daniel Radcliffe.
 
 ![figure_8]
 
-A boxplot of the actors who have been involved with the most amount of hit movies (i.e., net revenue > 0) shows us a slightly different list of actors. Judging by the two box plots, it appears that Tom Hanks and Tom Cruise have been consistently starring in hit films.
+A boxplot of the actors who have been involved with the most amount of hit movies (i.e., net revenue > 0) shows us a slightly different list of actors. Judging by the two box plots, it appears that Tom Cruise has been both highly successful and at a consistent rate.
 
 ![figure_2]
 
-The same boxplots for actors in flops show that Bob Hoskins and Val Kilmer have been attached to the most flops, and Martin Landau films have genearated the least amount of revenue.
+The same boxplots for actors in flops show lesser known actors such as Shea Whigham and Neil Maskill attached to the least successful films. In terms of amount of `flops`, Val Kilmer may be the most consistent in being associated with unsuccessful films.
 
 ![figure_3]
 
