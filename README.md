@@ -137,12 +137,13 @@ The same boxplots for actors in flops show lesser known actors such as Shea Whig
 
 Although, the track record of actors are not consistent in terms of their hits and flops. The following plots show the net revenue of actors who have generated the most and least amount of net revenue.
 <div>
-    <a href="https://plot.ly/~wsjk/25/?share_key=ZOeWzDlPZdBXKkU9Pm7Bga" target="_blank" title="Plot 25" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/25.png?share_key=ZOeWzDlPZdBXKkU9Pm7Bga" alt="Plot 25" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~wsjk/43/?share_key=h864aQXAF41jzLpz4pQgOJ" target="_blank" title="Plot 43" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/43.png?share_key=h864aQXAF41jzLpz4pQgOJ" alt="Plot 43" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
 <div>
-    <a href="https://plot.ly/~wsjk/27/?share_key=UGNndQt08xkawdHf6If94G" target="_blank" title="Plot 27" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/27.png?share_key=UGNndQt08xkawdHf6If94G" alt="Plot 27" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
+    <a href="https://plot.ly/~wsjk/45/?share_key=qDyPbKwTIBMR0mQVsIfVsV" target="_blank" title="Plot 45" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/45.png?share_key=qDyPbKwTIBMR0mQVsIfVsV" alt="Plot 45" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+ </div>
+
 
 #### Crew
 Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, directors of photography. The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
