@@ -72,7 +72,7 @@ Film budgets appear to have ballooned throughout the years. The high budget flop
     <a href="https://plot.ly/~wsjk/7/?share_key=iPSdQAIpl1ozVxKDg62FDf" target="_blank" title="Plot 7" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/7.png?share_key=iPSdQAIpl1ozVxKDg62FDf" alt="Plot 7" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
-Plotting the log of the mean of film budgets per year, show that film budgets have increased at a fairly constant rate.
+Plotting the log of the mean of film budgets per year, show that film budgets have increased at an exponential rate.
 <div>
     <a href="https://plot.ly/~wsjk/23/?share_key=McGmihZyLzaUYmMZYXYzFg" target="_blank" title="Plot 23" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/23.png?share_key=McGmihZyLzaUYmMZYXYzFg" alt="Plot 23" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
@@ -106,6 +106,14 @@ Although genre movies are prevalent, as shown in the histogram below, most succe
 <div>
     <a href="https://plot.ly/~wsjk/21/?share_key=mn5UQP7OkiqTZ3eoNk96C7" target="_blank" title="Plot 21" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/21.png?share_key=mn5UQP7OkiqTZ3eoNk96C7" alt="Plot 21" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
+
+#### Runtime
+The histogram below shows that both `hits` and `flops` have similar distributions and both types of films generally fall around the 100 minute mark. 
+
+<div>
+    <a href="https://plot.ly/~wsjk/39/?share_key=hJOJuRvIuTkhfT9cSxB5Rd" target="_blank" title="Plot 39" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/39.png?share_key=hJOJuRvIuTkhfT9cSxB5Rd" alt="Plot 39" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
+
 
 # Bootstrap Analysis
 Bootstrapping was utilized to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
@@ -184,4 +192,5 @@ Feature importance
 [figure_7]: https://github.com/wsjk/Capstone_1/blob/master/report/bad_crew.png "CI for worst crew"
 [figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
 [figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
+
 
