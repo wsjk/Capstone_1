@@ -5,15 +5,17 @@ Film studios and investors who are considering financing a film.
 The film industry is already a billion dollar industry and steadily growing. The global box office revenue is forecast to increase 50 billion U.S. dollars in 2020. The film "Avatar" is the current record holder for worldwide box office revenue is $2.8 billion with an estimated budget of $237 million. The risk, however, can be as great as the reward. One of the biggest box office bombs is "13th Warrior" which claimed an estimated loss of $129 million. Film studio executives and investors are constantly inundated with sales pitches for movies. How can anyone navigate the risk and choose a profitable film to finance? What does the next box office hit look like?
 
 # The Dataset
-The [TMBDB data set from Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata/data) contains information for 5000 films. The link contains a zip file that contains two csv files: `tmdb_credits.csv`, `tmdb_movies.csv`.
+The [TMDB data set from Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata/data) contains information for 5000 films. The link contains a zip file that contains two csv files: `tmdb_credits.csv`, `tmdb_movies.csv`.
 
-The `tmdb_credits.csv` file contains cast and crew data including names, character names, job title, and the order of billed actors. The `tmdb_movies.csv` file contains all other information regarding each movie including title, budget, revenue, language, popularity, runtime, viewer rating data, and release date. 
+The raw and unprocessed data is located in the [`data`](https://github.com/wsjk/Capstone_1/tree/master/data) sub-directory. The `tmdb_credits.csv` file contains cast and crew data including names, character names, job title, and the order of billed actors. The `tmdb_movies.csv` file contains all other information regarding each movie including title, budget, revenue, language, popularity, runtime, viewer rating data, and release date. 
 
 # Alternative Datasets
 Data could also be obtained from other movie databases such as IMDB. There is also a Python API for TMDB -- as well as IMDB -- but it is currently not functioning properly. The same can also be said about the IMDB API. 
 
 # Cleaning the Data
-The `cleaning_data.py` script contains the code to conduct the initial munging of the raw csv files. After cleaning the data cleaned data files were saved with *\*_cleaned.csv* suffix. 
+The `cleaning_data.py` script contains the code to conduct the initial munging of the raw csv files. After cleaning the data cleaned data files were saved with *\*_cleaned.csv* suffix. The final processed data for exploratory data analysis is located in the [`processed`](https://github.com/wsjk/Capstone_1/tree/master/data/folder) subfolder.
+
+The scripts used to clean data can be found [here](https://github.com/wsjk/Capstone_1/tree/master/src/data)
 
 The process of cleaning `tmdb_movies.csv` includes:
 * removing`original_title` and `homepage` columns
