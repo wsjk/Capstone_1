@@ -195,11 +195,14 @@ As mentioned earlier, the budget appears to be positively correlated with net re
 
 #### Runtime
 With some bootstrapping, we observed that there was a significant difference between the runtimes of hits and flops. Most hit movies had a runtime between 109 and 110 minutes while flops were between 104 and 107 minutes long. 
+![figure_4]
 
-# Predictive Model
-A Random Forest Classifier model was chosen to create model to predict whether a movie is a `hit` or a `flop`. The Random Forest Classifier is an ensemble algorithm and is derived from tree based methods. The difference between Random Forest algorithm and the Decision Tree algorithm, however, is that a Random Forest randomly.
+# Predicting a Hit Or a Flop
+A Random Forest Classifier model was chosen to create model to predict whether a movie is a `hit` or a `flop`. Random Forest models takes an ensemble approach by using Decision Trees combined with Bootstrap Aggregation (Bagging) techniques. Decision Trees alone suffer from overfitting issues, but Bagging helps by training Decision Trees with data created from bootstrapping the training dataset and then combining the predictions. Random Forest takes it one step further by adding randomization to the number of features included when bootstrapping the training data. The resulting predictions from the individual trees are less correlated with eachother to further reduce the variance and overfitting of the model predictions.
 
-One of the many advantages to using a Random Forest Classifier is that its results are interpretable. 
+#### Feature Selection
+The total list of features included in the training dataset are provided below:
+
 
 #### Training the Model
 Tuning hyperparameters
@@ -209,7 +212,6 @@ Tuning hyperparameters
 #### Results of Test Data
 Feature importance
 
-![figure_4]
 
 [figure_1]: https://github.com/wsjk/Capstone_1/blob/master/report/pairplot.png "Pairplot"
 [figure_2]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors.png "Box Plot of Top Actors"
