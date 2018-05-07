@@ -162,14 +162,25 @@ The most consistent out of the list of least successful crew members is executiv
 
 Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad. It is Johnny Depp, however, who holds the record for being involved in the biggest flop as an executive producer for The Lone Ranger
 
+<div>
+    <a href="https://plot.ly/~wsjk/47/?share_key=ZmVoy1EEJx20iDyqxsdqAd" target="_blank" title="Plot 47" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/47.png?share_key=ZmVoy1EEJx20iDyqxsdqAd" alt="Plot 47" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="wsjk:47" sharekey-plotly="ZmVoy1EEJx20iDyqxsdqAd" src="https://plot.ly/embed.js" async></script>
+</div>
 
 ###### Writers
 ![box_top_writer]
 ![box_worst_writer]
 
+<div>
+    <a href="https://plot.ly/~wsjk/49/?share_key=vgDkBYbsjeEwHwIK6oEVse" target="_blank" title="Plot 49" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/49.png?share_key=vgDkBYbsjeEwHwIK6oEVse" alt="Plot 49" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="wsjk:49" sharekey-plotly="vgDkBYbsjeEwHwIK6oEVse" src="https://plot.ly/embed.js" async></script>
+</div>
+
+
 ###### Producers
 ![box_top_producer]
 ![box_worst_producer]
+
 
 
 #### Genres
@@ -187,9 +198,7 @@ Although genre movies are prevalent, as shown in the histogram below, most succe
 #### Runtime
 The histogram below shows that both `hits` and `flops` have similar distributions and both types of films generally fall around the 100 minute mark. 
 
-<div>
-    <a href="https://plot.ly/~wsjk/41/?share_key=xo7gIPbJPg6p5gb7qGgvNT" target="_blank" title="Plot 41" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/41.png?share_key=xo7gIPbJPg6p5gb7qGgvNT" alt="Plot 41" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
+![runtime_hist]
 
 # Bootstrap Analysis
 Bootstrapping was utilized to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
@@ -226,8 +235,9 @@ Feature importance
 [box_worst_dir]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_directors.png 
 [box_top_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_writers.png 
 [box_worst_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_writers.png
-[box_top_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_producers.png 
-[box_worst_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_producers.png 
+[box_top_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_producers.png 
+[box_worst_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_producers.png 
+[runtime_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime_hist.jpg 
 [figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
 [figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
  
