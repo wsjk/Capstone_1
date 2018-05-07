@@ -188,14 +188,11 @@ Similar to the actor track records, few cast members (e.g., directors, producers
 #### Genres
 The TMDB dataset allows for a film to have several genres associated to it. A distribution of genres associated with films show that comedies and drama hold the lion's share. 
 
-<div>
-    <a href="https://plot.ly/~wsjk/19/?share_key=ZRyGdOaTEiYCHj68mzGWbm" target="_blank" title="Plot 19" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/19.png?share_key=ZRyGdOaTEiYCHj68mzGWbm" alt="Plot 19" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
+![genre_hist]
 
 Although genre movies are prevalent, as shown in the histogram below, most successful movies are more "complex" and use multiple genres to describe it. It appears the key number of genres may be limited to three as there is a sharp drop afterwards -- possibly indicating that sometimes movies are too complex.
-<div>
-    <a href="https://plot.ly/~wsjk/21/?share_key=mn5UQP7OkiqTZ3eoNk96C7" target="_blank" title="Plot 21" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/21.png?share_key=mn5UQP7OkiqTZ3eoNk96C7" alt="Plot 21" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
+
+![genre_count_hist]
 
 #### Runtime
 The histogram below shows that both `hits` and `flops` have similar distributions and both types of films generally fall around the 100 minute mark. 
@@ -239,7 +236,9 @@ Feature importance
 [box_worst_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_writers.png
 [box_top_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_producers.png 
 [box_worst_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_producers.png 
-[runtime_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime_hist.jpeg 
+[runtime_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime_hist.jpeg
+![genre_count_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/genre_count_hist.jpeg
+![genre_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/genre_hist.jpeg
 [figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
 [figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
  
