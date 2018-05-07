@@ -149,23 +149,27 @@ Although, the track record of actors are not consistent in terms of their hits a
 
 
 #### Crew
-Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, directors of photography. The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
+Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, directors of photography. 
 
-![figure_6]
+
+###### Directors
+The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
+![box_top_dir]
+
 
 The most consistent out of the list of least successful crew members is executive producer Brad Blackbourn. 
-![figure_7]
+![box_worst_dir]
 
 Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad. It is Johnny Depp, however, who holds the record for being involved in the biggest flop as an executive producer for The Lone Ranger
 
-<div>
-    <a href="https://plot.ly/~wsjk/35/?share_key=H4qfX4HhqPBXOGY7IHeU9L" target="_blank" title="Plot 35" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/35.png?share_key=H4qfX4HhqPBXOGY7IHeU9L" alt="Plot 35" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
- </div>
 
-<div>
-    <a href="https://plot.ly/~wsjk/37/?share_key=0jvCr98kagNqiFT5f8BPuo" target="_blank" title="Plot 37" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/37.png?share_key=0jvCr98kagNqiFT5f8BPuo" alt="Plot 37" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</div>
+###### Writers
+![box_top_writer]
+![box_worst_writer]
 
+###### Producers
+![box_top_producer]
+![box_worst_producer]
 
 
 #### Genres
@@ -218,8 +222,12 @@ Feature importance
 [figure_3]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors.png "Box Plot of Worst Actors"
 [figure_4]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime.png "CI for runtime"
 [figure_5]: https://github.com/wsjk/Capstone_1/blob/master/report/genre.png "CI for genre count"
-[figure_6]: https://github.com/wsjk/Capstone_1/blob/master/report/crew.png "CI for best crew"
-[figure_7]: https://github.com/wsjk/Capstone_1/blob/master/report/bad_crew.png "CI for worst crew"
+[box_top_dir]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_directors.png 
+[box_worst_dir]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_directors.png 
+[box_top_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_writers.png 
+[box_worst_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_writers.png
+[box_top_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_producers.png 
+[box_worst_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_producers.png 
 [figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
 [figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
  
