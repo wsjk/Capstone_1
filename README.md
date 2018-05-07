@@ -71,11 +71,11 @@ The exploratory analyses conducted on the data can be found in the following not
 #### Initial Findings
 The [`import_clean_data.py`](https://github.com/wsjk/Capstone_1/tree/master/src/data/import_clean_data.py) script is used to import clean, pre-processed data for exploratory analysis. All exploratory analyses are conducted in the IPython notebooks located [here](https://github.com/wsjk/Capstone_1/tree/master/notebooks)
 
-Some initial exploration via visual inspection of the data was conducted by creating a pairplot of the data in `tmdb_movies.csv`. The distribution of the net revenue percentage (`net_pct`) versus `budget` had a very odd shape that indicated that films with high net revenue percentage were all concentrated at lower budget levels. As you increased `budget`, however, the `net_pct` value was much lower and almost at a constant level.
-
-It was also interesting to note that a significant number of profitable films were clustered around the 100 min runtime mark for `net_pct`. 
-
-The plots of the net revenue (`net`) versus the same dependent variables of `budget` or `runtime` looked very different. Which may indicate that the goal of increasing net revenue and net revenue percentage may require very different approaches.
+Some interesting observations were made with na pairplot of the data in `tmdb_movies.csv`:
+* Films with high net revenue percentage are all concentrated at lower budget levels
+* Increasing `budget` leads to a decrease in `net_pct` and to a nearly constant level
+* A significant number of profitable films were clustered around the 100 min runtime mark
+* Optimizing `net_pct` and `net` may require different approaches
 
 ![figure_1]
 
