@@ -128,7 +128,7 @@ A boxplot of the actors who have been involved with the most amount of hit movie
 
 ![box_plot_hit_actor]
 
-The same boxplots for actors in flops show lesser known actors such as Shea Whigham and Neil Maskill attached to the least successful films. In terms of amount of `flops`, Val Kilmer may be the most consistent in being associated with unsuccessful films.
+The same boxplots for actors in flops are shown below. The first box plot shows that films from Shea Whigham and Neil Maskill have accumulated the greatest loss in net revenue. The second boxplot shows the actors who have the most `flops` in their filmography and Val Kilmer takes the prize for most consistent in this category.
 
 ![box_plot_flop_actor_sum]
 
