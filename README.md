@@ -164,7 +164,6 @@ Similar to the actor track records, few cast members (e.g., directors, producers
 
 <div>
     <a href="https://plot.ly/~wsjk/47/?share_key=ZmVoy1EEJx20iDyqxsdqAd" target="_blank" title="Plot 47" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/47.png?share_key=ZmVoy1EEJx20iDyqxsdqAd" alt="Plot 47" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="wsjk:47" sharekey-plotly="ZmVoy1EEJx20iDyqxsdqAd" src="https://plot.ly/embed.js" async></script>
 </div>
 
 ###### Writers
@@ -237,7 +236,7 @@ Feature importance
 [box_worst_writer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_writers.png
 [box_top_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_producers.png 
 [box_worst_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_producers.png 
-[runtime_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime_hist.jpg 
+[runtime_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime_hist.jpeg 
 [figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
 [figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
  
