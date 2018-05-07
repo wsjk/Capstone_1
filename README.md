@@ -73,7 +73,7 @@ The [`import_clean_data.py`](https://github.com/wsjk/Capstone_1/tree/master/src/
 
 A pairplot created from data in `tmdb_movies.csv` is shown below:
 
-![figure_1]
+![pairplot]
 
 #### Budget
 As expected, there is a positive linear correlation (Pearson's r = 0.56) between budget (`budget`) and net revenue (`net`). On the other hand, the films with the highest net revenue percentage (`net_pct`) were on the lower end of spectrum for `budget`. Furthermore, the plots show that increasing `budget` past a certain threshold results in a low, and nearly constant level of `net_pct`. This may hint at the possibility that there is an optimal `budget` if the goal is to maximize `net_pct`. 
@@ -120,19 +120,19 @@ The data shows a trend in the average net revenue for veteran actors versus the 
     <a href="https://plot.ly/~wsjk/17/?share_key=v7aWcF2zjp3ObnhOao3ZP4" target="_blank" title="Plot 17" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/17.png?share_key=v7aWcF2zjp3ObnhOao3ZP4" alt="Plot 17" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
-The actors whose filmography generated the most and least amount of cumulative net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. A boxplot of the top grossing actors (i.e., the sum of net revenue of all film credits for each actor), is show below. We can see that this plot includes actors who often play major roles (e.g., Tom Hanks and Will Smith). The actors who are have been generated the most net revenue would be Harry Potters stars Rupert Grint and Daniel Radcliffe.
+The actors whose filmography generated the most and least amount of cumulative net revenue are shown in the box plots below. The spread of net revenue generated can be large for a given actor's film credits. A boxplot of the top grossing actors (i.e., the sum of net revenue of all film credits for each actor), is show below. We can see several recognizeable actors who often play major roles (e.g., Tom Hanks and Will Smith) and the actors who are have been generated the most net revenue overall would be Harry Potters stars Rupert Grint and Daniel Radcliffe.
 
-![figure_8]
+![box_plot_hit_actor_sum]
 
 A boxplot of the actors who have been involved with the most amount of hit movies (i.e., net revenue > 0) shows us a slightly different list of actors. Judging by the two box plots, it appears that Tom Cruise has been both highly successful and at a consistent rate.
 
-![figure_2]
+![box_plot_hit_actor]
 
 The same boxplots for actors in flops show lesser known actors such as Shea Whigham and Neil Maskill attached to the least successful films. In terms of amount of `flops`, Val Kilmer may be the most consistent in being associated with unsuccessful films.
 
-![figure_9]
+![box_plot_flop_actor_sum]
 
-![figure_3]
+![box_plot_flop_actor]
 
 Although, the track record of actors are not consistent in terms of their hits and flops. The following plots show the net revenue of actors who have generated the most and least amount of net revenue.
 <div>
@@ -221,7 +221,7 @@ Tuning hyperparameters
 Feature importance
 
 
-[figure_1]: https://github.com/wsjk/Capstone_1/blob/master/report/pairplot.png "Pairplot"
+[pairplot]: https://github.com/wsjk/Capstone_1/blob/master/report/pairplot.png "Pairplot"
 [figure_2]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors.png "Box Plot of Top Actors"
 [figure_3]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors.png "Box Plot of Worst Actors"
 [figure_4]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime.png "CI for runtime"
@@ -233,9 +233,11 @@ Feature importance
 [box_top_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_top_producers.png 
 [box_worst_producer]: https://github.com/wsjk/Capstone_1/blob/master/report/box_plot_worst_producers.png 
 [runtime_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/runtime_hist.jpeg
-![genre_count_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/genre_count_hist.jpeg
-![genre_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/genre_hist.jpeg
-[figure_8]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png "Box Plot of Top Grossing Actors"
-[figure_9]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png "Box Plot of Lowest Grossing Actors"
+[genre_count_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/genre_count_hist.jpeg
+[genre_hist]: https://github.com/wsjk/Capstone_1/blob/master/report/genre_hist.jpeg
+[box_plot_hit_actor_sum]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors_sum.png 
+[box_plot_flop_actor_sum]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png 
+[box_plot_hit_actor]:https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors.png 
+[box_plot_flop_actor]:https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors.png 
  
 
