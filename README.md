@@ -103,9 +103,14 @@ The exploratory analyses conducted on the data can be found in the following not
 * [Analysis of Runtime Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_runtime_actors.ipynb)
 * [Analysis of Language Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_language_actors.ipynb)
 
-<h2> Initial Findings </h2>
+<details>
+      <summary><h2> Initial Findings </h2></summary>
+      <p>
 
 The [`import_clean_data.py`](https://github.com/wsjk/Capstone_1/tree/master/src/data/import_clean_data.py) script is used to import clean, pre-processed data for exploratory analysis. All exploratory analyses are conducted in the IPython notebooks located [here](https://github.com/wsjk/Capstone_1/tree/master/notebooks)
+
+</p>
+</details>
 
 <details>
       <summary><h3> Budget </h3></summary>
