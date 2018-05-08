@@ -103,7 +103,9 @@ The exploratory analyses conducted on the data can be found in the following not
 
 The [`import_clean_data.py`](https://github.com/wsjk/Capstone_1/tree/master/src/data/import_clean_data.py) script is used to import clean, pre-processed data for exploratory analysis. All exploratory analyses are conducted in the IPython notebooks located [here](https://github.com/wsjk/Capstone_1/tree/master/notebooks)
 
-<h2> Budget </h2>
+<details>
+      <summary><h3> Budget </h3></summary>
+      <p>
 
 As expected, there is a positive linear correlation (Pearson's r = 0.56) between budget (`budget`) and net revenue (`net`). On the other hand, the films with the highest net revenue percentage (`net_pct`) were on the lower end of spectrum for `budget`. Furthermore, the plots show that increasing `budget` past a certain threshold results in a low, and nearly constant level of `net_pct`. This may hint at the possibility that there is an optimal `budget` if the goal is to maximize `net_pct`. 
 
@@ -142,7 +144,12 @@ The level of net revenue that films bring have also increased as of late, but it
     <a href="https://plot.ly/~wsjk/15/?share_key=POPpsqV5on9GbFV9qFTzZC" target="_blank" title="net_pct vs year" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/15.png?share_key=POPpsqV5on9GbFV9qFTzZC" alt="Plot 15" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
-<h2> Actors </h2>
+</p>
+</details>
+
+<details>
+      <summary><h3> Actors </h3></summary>
+      <p>
 
 The data shows a trend in the average net revenue for veteran actors versus the average net revenue of movies from new faces as shown in the plot below. Actors with more film credits (larger bubbles) had a much lower average for net revenue and net revenue percentage. The actors with highest average net revenue and net revenue percentage are difficult to spot in the plot because they belonged to actors with a single credit. This may be evidence of regression to the mean for the level of success for an actor. The same trends have also been observed for directors.
 
@@ -174,8 +181,12 @@ Although, the track record of actors are not consistent in terms of their hits a
     <a href="https://plot.ly/~wsjk/45/?share_key=qDyPbKwTIBMR0mQVsIfVsV" target="_blank" title="Plot 45" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/45.png?share_key=qDyPbKwTIBMR0mQVsIfVsV" alt="Plot 45" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
  </div>
 
+</p>
+</details>
 
-<h2> Crew </h2>
+<details>
+      <summary><h3> Crew </h3></summary>
+      <p>
 
 Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, and directors of photography. 
 
@@ -194,7 +205,12 @@ Looking at the revenue history of the top Directors, Joss Whedon's films may hav
     <a href="https://plot.ly/~wsjk/47/?share_key=ZmVoy1EEJx20iDyqxsdqAd" target="_blank" title="Plot 47" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/47.png?share_key=ZmVoy1EEJx20iDyqxsdqAd" alt="Plot 47" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
-<h3> Writers </h3>
+</p>
+</details>
+
+<details>
+      <summary><h3> Writers </h3></summary>
+      <p>
 
 The clear winner for most successful writer in terms of cumulative net revenue, as well as the most successful writer/director combo, is James Cameron. Although, Cameron only has two writing credits to his name. It is also interesting to note that a majority of the successful writers are also directors.
 
@@ -208,8 +224,12 @@ The least successful writers are Ken Hixon and James Gray. It is surprising to f
     <a href="https://plot.ly/~wsjk/49/?share_key=vgDkBYbsjeEwHwIK6oEVse" target="_blank" title="Plot 49" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/49.png?share_key=vgDkBYbsjeEwHwIK6oEVse" alt="Plot 49" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
+</p>
+</details>
 
-<h3> Producers </h3>
+<details>
+      <summary><h3> Producers </h3></summary>
+      <p>
 
 The boxplots show that the most successful executive producer Laeta Kalogridis thanks to her involvement with Avatar and Shutter Island. For producers who have been involved in numerous films, Callum McDougall has consistently worked on very successful films such as the more recent James Bond films and Harry Potter.
 
@@ -225,7 +245,12 @@ Similar to Directors, the track record of Producers are less erratic than actors
     <a href="https://plot.ly/~wsjk/55/?share_key=MqB4oGXxfC1SLDJDUQ8F42" target="_blank" title="Plot 55" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/55.png?share_key=MqB4oGXxfC1SLDJDUQ8F42" alt="Plot 55" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
-<h3> Genres </h3>
+</p>
+</details>
+
+<details>
+      <summary><h3> Genres </h3></summary>
+      <p>
 
 The TMDB dataset allows for a film to have several genres associated to it. A distribution of genres associated with films show that comedies and drama hold the lion's share. 
 
@@ -235,7 +260,12 @@ Although genre movies are prevalent, as shown in the histogram below, most succe
 
 ![genre_count_hist]
 
-<h3> Runtime </h3>
+</p>
+</details>
+
+<details>
+      <summary><h3> Runtime </h3></summary>
+      <p>
 
 The histogram below shows that both `hits` and `flops` have similar distributions and both types of films generally fall around the 100 minute mark. 
 
@@ -243,9 +273,11 @@ The histogram below shows that both `hits` and `flops` have similar distribution
 
 </p>
 </details>
+</p>
+</details>
 
 <details>
-   <summary><h1> Bootstrap Analysis </h2></summary>
+   <summary><h1> Bootstrap Analysis </h1></summary>
    <p>
          
 Bootstrapping is used to calculate confidence intervals for several of the features that were expected to be strong predictors of a film's performance.
@@ -272,11 +304,18 @@ Files related to developing, training, and running the model are located in the 
 
 A Jupyter Notebook with a walkthrough of the model is provided [`model`](https://github.com/wsjk/Capstone_1/blob/master/notebooks/RandomForestClassifier.ipynb).
 
-<h2> The Model </h2>
+<details>
+      <summary><h2> The Model </h2></summary>
+            <p>
 
 Random Forest models takes an ensemble approach by using Decision Trees combined with Bootstrap Aggregation (bagging) techniques. Decision Trees alone suffer from overfitting issues, but bagging helps by training Decision Trees with data created from bootstrapping the training dataset and then combining the predictions. Random Forest takes it one step further by adding randomization to the number of features included when bootstrapping the training data. The resulting predictions from the individual trees are less correlated with eachother to further reduce the variance and overfitting of the model predictions.
 
-<h2> Feature Selection </h2>
+</p>
+</details>
+
+<details>
+      <summary><h2> Feature Selection </h2></summary>
+      <p>
 
 Feature selection and processing is conducted with the Python script: [`get_features.py`](https://github.com/wsjk/Capstone_1/blob/master/src/model/get_features.py). The Python script saves the processed feature set as csv files in [`notebooks`](https://github.com/wsjk/Capstone_1/blob/master/notebooks) directory.
 
@@ -305,8 +344,13 @@ Notes about feature selection:
 * Cast and Crew members with unknown gender are represented by feature with suffix `_unknown` 
 * Release Date features originally include day of the month (1 - 31), but initial phases of training the model showed that these features had low importance
 
-<h2> Training the Model </h2>
+</p>
+</details>
 
+<details>
+      <summary><h2> Training the Model </h2></summary>
+      <p>
+         
 The process of tuning the hyperparameters of the Random Forest Classifier is split into two phases:
 1.  Use sklearn.RandomizedSearchCV() to do some initial exploration of hyperparameter values 
 2.  Use sklearn.GridSearchCV() to fine tune the hyperparameters using the best parameter obtained from RandomSearchCV
@@ -326,10 +370,27 @@ param_grid = {
               }
 ```
 
-<h2> Results of Training </h2>
+</p>
+</details>
 
-<h2> Results of Test Data </h2>
-Feature importance
+<details>
+      <summary><h2> Results of Training </h2></summary>
+      <p>
+      </p>
+</details>
+      
+<details>
+      <summary><h2> Results of Test Data </h2></summary>
+      <p>
+      </p>
+</details>      
+      
+
+<details>
+      <summary><h2> Feature Importance </h2></summary>
+      <p>
+      </p>
+</details>   
 
 </p>
 </details>
