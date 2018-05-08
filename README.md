@@ -48,8 +48,12 @@ The [TMDB data](https://github.com/wsjk/Capstone_1/tree/master/data/raw/tmdb-500
 
 The `tmdb_credits.csv` file contains cast and crew data including names, character names, gender, job title, and the order of billing. The `tmdb_movies.csv` file contains all other information regarding each movie including title, budget, revenue, language, popularity, runtime, viewer rating data, and release date. 
 
-<h2>Alternative Datasets</h2>
+<details>
+      <summary><h2>Alternative Datasets</h2></summary>
+      <p>
 Data could also be obtained from other movie databases such as IMDB. There is also a Python API for TMDB -- as well as IMDB -- but was not functioning properly at the time of this project. The same can also be said about the IMDB API. 
+      </p>
+      </details>
 
 </p>
 </details>
