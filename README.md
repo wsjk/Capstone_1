@@ -142,24 +142,29 @@ Although, the track record of actors are not consistent in terms of their hits a
 
 
 #### Crew
-Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, directors of photography. 
+Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, and directors of photography. 
 
 ###### Directors
-The most consistently successful director according to the boxplots below is Joss Whedon. And Morgan J. Freeman takes the prize for being the least successful director.
+The most consistently successful director according to the boxplots of cumulative net reveue below is Joss Whedon. And Morgan J. Freeman takes the prize for being the least successful director.
 
 ![box_top_dir]
 
 
 ![box_worst_dir]
 
-Looking at the revenue history of the top Directors show that Joss Whedon's films may have accumulated the most revenue, but James Cameron has helmed the single most successful movie.
+Looking at the revenue history of the top Directors, Joss Whedon's films may have accumulated the most revenue, but James Cameron has helmed the single most successful movie. The track record of Director's are also a little less erratic compared to actors.
 
 <div>
     <a href="https://plot.ly/~wsjk/47/?share_key=ZmVoy1EEJx20iDyqxsdqAd" target="_blank" title="Plot 47" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/47.png?share_key=ZmVoy1EEJx20iDyqxsdqAd" alt="Plot 47" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
 
 ###### Writers
+The clear winner for most successful writer in terms of cumulative net revenue, as well as the most successful writer/director combo, is James Cameron. Although, Cameron only has two writing credits to his name. It is also interesting to note that a majority of the successful writers are also directors.
+
 ![box_top_writer]
+
+The least successful writers are Ken Hixon and James Gray. It is surprising to find Paul Thomas Anderson in this group considering the critical praise his films regularly receive. This provides evidence of the disparity between a film's reception by the general public and film critics.
+
 ![box_worst_writer]
 
 <div>
@@ -169,21 +174,19 @@ Looking at the revenue history of the top Directors show that Joss Whedon's film
 
 ###### Producers
 
-The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
+The boxplots show that the most successful executive producer Laeta Kalogridis thanks to her involvement with Avatar and Shutter Island. For producers who have been involved in numerous films, Callum McDougall has consistently worked on very successful films such as the more recent James Bond films and Harry Potter.
 
 ![box_top_producer]
 
-
-Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad. It is Johnny Depp, however, who holds the record for being involved in the biggest flop as an executive producer for The Lone Ranger. The most consistent out of the list of least successful crew members is executive producer Brad Blackbourn. 
-
+The most consistent out of the list of least successful crew members is executive producer Victor Loewy. 
 
 ![box_worst_producer]
+
+Similar to Directors, the track record of Producers are less erratic than actors. The revenue for George Lucas over the course of his career show great success in his early years (e.g., Star Wars), a sharp dip (e.g., Howard the Duck) in the late 80's, and then an uptick again in the early 90's (e.g., Indiana Jones, Star Wars).
 
 <div>
     <a href="https://plot.ly/~wsjk/55/?share_key=MqB4oGXxfC1SLDJDUQ8F42" target="_blank" title="Plot 55" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/55.png?share_key=MqB4oGXxfC1SLDJDUQ8F42" alt="Plot 55" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
-
-
 
 #### Genres
 The TMDB dataset allows for a film to have several genres associated to it. A distribution of genres associated with films show that comedies and drama hold the lion's share. 
