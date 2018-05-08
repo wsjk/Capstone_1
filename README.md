@@ -364,7 +364,7 @@ The process of tuning the hyperparameters of the Random Forest Classifier is spl
 1.  Use sklearn.RandomizedSearchCV() to do some initial exploration of hyperparameter values 
 2.  Use sklearn.GridSearchCV() to fine tune the hyperparameters using the best parameter obtained from RandomSearchCV
 
-Step 1 of the training process is conducted in [`rf_randomsearchcv.py`](https://github.com/wsjk/Capstone_1/blob/master/src/model/rf_randomsearchcv.py). The hyperparameters varied in this process are:
+Step 1 of the training process is conducted in [`rf_randomsearchcv.py`](https://github.com/wsjk/Capstone_1/blob/master/src/model/rf_randomsearchcv.py). The hyperparameter values were chosen randomly within a specific range of values. The range of values for each hyperparameter are:
 
 ```bash
 param_grid = {
@@ -379,12 +379,26 @@ param_grid = {
               }
 ```
 
-</p>
-</details>
+The results of the RandomizedSearchCV process is shown below. The plots show the train and test scores for varying values for the hyperparameters.
+            
+![train_vs_test]
 
-<details>
-      <summary><h2> Results of Training </h2></summary>
-      <p>
+
+The best hyperparameters of the RandomizedSearchCV process are:
+
+The hyperparameter values above provides a starting point for GridSearchCV process for Step 2 of the tuning process. The following table contains the hyperparameter values that led to the top 3 mean test and training scores from RandomizedSearchCV.
+
+| param_criterion | param_max_depth | param_max_leaf_nodes | param_min_samples_leaf | param_min_samples_split | param_n_estimators | param_oob_score |
+|:---------------:|:---------------:|:--------------------:|:----------------------:|:-----------------------:|:------------------:|:---------------:|
+| gini    |310  | 49 | 4  | 2   | 370 | FALSE |
+| gini    | 340 | 33 | 2  | 28  | 220 | TRUE  |
+| gini    | 260 | 56 | 6  | 2   | 330 | FALSE |
+| gini    | 70  | 25 | 56 | 95  | 20  | FALSE |
+| entropy | 400 | 22 | 8  | 85  | 420 | TRUE  |
+| gini    | 60  | 30 | 5  | 147 | 170 | TRUE  | 
+
+
+
       </p>
 </details>
       
@@ -422,5 +436,6 @@ param_grid = {
 [box_plot_flop_actor_sum]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors_sum.png 
 [box_plot_hit_actor]:https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors.png 
 [box_plot_flop_actor]:https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_flop_actors.png 
+[train_vs_test]:https://github.com/wsjk/Capstone_1/blob/master/report/train_vs_test.png
  
 
