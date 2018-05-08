@@ -71,10 +71,6 @@ The exploratory analyses conducted on the data can be found in the following not
 #### Initial Findings
 The [`import_clean_data.py`](https://github.com/wsjk/Capstone_1/tree/master/src/data/import_clean_data.py) script is used to import clean, pre-processed data for exploratory analysis. All exploratory analyses are conducted in the IPython notebooks located [here](https://github.com/wsjk/Capstone_1/tree/master/notebooks)
 
-A pairplot created from data in `tmdb_movies.csv` is shown below:
-
-![pairplot]
-
 #### Budget
 As expected, there is a positive linear correlation (Pearson's r = 0.56) between budget (`budget`) and net revenue (`net`). On the other hand, the films with the highest net revenue percentage (`net_pct`) were on the lower end of spectrum for `budget`. Furthermore, the plots show that increasing `budget` past a certain threshold results in a low, and nearly constant level of `net_pct`. This may hint at the possibility that there is an optimal `budget` if the goal is to maximize `net_pct`. 
 
@@ -134,7 +130,8 @@ The same boxplots for actors in flops are shown below. The first box plot shows 
 
 ![box_plot_flop_actor]
 
-Although, the track record of actors are not consistent in terms of their hits and flops. The following plots show the net revenue of actors who have generated the most and least amount of net revenue.
+Although, the track record of actors are not consistent in terms of their hits and flops. The following plots show the net revenue of actors who have generated the most and least amount of net revenue. Successful actors are not necessarily consistent and suffer from highs and lows in the revenue generated from their projects. The least successful actors, on the other hand, show some consistency in their filmography.
+
 <div>
     <a href="https://plot.ly/~wsjk/43/?share_key=h864aQXAF41jzLpz4pQgOJ" target="_blank" title="Plot 43" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/43.png?share_key=h864aQXAF41jzLpz4pQgOJ" alt="Plot 43" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
@@ -147,11 +144,9 @@ Although, the track record of actors are not consistent in terms of their hits a
 #### Crew
 Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, directors of photography. 
 
-
 ###### Directors
 The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
 ![box_top_dir]
-
 
 The most consistent out of the list of least successful crew members is executive producer Brad Blackbourn. 
 ![box_worst_dir]
