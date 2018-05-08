@@ -145,13 +145,14 @@ Although, the track record of actors are not consistent in terms of their hits a
 Boxplots of the crew and their respective film credits are provided for those with the most `hits` and `flops` in their list of credits.  The crew consists of anyone other than actors including directors, executive producers, editors, writers, cinematographers, directors of photography. 
 
 ###### Directors
-The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
+The most consistently successful director according to the boxplots below is Joss Whedon. And Morgan J. Freeman takes the prize for being the least successful director.
+
 ![box_top_dir]
 
-The most consistent out of the list of least successful crew members is executive producer Brad Blackbourn. 
+
 ![box_worst_dir]
 
-Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad. It is Johnny Depp, however, who holds the record for being involved in the biggest flop as an executive producer for The Lone Ranger
+Looking at the revenue history of the top Directors show that Joss Whedon's films may have accumulated the most revenue, but James Cameron has helmed the single most successful movie.
 
 <div>
     <a href="https://plot.ly/~wsjk/47/?share_key=ZmVoy1EEJx20iDyqxsdqAd" target="_blank" title="Plot 47" style="display: block; text-align: center;"><img src="https://plot.ly/~wsjk/47.png?share_key=ZmVoy1EEJx20iDyqxsdqAd" alt="Plot 47" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -167,7 +168,15 @@ Similar to the actor track records, few cast members (e.g., directors, producers
 
 
 ###### Producers
+
+The boxplots show that the most successful "crew" member would be executive producer Alan Fine thanks to the success of Marvel films. 
+
 ![box_top_producer]
+
+
+Similar to the actor track records, few cast members (e.g., directors, producers, composers) are consistently good or bad. It is Johnny Depp, however, who holds the record for being involved in the biggest flop as an executive producer for The Lone Ranger. The most consistent out of the list of least successful crew members is executive producer Brad Blackbourn. 
+
+
 ![box_worst_producer]
 
 <div>
