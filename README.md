@@ -311,7 +311,7 @@ The Random Forest Classifier from Python's Sci-Kit Learn library is used to deve
 
 Files related to developing, training, and running the model are located in the [`model`](https://github.com/wsjk/Capstone_1/tree/master/src/model) folder.
 
-A Jupyter Notebook with a walkthrough of the model is provided [`model`](https://github.com/wsjk/Capstone_1/blob/master/notebooks/RandomForestClassifier.ipynb).
+A Jupyter Notebook with a walkthrough of the model is provided in [`RandomForestClassifier.ipynb`](https://github.com/wsjk/Capstone_1/blob/master/notebooks/RandomForestClassifier.ipynb).
 
 <details>
       <summary><h2> The Model </h2></summary>
