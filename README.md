@@ -399,7 +399,7 @@ The hyperparameter values above provides a starting point for GridSearchCV proce
 
 
 
-      </p>
+</p>
 </details>
       
 <details>
