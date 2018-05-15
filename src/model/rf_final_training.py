@@ -60,11 +60,15 @@ for i in res_train_test_list:
 param_grid = {k: list(set(v)) for k,v in best_params.items()}
 
 for k,v in param_grid.items():
-    try:
-        param_grid[k] = [i for i in range(min(v), max(v)+int(max(v)/10), int(max(v)/10))]
-    except:
-        param_grid[k] = v
-        continue
+	print(k)
+	if k in ['criterion', 'oob_score']:
+		param_grid[k] = v
+	else:
+		param_grid[k] = [i for i in range(min(v), max(v)+int(max(v)/10), int(max(v)/6))]
+		param_grid[k] = np.linspace(min(v), max(v), num=5, dtype=int)
+
+for k,v in param_grid.items():
+	print(k,v)
 
 param_grid['max_features'] = [None, 'auto', 'sqrt','log2']
 
