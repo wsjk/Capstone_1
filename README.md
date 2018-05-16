@@ -367,7 +367,7 @@ Notes about feature selection:
       <summary><h2> Sci-Kit Learn</h2></summary>
       <p>
 <details>
-      <summary><h4> Training the Model </h4></summary>
+      <summary><h4> Tuning Hyperparameters </h4></summary>
       <p>
          
 The process of tuning the hyperparameters of the Random Forest Classifier is split into two phases:
@@ -377,7 +377,7 @@ The process of tuning the hyperparameters of the Random Forest Classifier is spl
 Step 1 of the training process is conducted in [`rf_randomsearchcv.py`](https://github.com/wsjk/Capstone_1/blob/master/src/model/rf_randomsearchcv.py). The hyperparameter values were chosen randomly within a specific range of values. The range of values for each hyperparameter are:
 
 ```bash
-param_grid = {
+{
   "oob_score": [True,False],
   "n_estimators": np.arange(10, 500, 10),
   "max_depth": np.arange(10, 500, 10),
@@ -394,8 +394,6 @@ The results of the RandomizedSearchCV process is shown below. The plots show the
 ![train_vs_test]
 
 
-The best hyperparameters of the RandomizedSearchCV process are:
-
 The hyperparameter values above provides a starting point for GridSearchCV process for Step 2 of the tuning process. The following table contains the hyperparameter values that led to the top 3 mean test and training scores from RandomizedSearchCV.
 
 | param_criterion | param_max_depth | param_max_leaf_nodes | param_min_samples_leaf | param_min_samples_split | param_n_estimators | param_oob_score |
@@ -407,21 +405,51 @@ The hyperparameter values above provides a starting point for GridSearchCV proce
 | entropy | 400 | 22 | 8  | 85  | 420 | TRUE  |
 | gini    | 60  | 30 | 5  | 147 | 170 | TRUE  | 
 
+
+Using the best hyperparameters obtained from the random search, a range of hyperparameters used for the grid search are 
+```bash
+{
+'criterion': ['gini', 'entropy'],
+'max_depth': [60, 128, 196, 264, 332],
+'max_leaf_nodes': [22, 28, 34, 40, 46, 52],
+'min_samples_leaf': [2, 12, 22, 32, 42, 52],
+'min_samples_split': [2, 31, 60, 89, 118],
+'n_estimators': [20, 100, 180, 260, 340],
+'oob_score': [False, True]
+ }
+```
+
+With a `mean_test_score` of 0.62 and `mean_train_score` of 0.72, the best parameters obtained from the grid search are
+```bash
+{
+'max_features': 'log2', 
+'criterion': 'entropy', 
+'n_estimators': 100, 
+'max_leaf_nodes': 28, 
+'max_depth': 60, 
+'min_samples_split': 2, 
+'min_samples_leaf': 12, 
+'oob_score': False
+ }
+```
+
 </p>
 </details>
       
 <details>
-      <summary><h4> Results of Test Data </h4></summary>
-      <p>
-      </p>
-</details>      
-      
-
-<details>
       <summary><h4> Feature Importance </h4></summary>
       <p>
+            a
       </p>
 </details>   
+
+<details>
+      <summary><h4> Model Performance </h4></summary>
+      <p>
+a
+            
+</p>
+</details>      
 
 </p>
 </details>
