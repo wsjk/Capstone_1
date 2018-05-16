@@ -307,11 +307,18 @@ With some bootstrapping, we observed that there was a significant difference bet
 <details>
    <summary><h1>Prediction Model</h1></summary>
       
-The Random Forest Classifier from Python's Sci-Kit Learn library is used to develop a model to predict whether a movie will be a `hit` or a `flop` given a set of features for the film. The model will be used to provide the probability of whether a movie will be a `hit` or a `flop`.
+The Random Forest algorithm is used to develop a classifier to predict whether a movie will be a `hit` or a `flop` given a set of features for the film. Random Forest Classifiers from Python's `Sci-Kit Learn` and `H2O` modules are developed and their performance are compared against eachother. The model will be used to provide the probability of whether a movie will be a `hit` or a `flop`.
+
+The Random Forest algorithms from `Sci-Kit Learn` and `H2O` are compared due to a key difference in how each model handles categorical features. Sci-Kit Learn requires categorical variables to be one-hot encoded while H2O does not. There are several disadvantages of one-hot encoding categorical variables to train Random Forest algorithms<sup><a href = https://roamanalytics.com/2016/10/28/are-categorical-variables-getting-lost-in-your-random-forests/>[2]</a></sup>:
+
+* Significantly increases dimensionality of feature dataset
+* The resulting binary features are very sparse and leads to an increase in feature importance of continuous variables 
 
 Files related to developing, training, and running the model are located in the [`model`](https://github.com/wsjk/Capstone_1/tree/master/src/model) folder.
 
 A Jupyter Notebook with a walkthrough of the model is provided in [`RandomForestClassifier.ipynb`](https://github.com/wsjk/Capstone_1/blob/master/notebooks/RandomForestClassifier.ipynb).
+
+
 
 <details>
       <summary><h2> The Model </h2></summary>
@@ -357,7 +364,10 @@ Notes about feature selection:
 </details>
 
 <details>
-      <summary><h2> Training the Model </h2></summary>
+      <summary><h2> Sci-Kit Learn</h2></summary>
+      <p>
+<details>
+      <summary><h4> Training the Model </h4></summary>
       <p>
          
 The process of tuning the hyperparameters of the Random Forest Classifier is split into two phases:
@@ -397,23 +407,52 @@ The hyperparameter values above provides a starting point for GridSearchCV proce
 | entropy | 400 | 22 | 8  | 85  | 420 | TRUE  |
 | gini    | 60  | 30 | 5  | 147 | 170 | TRUE  | 
 
-
-
 </p>
 </details>
       
 <details>
-      <summary><h2> Results of Test Data </h2></summary>
+      <summary><h4> Results of Test Data </h4></summary>
       <p>
       </p>
 </details>      
       
 
 <details>
-      <summary><h2> Feature Importance </h2></summary>
+      <summary><h4> Feature Importance </h4></summary>
       <p>
       </p>
 </details>   
+
+</p>
+</details>
+
+
+<details>
+      <summary><h2> H2O</h2></summary>
+      <p>
+<details>
+      <summary><h4> Training the Model </h4></summary>
+      <p>
+
+</p>
+</details>
+      
+<details>
+      <summary><h4> Results of Test Data </h4></summary>
+      <p>
+      </p>
+</details>      
+      
+
+<details>
+      <summary><h4> Feature Importance </h4></summary>
+      <p>
+      </p>
+</details>   
+
+</p>
+</details>
+
 
 </p>
 </details>
