@@ -48,7 +48,7 @@ def get_actor_credits(data, movies, save_csv=False, dummies=True):
         actors_df = movies_with_actors.reset_index()
         new_df = actors_df[['movie_id', 'title', 'name', 'unknown','male','female', 'credits', 'net_to_date']]
     else:
-        new_df = movies_with_actors[['movie_id', 'title', 'name', 'credits', 'net_to_date']]
+        new_df = movies_with_actors[['movie_id', 'title', 'name', 'gender','credits', 'net_to_date']]
 
     if save_csv:
         new_df.to_csv(os.path.abspath(os.path.join(save_path,'Actor_credits.csv')), index=False)
@@ -66,7 +66,7 @@ def get_crew_credits(data, movies, save_csv=False, dummies=True):
         crew = crew.merge(gender, left_index=True, right_index=True)
         cols = ['movie_id','title','name', 'unknown','male','female','credits','net_to_date']
     else:
-        cols = ['movie_id','title','name', 'credits','net_to_date']
+        cols = ['movie_id','title','name',  'gender','credits','net_to_date']
 
     crew = crew.reset_index()
 
