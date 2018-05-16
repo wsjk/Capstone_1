@@ -314,11 +314,11 @@ The Random Forest algorithms from `Sci-Kit Learn` and `H2O` are compared due to 
 * Significantly increases dimensionality of feature dataset
 * The resulting binary features are very sparse and leads to an increase in feature importance of continuous variables 
 
+To determine whether the effects of one-hot encoding categorical variables are significant for this dataset, the Random Forest models from `Sci-Kit Learn` and `H2O` are compared.
+
 Files related to developing, training, and running the model are located in the [`model`](https://github.com/wsjk/Capstone_1/tree/master/src/model) folder.
 
 A Jupyter Notebook with a walkthrough of the model is provided in [`RandomForestClassifier.ipynb`](https://github.com/wsjk/Capstone_1/blob/master/notebooks/RandomForestClassifier.ipynb).
-
-
 
 <details>
       <summary><h2> The Model </h2></summary>
