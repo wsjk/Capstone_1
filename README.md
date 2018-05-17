@@ -410,27 +410,24 @@ Using the best hyperparameters obtained from the random search, a range of hyper
 ```bash
 {
 'criterion': ['gini', 'entropy'],
-'max_depth': [60, 128, 196, 264, 332],
-'max_leaf_nodes': [22, 28, 34, 40, 46, 52],
-'min_samples_leaf': [2, 12, 22, 32, 42, 52],
-'min_samples_split': [2, 31, 60, 89, 118],
-'n_estimators': [20, 100, 180, 260, 340],
+'max_depth': range(60,332),
+'max_leaf_nodes': range(22, 52),
+'min_samples_leaf': range(2, 52),
+'min_samples_split': range(2, 118),
+'n_estimators': range(20, 340),
 'oob_score': [False, True]
  }
 ```
 
-With a `mean_test_score` of 0.62 and `mean_train_score` of 0.72, the best parameters obtained from the grid search are
+With a `mean_test_score` of 0.61 and `mean_train_score` of 0.70, the best parameters obtained from the grid search are
 ```bash
-{
-'max_features': 'log2', 
-'criterion': 'entropy', 
-'n_estimators': 100, 
-'max_leaf_nodes': 28, 
-'max_depth': 60, 
-'min_samples_split': 2, 
-'min_samples_leaf': 12, 
-'oob_score': False
- }
+RandomForestClassifier(
+bootstrap=True, class_weight=None, criterion='gini',
+max_depth=330, max_features=None, max_leaf_nodes=34,
+min_impurity_decrease=0.0, min_impurity_split=None,
+min_samples_leaf=23, min_samples_split=109,
+min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+oob_score=True, random_state=42, verbose=0, warm_start=False)
 ```
 
 </p>
