@@ -892,8 +892,12 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 </p>
 </details>
 
+</p>
+</details>
+
+
 <details>
-<summary><h4> Conclusions </h4></summary>
+<summary><h1> Conclusions </h1></summary>
 <p>
 A Random Forest Classifier was developed to predict whether a movie will be a hit or a flop at the box office.
 </p>
