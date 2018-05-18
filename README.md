@@ -436,8 +436,69 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 <details>
       <summary><h4> Feature Importance </h4></summary>
       <p>
-            a
-      </p>
+            
+| feature | importance |
+|:---------------:|:---------------:|
+| budget | 0.243
+| runtime | 0.060
+| release_year | 0.243
+| actor_unknown | 0.003 | 
+| actor_male | 0.0 | 
+| actor_female | 0.021 | 
+| actor_credits | 0.019 | 
+| actor_net_to_date | 0.054 | 
+| director_unknown | 0.003 | 
+| director_male | 0.0 | 
+| director_female | 0.0 | 
+| director_credits | 0.010 | 
+| director_net_to_date | 0.145 | 
+| writer_unknown | 0.005 | 
+| writer_male | 0.003 | 
+| writer_female | 0.006 | 
+| writer_credits | 0.022 | 
+| writer_net_to_date | 0.050 | 
+| action | 0.003 | 
+| adventure | 0.0 | 
+| animation | 0.0 | 
+| comedy | 0.008 | 
+| crime | 0.002 | 
+| documentary | 0.0 | 
+| drama | 0.010| 
+| family | 0.006 | 
+| fantasy | 0.0 | 
+| foreign | 0.0 | 
+| history | 0.0 | 
+| horror | 0.009 | 
+| music | 0.0 | 
+| mystery | 0.003 | 
+| romance | 0.004 | 
+| science fiction | 0.0 | 
+| tv movie | 0.0 | 
+| thriller | 0.0 | 
+| war | 0.0 | 
+| western | 0.0 | 
+| genre_count | 0.023 | 
+| language_count | 0.007 | 
+| January | 0.0 | 
+| February | 0.002 | 
+| March | 0.0 | 
+| April | 0.004 | 
+| May | 0.0 | 
+| June | 0.0 | 
+| July | 0.0 | 
+| August | 0.003 | 
+| September | 0.001 | 
+| October | 0.0 | 
+| November | 0.0 | 
+| December | 0.002 | 
+| Monday | 0.0 | 
+| Tuesday | 0.0 | 
+| Wednesday | 0.013| 
+| Thursday | 0.003 | 
+| Friday | 0.011 | 
+| Saturday | 0.0 | 
+| Sunday | 0.0 | 
+</p>
 </details>   
 
 <details>
