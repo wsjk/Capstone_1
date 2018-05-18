@@ -307,14 +307,7 @@ With some bootstrapping, we observed that there was a significant difference bet
 <details>
    <summary><h1>Prediction Model</h1></summary>
       
-The Random Forest algorithm is used to develop a classifier to predict whether a movie will be a `hit` or a `flop` given a set of features for the film. Random Forest Classifiers from Python's `Sci-Kit Learn` and `H2O` modules are developed and their performance are compared against eachother. The model will be used to provide the probability of whether a movie will be a `hit` or a `flop`.
-
-The Random Forest algorithms from `Sci-Kit Learn` and `H2O` are compared due to a key difference in how each model handles categorical features. Sci-Kit Learn requires categorical variables to be one-hot encoded while H2O does not. There are several disadvantages of one-hot encoding categorical variables to train Random Forest algorithms<sup><a href = https://roamanalytics.com/2016/10/28/are-categorical-variables-getting-lost-in-your-random-forests/>[2]</a></sup>:
-
-* Significantly increases dimensionality of feature dataset
-* The resulting binary features are very sparse and leads to an increase in feature importance of continuous variables 
-
-To determine whether the effects of one-hot encoding categorical variables are significant for this dataset, the Random Forest models from `Sci-Kit Learn` and `H2O` are compared.
+The Random Forest algorithm is used to develop a classifier to predict whether a movie will be a `hit` or a `flop` given a set of features for the film. Random Forest Classifiers from Python's `Sci-Kit Learn` module is developed. The model will be used to provide the probability of whether a movie will be a `hit` or a `flop`.
 
 Files related to developing, training, and running the model are located in the [`model`](https://github.com/wsjk/Capstone_1/tree/master/src/model) folder.
 
@@ -363,9 +356,6 @@ Notes about feature selection:
 </p>
 </details>
 
-<details>
-      <summary><h2> Sci-Kit Learn</h2></summary>
-      <p>
 <details>
       <summary><h4> Tuning Hyperparameters </h4></summary>
       <p>
@@ -899,45 +889,16 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 | Def-Con 4 | 0.82 | 0.18 | -1.0 | 
 | The Adjustment Bureau | 0.71 | 0.29 | 1.0 | 
 
-
-
-            
-</p>
-</details>      
-
 </p>
 </details>
 
-
 <details>
-      <summary><h2> H2O</h2></summary>
-      <p>
-<details>
-      <summary><h4> Training the Model </h4></summary>
-      <p>
-
-</p>
-</details>
-      
-<details>
-      <summary><h4> Results of Test Data </h4></summary>
-      <p>
-      </p>
-</details>      
-      
-
-<details>
-      <summary><h4> Feature Importance </h4></summary>
-      <p>
-      </p>
-</details>   
-
+<summary><h4> Conclusions </h4></summary>
+<p>
+A Random Forest Classifier was developed to predict whether a movie will be a hit or a flop at the box office.
 </p>
 </details>
 
-
-</p>
-</details>
 
 [pairplot]: https://github.com/wsjk/Capstone_1/blob/master/report/pairplot.png "Pairplot"
 [figure_2]: https://github.com/wsjk/Capstone_1/blob/master/report/boxplot_hit_actors.png "Box Plot of Top Actors"
