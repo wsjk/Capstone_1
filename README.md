@@ -502,9 +502,405 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 </details>   
 
 <details>
-      <summary><h4> Model Performance </h4></summary>
-      <p>
-a
+ <summary><h4> Model Performance </h4></summary>
+ <p>
+       
+| title | hit | flop | target |
+|:---------------:|:---------------:|:---------------:|:---------------:|
+| The Goods: Live Hard Sell Hard | 0.43 | 0.57 | 1.0 | 
+| Stiff Upper Lips | 0.51 | 0.49 | -1.0 | 
+| ATL | 0.34 | 0.66 | 1.0 | 
+| Censored Voices | 0.43 | 0.57 | -1.0 | 
+| Fateless | 0.43 | 0.57 | -1.0 | 
+| Lars and the Real Girl | 0.53 | 0.47 | -1.0 | 
+| The Caveman's Valentine | 0.48 | 0.52 | -1.0 | 
+| The Broken Hearts Club: A Romantic Comedy | 0.45 | 0.55 | 1.0 | 
+| Abandon | 0.46 | 0.54 | -1.0 | 
+| 10 Things I Hate About You | 0.49 | 0.51 | 1.0 | 
+| Supercross | 0.50 | 0.50 | -1.0 | 
+| Super 8 | 0.79 | 0.21 | 1.0 | 
+| Dragon Blade | 0.73 | 0.27 | 1.0 | 
+| The Masked Saint | 0.43 | 0.57 | -1.0 | 
+| The Blue Room | 0.49 | 0.51 | 1.0 | 
+| Sky High | 0.61 | 0.39 | 1.0 | 
+| Remember Me | 0.48 | 0.52 | 1.0 | 
+| Eve's Bayou | 0.50 | 0.50 | 1.0 | 
+| The Good Night | 0.52 | 0.48 | -1.0 | 
+| Beloved | 0.76 | 0.24 | -1.0 | 
+| Yes | 0.50 | 0.50 | -1.0 | 
+| Misconduct | 0.52 | 0.48 | -1.0 | 
+| Promised Land | 0.64 | 0.36 | -1.0 | 
+| Wild Grass | 0.44 | 0.56 | -1.0 | 
+| A Cinderella Story | 0.51 | 0.49 | 1.0 | 
+| Tsotsi | 0.37 | 0.63 | 1.0 | 
+| Fish Tank | 0.49 | 0.51 | -1.0 | 
+| The Devil Inside | 0.55 | 0.45 | 1.0 | 
+| The Croods | 0.88 | 0.12 | 1.0 | 
+| Killers | 0.82 | 0.18 | 1.0 | 
+| Florence Foster Jenkins | 0.75 | 0.25 | 1.0 | 
+| Maniac | 0.70 | 0.30 | -1.0 | 
+| Home Run | 0.43 | 0.57 | 1.0 | 
+| Another Year | 0.56 | 0.44 | 1.0 | 
+| Out Cold | 0.47 | 0.53 | -1.0 | 
+| Eden Lake | 0.44 | 0.56 | 1.0 | 
+| RockNRolla | 0.71 | 0.29 | 1.0 | 
+| Space Dogs | 0.52 | 0.48 | -1.0 | 
+| The Witch | 0.52 | 0.48 | 1.0 | 
+| Sugar Hill | 0.54 | 0.46 | 1.0 | 
+| Twin Falls Idaho | 0.44 | 0.56 | 1.0 | 
+| 16 Blocks | 0.83 | 0.17 | 1.0 | 
+| Raising Victor Vargas | 0.41 | 0.59 | 1.0 | 
+| The Sweeney | 0.46 | 0.54 | 1.0 | 
+| Your Sister's Sister | 0.52 | 0.48 | 1.0 | 
+| Law Abiding Citizen | 0.79 | 0.21 | 1.0 | 
+| World Trade Center | 0.85 | 0.15 | 1.0 | 
+| Slums of Beverly Hills | 0.50 | 0.50 | 1.0 | 
+| Mother and Child | 0.50 | 0.50 | -1.0 | 
+| Before Midnight | 0.56 | 0.44 | 1.0 | 
+| Chain Letter | 0.53 | 0.47 | -1.0 | 
+| Molly | 0.47 | 0.53 | -1.0 | 
+| The Wraith | 0.80 | 0.20 | 1.0 | 
+| Stoker | 0.61 | 0.39 | 1.0 | 
+| Bon Cop Bad Cop | 0.47 | 0.53 | 1.0 | 
+| Get on the Bus | 0.51 | 0.49 | 1.0 | 
+| The Book of Life | 0.69 | 0.31 | 1.0 | 
+| "The Good |  the Bad and the Ugly" | 0.86 | 0.14 | 1.0 | 
+| The Rules of Attraction | 0.46 | 0.54 | 1.0 | 
+| The Gift | 0.51 | 0.49 | 1.0 | 
+| Margaret | 0.58 | 0.42 | -1.0 | 
+| Miss Congeniality | 0.65 | 0.35 | 1.0 | 
+| Journey to Saturn | 0.36 | 0.64 | 1.0 | 
+| Close Encounters of the Third Kind | 0.83 | 0.17 | 1.0 | 
+| X-Men: First Class | 0.86 | 0.14 | 1.0 | 
+| Walking With Dinosaurs | 0.82 | 0.18 | 1.0 | 
+| The Hateful Eight | 0.83 | 0.17 | 1.0 | 
+| Two Can Play That Game | 0.50 | 0.50 | 1.0 | 
+| Dawn of the Planet of the Apes | 0.84 | 0.16 | 1.0 | 
+| Mozart's Sister | 0.49 | 0.51 | -1.0 | 
+| I Hope They Serve Beer in Hell | 0.39 | 0.61 | -1.0 | 
+| The Pirates! In an Adventure with Scientists! | 0.69 | 0.31 | 1.0 | 
+| Space Jam | 0.65 | 0.35 | 1.0 | 
+| Lockout | 0.56 | 0.44 | 1.0 | 
+| Made | 0.44 | 0.56 | 1.0 | 
+| The Names of Love | 0.53 | 0.47 | 1.0 | 
+| Micmacs | 0.68 | 0.32 | -1.0 | 
+| The Young Victoria | 0.60 | 0.40 | -1.0 | 
+| The Purge | 0.52 | 0.48 | 1.0 | 
+| Johnny Suede | 0.53 | 0.47 | -1.0 | 
+| Ghost Rider: Spirit of Vengeance | 0.72 | 0.28 | 1.0 | 
+| The Immigrant | 0.61 | 0.39 | -1.0 | 
+| Silent Trigger | 0.48 | 0.52 | -1.0 | 
+| Submarine | 0.48 | 0.52 | 1.0 | 
+| Lone Survivor | 0.85 | 0.15 | 1.0 | 
+| The Losers | 0.55 | 0.45 | -1.0 | 
+| The Matrix | 0.68 | 0.32 | 1.0 | 
+| Dreamer: Inspired By a True Story | 0.55 | 0.45 | 1.0 | 
+| Dom Hemingway | 0.50 | 0.50 | -1.0 | 
+| The Great Debaters | 0.49 | 0.51 | 1.0 | 
+| Hard Candy | 0.41 | 0.59 | 1.0 | 
+| The Last Exorcism Part II | 0.51 | 0.49 | 1.0 | 
+| The Greatest Game Ever Played | 0.44 | 0.56 | -1.0 | 
+| Surrogates | 0.87 | 0.13 | 1.0 | 
+| A Low Down Dirty Shame | 0.69 | 0.31 | 1.0 | 
+| Larry the Cable Guy: Health Inspector | 0.38 | 0.62 | -1.0 | 
+| Saw V | 0.56 | 0.44 | 1.0 | 
+| In the Company of Men | 0.51 | 0.49 | 1.0 | 
+| Blackhat | 0.84 | 0.16 | -1.0 | 
+| Big Eyes | 0.66 | 0.34 | 1.0 | 
+| The Sweetest Thing | 0.66 | 0.34 | 1.0 | 
+| Romance & Cigarettes | 0.38 | 0.62 | -1.0 | 
+| Free Style | 0.45 | 0.55 | -1.0 | 
+| Endless Love | 0.53 | 0.47 | 1.0 | 
+| Shrek Forever After | 0.84 | 0.16 | 1.0 | 
+| Creative Control | 0.44 | 0.56 | -1.0 | 
+| Paul Blart: Mall Cop 2 | 0.79 | 0.21 | 1.0 | 
+| Speedway Junky | 0.48 | 0.52 | -1.0 | 
+| Akeelah and the Bee | 0.45 | 0.55 | 1.0 | 
+| Corky Romano | 0.43 | 0.57 | 1.0 | 
+| "Dancer |  Texas Pop. 81" | 0.51 | 0.49 | -1.0 | 
+| Why Did I Get Married? | 0.70 | 0.30 | 1.0 | 
+| The House Bunny | 0.67 | 0.33 | 1.0 | 
+| Drowning Mona | 0.52 | 0.48 | -1.0 | 
+| Wild Target | 0.60 | 0.40 | -1.0 | 
+| Hostel | 0.39 | 0.61 | 1.0 | 
+| Camping Sauvage | 0.43 | 0.57 | -1.0 | 
+| Noah | 0.90 | 0.10 | 1.0 | 
+| Radio | 0.63 | 0.37 | 1.0 | 
+| Away We Go | 0.56 | 0.44 | -1.0 | 
+| Fido | 0.46 | 0.54 | -1.0 | 
+| Harvard Man | 0.50 | 0.50 | -1.0 | 
+| A Room for Romeo Brass | 0.45 | 0.55 | -1.0 | 
+| Ninja Assassin | 0.61 | 0.39 | 1.0 | 
+| New Year's Eve | 0.85 | 0.15 | 1.0 | 
+| TMNT | 0.57 | 0.43 | 1.0 | 
+| Fifty Dead Men Walking | 0.56 | 0.44 | -1.0 | 
+| Morning Glory | 0.79 | 0.21 | 1.0 | 
+| Zack and Miri Make a Porno | 0.71 | 0.29 | 1.0 | 
+| American Splendor | 0.40 | 0.60 | 1.0 | 
+| Speed Racer | 0.82 | 0.18 | -1.0 | 
+| Dawn of the Crescent Moon | 0.44 | 0.56 | -1.0 | 
+| The Dead Girl | 0.56 | 0.44 | -1.0 | 
+| The Rookie | 0.48 | 0.52 | 1.0 | 
+| Lights Out | 0.56 | 0.44 | 1.0 | 
+| 1911 | 0.64 | 0.36 | -1.0 | 
+| My Big Fat Independent Movie | 0.47 | 0.53 | -1.0 | 
+| Children of Heaven | 0.49 | 0.51 | 1.0 | 
+| Behind Enemy Lines | 0.59 | 0.41 | 1.0 | 
+| Twilight Zone: The Movie | 0.77 | 0.23 | 1.0 | 
+| The Last Godfather | 0.54 | 0.46 | 1.0 | 
+| Serenity | 0.63 | 0.37 | -1.0 | 
+| The Other End of the Line | 0.42 | 0.58 | -1.0 | 
+| Insidious | 0.70 | 0.30 | 1.0 | 
+| All About Steve | 0.54 | 0.46 | 1.0 | 
+| Win a Date with Tad Hamilton! | 0.57 | 0.43 | -1.0 | 
+| The Skeleton Twins | 0.46 | 0.54 | 1.0 | 
+| Central Intelligence | 0.84 | 0.16 | 1.0 | 
+| Life During Wartime | 0.49 | 0.51 | -1.0 | 
+| Basquiat | 0.42 | 0.58 | 1.0 | 
+| Gunless | 0.52 | 0.48 | -1.0 | 
+| Chappie | 0.81 | 0.19 | 1.0 | 
+| The Terminal | 0.84 | 0.16 | 1.0 | 
+| Weekend | 0.47 | 0.53 | 1.0 | 
+| Takers | 0.58 | 0.42 | 1.0 | 
+| Deterrence | 0.49 | 0.51 | -1.0 | 
+| Bringing Down the House | 0.70 | 0.30 | 1.0 | 
+| The Grudge | 0.55 | 0.45 | 1.0 | 
+| Miracle at St. Anna | 0.79 | 0.21 | -1.0 | 
+| Love & Basketball | 0.47 | 0.53 | 1.0 | 
+| The Darkest Hour | 0.61 | 0.39 | 1.0 | 
+| Frances Ha | 0.56 | 0.44 | 1.0 | 
+| The World's End | 0.61 | 0.39 | 1.0 | 
+| American Hustle | 0.86 | 0.14 | 1.0 | 
+| Rocket Singh: Salesman of the Year | 0.46 | 0.54 | 1.0 | 
+| Wild | 0.63 | 0.37 | 1.0 | 
+| Something Borrowed | 0.71 | 0.29 | 1.0 | 
+| Mulholland Drive | 0.52 | 0.48 | 1.0 | 
+| Freddy vs. Jason | 0.55 | 0.45 | 1.0 | 
+| Nacho Libre | 0.62 | 0.38 | 1.0 | 
+| The Blind Side | 0.54 | 0.46 | 1.0 | 
+| A Haunted House 2 | 0.70 | 0.30 | 1.0 | 
+| Please Give | 0.67 | 0.33 | 1.0 | 
+| One to Another | 0.41 | 0.59 | -1.0 | 
+| "Mystery |  Alaska" | 0.62 | 0.38 | -1.0 | 
+| Departure | 0.50 | 0.50 | -1.0 | 
+| Foodfight! | 0.66 | 0.34 | -1.0 | 
+| Rango | 0.88 | 0.12 | 1.0 | 
+| Brokedown Palace | 0.42 | 0.58 | -1.0 | 
+| Baghead | 0.49 | 0.51 | -1.0 | 
+| Ponyo | 0.78 | 0.22 | 1.0 | 
+| Zero Dark Thirty | 0.69 | 0.31 | 1.0 | 
+| Nebraska | 0.65 | 0.35 | 1.0 | 
+| X-Men | 0.66 | 0.34 | 1.0 | 
+| Yoga Hosers | 0.68 | 0.32 | -1.0 | 
+| Pitch Perfect 2 | 0.62 | 0.38 | 1.0 | 
+| Janky Promoters | 0.67 | 0.33 | -1.0 | 
+| Saved! | 0.49 | 0.51 | 1.0 | 
+| Duplicity | 0.77 | 0.23 | -1.0 | 
+| The Upside of Anger | 0.49 | 0.51 | 1.0 | 
+| Eye of the Beholder | 0.50 | 0.50 | 1.0 | 
+| Her | 0.61 | 0.39 | 1.0 | 
+| Begin Again | 0.54 | 0.46 | 1.0 | 
+| Friday the 13th: A New Beginning | 0.82 | 0.18 | 1.0 | 
+| Slackers | 0.41 | 0.59 | -1.0 | 
+| Crooklyn | 0.59 | 0.41 | -1.0 | 
+| The Ladies Man | 0.43 | 0.57 | -1.0 | 
+| The Adventures of Rocky & Bullwinkle | 0.62 | 0.38 | -1.0 | 
+| Screwed | 0.47 | 0.53 | -1.0 | 
+| The Christmas Candle | 0.52 | 0.48 | -1.0 | 
+| Happy Feet | 0.85 | 0.15 | 1.0 | 
+| Bucky Larson: Born to Be a Star | 0.70 | 0.30 | -1.0 | 
+| Raise the Titanic | 0.76 | 0.24 | -1.0 | 
+| Khumba | 0.54 | 0.46 | 1.0 | 
+| Righteous Kill | 0.74 | 0.26 | 1.0 | 
+| Collateral | 0.72 | 0.28 | 1.0 | 
+| Nothing | 0.38 | 0.62 | -1.0 | 
+| Raise Your Voice | 0.50 | 0.50 | -1.0 | 
+| Salt | 0.88 | 0.12 | 1.0 | 
+| Apocalypto | 0.78 | 0.22 | 1.0 | 
+| Not Cool | 0.40 | 0.60 | -1.0 | 
+| "South Park: Bigger |  Longer & Uncut" | 0.53 | 0.47 | 1.0 | 
+| Along Came Polly | 0.61 | 0.39 | 1.0 | 
+| All the Real Girls | 0.37 | 0.63 | -1.0 | 
+ Wall Street: Money Never Sleeps | 0.87 | 0.13 | 1.0 | 
+| Little Black Book | 0.54 | 0.46 | -1.0 | 
+| Moonrise Kingdom | 0.64 | 0.36 | 1.0 | 
+| Groove | 0.46 | 0.54 | 1.0 | 
+| Middle of Nowhere | 0.52 | 0.48 | 1.0 | 
+| Semi-Pro | 0.66 | 0.34 | -1.0 | 
+| Air Bud | 0.50 | 0.50 | 1.0 | 
+| J. Edgar | 0.82 | 0.18 | 1.0 | 
+| The Dangerous Lives of Altar Boys | 0.42 | 0.58 | -1.0 | 
+| The Visit | 0.70 | 0.30 | 1.0 | 
+| You Will Meet a Tall Dark Stranger | 0.70 | 0.30 | 1.0 | 
+| Eddie: The Sleepwalking Cannibal | 0.49 | 0.51 | -1.0 | 
+| Shade | 0.53 | 0.47 | 1.0 | 
+| Krush Groove | 0.82 | 0.18 | 1.0 | 
+| The Players Club | 0.51 | 0.49 | 1.0 | 
+| Teenage Mutant Ninja Turtles | 0.83 | 0.17 | 1.0 | 
+| The Homesman | 0.54 | 0.46 | -1.0 | 
+| Premium Rush | 0.72 | 0.28 | -1.0 | 
+| Prisoners | 0.75 | 0.25 | 1.0 | 
+| Beat the World | 0.48 | 0.52 | -1.0 | 
+| Trance | 0.66 | 0.34 | 1.0 | 
+| Grave Encounters | 0.40 | 0.60 | 1.0 | 
+| LOL | 0.62 | 0.38 | -1.0 | 
+| Alvin and the Chipmunks: Chipwrecked | 0.85 | 0.15 | 1.0 | 
+| Skyfall | 0.88 | 0.12 | 1.0 | 
+| Shanghai Surprise | 0.77 | 0.23 | -1.0 | 
+| Epic Movie | 0.51 | 0.49 | 1.0 | 
+| Saving Mr. Banks | 0.78 | 0.22 | 1.0 | 
+| Priest | 0.69 | 0.31 | 1.0 | 
+| Fled | 0.53 | 0.47 | -1.0 | 
+| Funny People | 0.85 | 0.15 | -1.0 | 
+| The Secret of Kells | 0.48 | 0.52 | -1.0 | 
+| Joy Ride | 0.45 | 0.55 | 1.0 | 
+| Plush | 0.57 | 0.43 | -1.0 | 
+| Travellers and Magicians | 0.39 | 0.61 | -1.0 | 
+| Steel | 0.45 | 0.55 | -1.0 | 
+| Escape from Tomorrow | 0.44 | 0.56 | -1.0 | 
+| The Grandmaster | 0.53 | 0.47 | 1.0 | 
+| To Rome with Love | 0.76 | 0.24 | 1.0 | 
+| A Very Harold & Kumar Christmas | 0.50 | 0.50 | 1.0 | 
+| Free State of Jones | 0.84 | 0.16 | -1.0 | 
+| For Your Consideration | 0.63 | 0.37 | -1.0 | 
+| The Incredible Burt Wonderstone | 0.66 | 0.34 | -1.0 | 
+| Two Lovers | 0.54 | 0.46 | -1.0 | 
+| An American Carol | 0.69 | 0.31 | -1.0 | 
+| The Inhabited Island | 0.62 | 0.38 | -1.0 | 
+| Four Lions | 0.51 | 0.49 | 1.0 | 
+| Predator 2 | 0.56 | 0.44 | 1.0 | 
+| Slither | 0.55 | 0.45 | -1.0 | 
+| Windsor Drive | 0.49 | 0.51 | -1.0 | 
+| Men in Black 3 | 0.88 | 0.12 | 1.0 | 
+| Casino Jack | 0.50 | 0.50 | -1.0 | 
+| Without Limits | 0.42 | 0.58 | -1.0 | 
+| Mutual Appreciation | 0.42 | 0.58 | 1.0 | 
+| Turbulence | 0.62 | 0.38 | -1.0 | 
+| The Perfect Man | 0.69 | 0.31 | 1.0 | 
+| Trust | 0.53 | 0.47 | -1.0 | 
+| The Butler | 0.56 | 0.44 | 1.0 | 
+| Dumb and Dumber | 0.53 | 0.47 | 1.0 | 
+| Can't Stop the Music | 0.85 | 0.15 | -1.0 | 
+| Inherent Vice | 0.67 | 0.33 | -1.0 | 
+| Cop Out | 0.68 | 0.32 | 1.0 | 
+| Cheap Thrills | 0.50 | 0.50 | -1.0 | 
+| Automata | 0.54 | 0.46 | -1.0 | 
+| Jerry Maguire | 0.67 | 0.33 | 1.0 | 
+| They | 0.51 | 0.49 | -1.0 | 
+| Bad Moms | 0.63 | 0.37 | 1.0 | 
+| Murderball | 0.35 | 0.65 | 1.0 | 
+| Jonah: A VeggieTales Movie | 0.48 | 0.52 | 1.0 | 
+| Sanctum | 0.62 | 0.38 | 1.0 | 
+| The Pursuit of D.B. Cooper | 0.85 | 0.15 | -1.0 | 
+| Fiza | 0.49 | 0.51 | -1.0 | 
+| Panic Room | 0.76 | 0.24 | 1.0 | 
+| The Blue Butterfly | 0.47 | 0.53 | -1.0 | 
+| Think Like a Man Too | 0.73 | 0.27 | 1.0 | 
+| The Boat That Rocked | 0.78 | 0.22 | -1.0 | 
+| Because of Winn-Dixie | 0.53 | 0.47 | 1.0 | 
+| One Hour Photo | 0.59 | 0.41 | 1.0 | 
+| Land of the Lost | 0.85 | 0.15 | -1.0 | 
+| Mama | 0.56 | 0.44 | 1.0 | 
+| Valiant | 0.63 | 0.37 | -1.0 | 
+| Man on Wire | 0.39 | 0.61 | 1.0 | 
+| The 5th Quarter | 0.49 | 0.51 | -1.0 | 
+| Red Riding Hood | 0.77 | 0.23 | 1.0 | 
+| A Million Ways to Die in the West | 0.80 | 0.20 | 1.0 | 
+| Johnson Family Vacation | 0.49 | 0.51 | 1.0 | 
+| Beasts of the Southern Wild | 0.48 | 0.52 | 1.0 | 
+| End of the Spear | 0.37 | 0.63 | 1.0 | 
+| Dragon Nest: Warriors' Dawn | 0.69 | 0.31 | -1.0 | 
+| The Molly Maguires | 0.85 | 0.15 | -1.0 | 
+| Sabotage | 0.71 | 0.29 | -1.0 | 
+| Marmaduke | 0.68 | 0.32 | 1.0 | 
+| Ca$h | 0.49 | 0.51 | -1.0 | 
+| Triangle | 0.47 | 0.53 | -1.0 | 
+| What to Expect When You're Expecting | 0.83 | 0.17 | 1.0 | 
+| End of Days | 0.77 | 0.23 | 1.0 | 
+| 16 to Life | 0.47 | 0.53 | -1.0 | 
+| Blended | 0.85 | 0.15 | 1.0 | 
+| The Adventurer: The Curse of the Midas Box | 0.52 | 0.48 | -1.0 | 
+| The Circle | 0.38 | 0.62 | 1.0 | 
+| The Reef | 0.57 | 0.43 | 1.0 | 
+| September Dawn | 0.46 | 0.54 | -1.0 | 
+| The East | 0.66 | 0.34 | -1.0 | 
+| Limbo | 0.63 | 0.37 | -1.0 | 
+| Identity | 0.59 | 0.41 | 1.0 | 
+| The Truman Show | 0.77 | 0.23 | 1.0 | 
+| Taken 3 | 0.85 | 0.15 | 1.0 | 
+| Hotel Transylvania 2 | 0.86 | 0.14 | 1.0 | 
+| Dinner Rush | 0.46 | 0.54 | -1.0 | 
+| Charlie St. Cloud | 0.77 | 0.23 | 1.0 | 
+| One Man's Hero | 0.50 | 0.50 | -1.0 | 
+| Quarantine | 0.49 | 0.51 | 1.0 | 
+| Home on the Range | 0.63 | 0.37 | -1.0 | 
+| The Book Thief | 0.69 | 0.31 | 1.0 | 
+| Grindhouse | 0.78 | 0.22 | -1.0 | 
+| The Yellow Handkerchief | 0.45 | 0.55 | -1.0 | 
+| Malibu's Most Wanted | 0.41 | 0.59 | 1.0 | 
+| Virgin Territory | 0.57 | 0.43 | -1.0 | 
+| Kama Sutra - A Tale of Love | 0.50 | 0.50 | 1.0 | 
+| Hostel: Part II | 0.67 | 0.33 | 1.0 | 
+| The Book of Eli | 0.82 | 0.18 | 1.0 | 
+| The Revenant | 0.86 | 0.14 | 1.0 | 
+| Old Dogs | 0.77 | 0.23 | 1.0 | 
+| Of Gods and Men | 0.47 | 0.53 | 1.0 | 
+| Scream 4 | 0.82 | 0.18 | 1.0 | 
+| Easy Virtue | 0.46 | 0.54 | 1.0 | 
+| PCU | 0.52 | 0.48 | -1.0 | 
+| Next Day Air | 0.44 | 0.56 | 1.0 | 
+| Agent Cody Banks 2: Destination London | 0.45 | 0.55 | 1.0 | 
+| The Original Kings of Comedy | 0.48 | 0.52 | 1.0 | 
+| Dracula Untold | 0.70 | 0.30 | 1.0 | 
+| Observe and Report | 0.49 | 0.51 | 1.0 | 
+| Strangerland | 0.61 | 0.39 | -1.0 | 
+| Prometheus | 0.84 | 0.16 | 1.0 | 
+| 10 Days in a Madhouse | 0.49 | 0.51 | -1.0 | 
+| The Adventures of Pinocchio | 0.45 | 0.55 | 1.0 | 
+| The Express | 0.65 | 0.35 | -1.0 | 
+| Rubber | 0.52 | 0.48 | -1.0 | 
+| Yeh Jawaani Hai Deewani | 0.55 | 0.45 | 1.0 | 
+| Diary of a Wimpy Kid: Dog Days | 0.55 | 0.45 | 1.0 | 
+| Signs | 0.79 | 0.21 | 1.0 | 
+| Barbarella | 0.84 | 0.16 | -1.0 | 
+| Shadow Conspiracy | 0.72 | 0.28 | -1.0 | 
+| Chuck & Buck | 0.44 | 0.56 | 1.0 | 
+| Detroit Rock City | 0.42 | 0.58 | -1.0 | 
+| Centurion | 0.58 | 0.42 | -1.0 | 
+| 10th & Wolf | 0.49 | 0.51 | -1.0 | 
+| Psycho Beach Party | 0.43 | 0.57 | -1.0 | 
+| Penitentiary | 0.85 | 0.15 | 1.0 | 
+| A Haunted House | 0.44 | 0.56 | 1.0 | 
+| She Done Him Wrong | 0.83 | 0.17 | 1.0 | 
+| Sinbad: Legend of the Seven Seas | 0.68 | 0.32 | -1.0 | 
+| Clockstoppers | 0.62 | 0.38 | 1.0 | 
+| Mad Max 2: The Road Warrior | 0.79 | 0.21 | 1.0 | 
+| Race to Witch Mountain | 0.81 | 0.19 | 1.0 | 
+| Interstellar | 0.89 | 0.11 | 1.0 | 
+| Dudley Do-Right | 0.62 | 0.38 | -1.0 | 
+| What Just Happened | 0.61 | 0.39 | -1.0 | 
+| The Sleepwalker | 0.43 | 0.57 | -1.0 | 
+| Shooting Fish | 0.44 | 0.56 | -1.0 | 
+| Clay Pigeons | 0.49 | 0.51 | -1.0 | 
+| Conspiracy Theory | 0.87 | 0.13 | 1.0 | 
+| Rudderless | 0.53 | 0.47 | -1.0 | 
+| Gangster Squad | 0.74 | 0.26 | 1.0 | 
+| Serial Mom | 0.62 | 0.38 | -1.0 | 
+| Wanderlust | 0.68 | 0.32 | -1.0 | 
+| Man of the House | 0.62 | 0.38 | -1.0 | 
+| The Red Violin | 0.49 | 0.51 | -1.0 | 
+| The Beastmaster | 0.85 | 0.15 | 1.0 | 
+| You Can Count on Me | 0.51 | 0.49 | 1.0 | 
+| Pontypool | 0.43 | 0.57 | -1.0 | 
+| Jawbreaker | 0.42 | 0.58 | 1.0 | 
+| How Stella Got Her Groove Back | 0.54 | 0.46 | 1.0 | 
+| Anywhere But Here | 0.51 | 0.49 | -1.0 | 
+| Valentine's Day | 0.82 | 0.18 | 1.0 | 
+| Def-Con 4 | 0.82 | 0.18 | -1.0 | 
+| The Adjustment Bureau | 0.71 | 0.29 | 1.0 | 
+
+
+
             
 </p>
 </details>      
