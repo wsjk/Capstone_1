@@ -357,7 +357,7 @@ Notes about feature selection:
 </details>
 
 <details>
-      <summary><h4> Tuning Hyperparameters </h4></summary>
+      <summary><h2> Tuning Hyperparameters </h2></summary>
       <p>
          
 The process of tuning the hyperparameters of the Random Forest Classifier is split into two phases:
@@ -379,12 +379,12 @@ Step 1 of the training process is conducted in [`rf_randomsearchcv.py`](https://
               }
 ```
 
-The results of the RandomizedSearchCV process is shown below. The plots show the train and test scores for varying values for the hyperparameters.
+The results of the RandomizedSearchCV process are shown below. The plots show the mean train (left column of plots) and test (right column of plots) scores for varying values for the hyperparameters.
             
 ![train_vs_test]
 
 
-The hyperparameter values above provides a starting point for GridSearchCV process for Step 2 of the tuning process. The following table contains the hyperparameter values that led to the top 3 mean test and training scores from RandomizedSearchCV.
+The hyperparameter values above provide a starting point for GridSearchCV process for Step 2 of the tuning process. The following table contains the hyperparameter values that led to the top 3 mean test and training scores from RandomizedSearchCV.
 
 | param_criterion | param_max_depth | param_max_leaf_nodes | param_min_samples_leaf | param_min_samples_split | param_n_estimators | param_oob_score |
 |:---------------:|:---------------:|:--------------------:|:----------------------:|:-----------------------:|:------------------:|:---------------:|
@@ -409,7 +409,7 @@ Using the best hyperparameters obtained from the random search, a range of hyper
  }
 ```
 
-With a `mean_test_score` of 0.61 and `mean_train_score` of 0.70, the best parameters obtained from the grid search are
+With a `mean_test_score` of 0.61, `mean_train_score` of 0.70, and an `accuracy_score` of 0.70; the best overall parameters obtained from the grid search are
 ```bash
 RandomForestClassifier(
 bootstrap=True, class_weight=None, criterion='gini',
@@ -424,9 +424,12 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 </details>
       
 <details>
-      <summary><h4> Feature Importance </h4></summary>
+      <summary><h2> Feature Importance </h2></summary>
       <p>
-            
+
+Sci-Kit Learn's RandomForestClassifier also provides a list of feature importance. The `budget`, `release_year`, and `runtime` features are considered the most important predictor, while some gender, genre, and release date features have no importance at all. The fact that the top features are the only continuous features in the dataset may not be coincidental. There have been some studies that show that one-hot encoding categorical variables -- which was done for this dataset -- can erode the performance of Random Forest Classifers
+<sup><a href = https://roamanalytics.com/2016/10/28/are-categorical-variables-getting-lost-in-your-random-forests/>[2]</a></sup>. 
+
 | feature | importance |
 |:---------------:|:---------------:|
 | budget | 0.243
@@ -492,8 +495,21 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 </details>   
 
 <details>
- <summary><h4> Model Performance </h4></summary>
+ <summary><h2> Model Performance </h2></summary>
  <p>
+
+As mentioned before, the Random Forest Classifier mean test score was 0.61. The confusion matrix from running the model on the test data set is provided below. The dataset had more `hits` than `flops` and the confusion matrix shows that the model may be more pre-disposed to classifying a film as a `hit`. 
+
+|  |  | Actual | Actual |
+|:---------------:|:---------------:|:---------------:|:---------------:|
+|  |  | `flop` | `hit` |
+| Predicted | `flop` | 66 | 58 | 
+| Predicted | `hit` | 95 | 172 | 
+
+       
+The overall results of testing are provided below. The model provides the probability of a film being either a `hit` or a `flop`. The actual value is provided in the `target` column. The correctly classified -- and with high confidence -- the more well-known hit films such as `The Good, the Bad, and the Ugly`, `Dawn of the Planet of the Apes`, and `The Revenant`. The model, however, is not as confident at predicting `flop`s. Out of the films in the test dataset, the model predicted `ATL` to have the highest probability (0.66) of being a `flop`. The model was incorrect as `ATL` was actually a `hit`. Out of the films where the model correclty predicted a `flop`, `All the Real Girls` received the highest probability of being a `flop` at 0.63. 
+
+On the other hand, there are also several examples of the model predicting a high probability of a `hit` for a film that turned out to be a `flop`. Out of all movies that were incorrectly predicted to be a `hit`, `The Molly Maguires` received the highest probability of 0.85. 
        
 | title | hit | flop | target |
 |:---------------:|:---------------:|:---------------:|:---------------:|
@@ -554,7 +570,7 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 | Bon Cop Bad Cop | 0.47 | 0.53 | 1.0 | 
 | Get on the Bus | 0.51 | 0.49 | 1.0 | 
 | The Book of Life | 0.69 | 0.31 | 1.0 | 
-| "The Good |  the Bad and the Ugly" | 0.86 | 0.14 | 1.0 | 
+| "The Good, the Bad, and the Ugly" | 0.86 | 0.14 | 1.0 | 
 | The Rules of Attraction | 0.46 | 0.54 | 1.0 | 
 | The Gift | 0.51 | 0.49 | 1.0 | 
 | Margaret | 0.58 | 0.42 | -1.0 | 
@@ -895,11 +911,16 @@ oob_score=True, random_state=42, verbose=0, warm_start=False)
 </p>
 </details>
 
-
 <details>
 <summary><h1> Conclusions </h1></summary>
 <p>
-A Random Forest Classifier was developed to predict whether a movie will be a hit or a flop at the box office.
+A Random Forest Classifier was developed to predict whether a movie will be a hit or a flop at the box office. After training the model and testing it on unseen data, the model's performance peaked with an accuracy score of 0.70. The model showed some promise for predicting hit movies when it predicted a probability greater than 0.85. 
+            
+Recommendations for future work:
+* training data should include more `flop`s as the data currently favors `hit`s
+* more exploration into `cast` and `crew` related features 
+* find alternative approaches to handling categorical variables to avoid one-hot encoding
+
 </p>
 </details>
 
