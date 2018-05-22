@@ -98,7 +98,7 @@ The dataset is split into two main categories: `hits` and `flops`. Any movie tha
 
 The exploratory analyses conducted on the data can be found in the following notebooks:
 * [Analysis of Lead_Actor Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_analysis_actors.ipynb)
-* [Analysis of Crew Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_crew_actors.ipynb)
+* [Analysis of Crew Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_analysis_crew.ipynb)
 * [Analysis of Genre Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_genre_actors.ipynb)
 * [Analysis of Runtime Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_runtime_actors.ipynb)
 * [Analysis of Language Influence](https://github.com/wsjk/Capstone_1/tree/master/notebooks/statistical_language_actors.ipynb)
