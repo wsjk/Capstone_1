@@ -305,7 +305,7 @@ With some bootstrapping, we observed that there was a significant difference bet
 </details>
 
 <details>
-   <summary><h1>Prediction Model</h1></summary>
+   <summary><h1>Predictive Model</h1></summary>
       
 The Random Forest algorithm is used to develop a classifier to predict whether a movie will be a `hit` or a `flop` given a set of features for the film. Random Forest Classifiers from Python's `Sci-Kit Learn` module is developed. The model will be used to provide the probability of whether a movie will be a `hit` or a `flop`.
 
