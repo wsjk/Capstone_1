@@ -1,3 +1,5 @@
+<h1>Is it a Hit or a Flop? Predicting movie success with Random Forests</h1>
+
 <details>
 <summary><h1>The Client</h1></summary>
 <p>
